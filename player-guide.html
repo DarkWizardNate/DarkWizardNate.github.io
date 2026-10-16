@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Snakes &amp; Ladders Player Guide</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root{
+  --ground:#EDF1F4; --card:#FFFFFF; --ink:#12263A; --ink-2:#51657A; --rule:#CBD5DE;
+  --accent:#1D5FA6; --accent-soft:#DDE9F5;
+  --danger:#C93A1B; --danger-soft:#FBE4DD;
+  --ok:#1F7A4D; --ok-soft:#DCF1E6;
+  --code-bg:#12263A; --code-ink:#E8EEF4; --code-opt:#8CC4FF; --code-val:#F3C969;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#0D1822; --card:#15232F; --ink:#E6EDF3; --ink-2:#9DB0C2; --rule:#2B3D4D;
+  --accent:#6FB1F2; --accent-soft:#1B3550;
+  --danger:#FF8A6B; --danger-soft:#3D1D15;
+  --ok:#5FD39A; --ok-soft:#123425;
+  --code-bg:#081018;
+}}
+:root[data-theme="dark"]{
+  --ground:#0D1822; --card:#15232F; --ink:#E6EDF3; --ink-2:#9DB0C2; --rule:#2B3D4D;
+  --accent:#6FB1F2; --accent-soft:#1B3550;
+  --danger:#FF8A6B; --danger-soft:#3D1D15;
+  --ok:#5FD39A; --ok-soft:#123425;
+  --code-bg:#081018;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:24px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{background:var(--ground);color:var(--ink);font:400 17px/1.6 var(--body);margin:0}
+.shell{max-width:1040px;margin:0 auto;padding-inline:20px;display:grid;grid-template-columns:210px minmax(0,1fr);gap:56px}
+.page{min-width:0;max-width:760px;padding-block:40px 120px;display:flex;flex-direction:column;gap:72px}
+#bar{display:none}
+nav{position:sticky;top:env(safe-area-inset-top,0px);align-self:start;padding-block:44px;max-height:100vh;overflow:auto}
+nav .brand{font:700 13px/1 var(--display);letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2);margin:0 0 14px 10px}
+nav ul{list-style:none;margin:0;padding:0}
+nav li{margin:0}
+nav a{display:flex;gap:10px;align-items:center;padding:8px 10px;border-radius:4px;border-left:3px solid transparent;text-decoration:none;color:var(--ink);font-size:15px;font-weight:500}
+nav a b{font:700 17px/1 var(--display);color:var(--accent);width:1em;flex:none;text-align:center}
+nav a.alt b{color:var(--danger)}
+nav a:hover{background:var(--accent-soft)}
+nav a.on{background:var(--accent-soft);border-left-color:var(--accent)}
+nav .sep{height:1px;background:var(--rule);margin:10px}
+#scrim{display:none}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.eyebrow{font:700 14px var(--display);letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+h1{font:700 clamp(44px,9vw,72px)/.92 var(--display);text-transform:uppercase;margin:6px 0 16px}
+.lede{font-size:20px;font-weight:500;line-height:1.45;margin:0 0 28px;max-width:32ch}
+
+.loop{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 0 12px;padding:16px;list-style:none;background:var(--card);border:1.5px solid var(--ink)}
+.loop li{display:flex;align-items:center;gap:8px;font-weight:500}
+.loop li span{background:var(--accent-soft);padding:5px 12px;border-radius:99px}
+.loop li.you span{background:var(--ok-soft);color:var(--ok);font-weight:600}
+.loop li::after{content:"→";color:var(--ink-2)}
+.loop li:last-child::after{content:"↻"}
+.cap{color:var(--ink-2);font-size:15px;margin:0}
+
+.toc{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));margin:28px 0 0;padding:0;list-style:none;border:1px solid var(--rule);background:var(--card)}
+.toc a{display:block;padding:10px 12px;text-decoration:none;color:var(--ink);border-right:1px solid var(--rule);height:100%}
+.toc li:last-child a{border-right:none}
+.toc a:hover{background:var(--accent-soft)}
+.toc b{display:block;font:700 28px/1 var(--display);color:var(--accent)}
+.toc span{font:700 14px var(--display);letter-spacing:.06em;text-transform:uppercase}
+
+.step > .head{display:flex;gap:16px;align-items:center;border-bottom:2px solid var(--ink);padding-bottom:10px;margin-bottom:20px}
+.step .num{font:700 72px/.8 var(--display);color:var(--accent)}
+.step h2{font:700 38px/1 var(--display);text-transform:uppercase;margin:0}
+.step.alt .num{color:var(--danger)}
+h3{font:700 21px/1.1 var(--display);text-transform:uppercase;letter-spacing:.05em;margin:32px 0 10px}
+p{margin:0 0 14px}
+ul{margin:0 0 14px;padding-left:22px} li{margin-bottom:5px}
+ol.do{margin:0 0 14px;padding-left:24px} ol.do li{margin-bottom:8px;padding-left:4px} ol.do li::marker{font-weight:600;color:var(--accent)}
+
+.cmd{display:block;background:var(--code-bg);color:var(--code-ink);font:500 14.5px/1.7 var(--mono);padding:14px 16px;border-radius:5px;margin:0 0 14px;overflow-x:auto;white-space:pre}
+.cmd b{color:var(--code-opt);font-weight:500}
+.cmd i{color:var(--code-val);font-style:normal}
+code{font:500 .88em var(--mono);background:var(--accent-soft);padding:1px 5px;border-radius:3px}
+
+.then{background:var(--ok-soft);border-left:4px solid var(--ok);padding:12px 16px;margin:0 0 14px}
+.then strong:first-child{font:700 13px var(--display);letter-spacing:.16em;text-transform:uppercase;color:var(--ok);display:block;margin-bottom:2px}
+.warn{background:var(--danger-soft);border-left:4px solid var(--danger);padding:12px 16px;margin:0 0 14px}
+.warn strong:first-child{font:700 13px var(--display);letter-spacing:.16em;text-transform:uppercase;color:var(--danger);margin-right:8px}
+
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:0 0 14px}
+.two > div{background:var(--card);border:1px solid var(--rule);padding:14px 16px}
+.two h4{font:700 14px var(--display);letter-spacing:.14em;text-transform:uppercase;margin:0 0 6px;color:var(--ink-2)}
+.two ol{margin:0;padding-left:20px}
+
+.fx{background:var(--card);border:1px solid var(--rule);margin-top:-1px}
+.fx summary{cursor:pointer;padding:13px 44px 13px 16px;font-weight:500;list-style:none;position:relative}
+.fx summary::-webkit-details-marker{display:none}
+.fx summary::after{content:"+";position:absolute;right:16px;top:10px;font:500 21px var(--mono);color:var(--accent)}
+.fx[open] summary::after{content:"–"}
+.fx[open] summary{color:var(--accent)}
+.fx summary:hover{background:var(--accent-soft)}
+.fx .a{padding:0 16px 14px}
+.fx .a .cmd{font-size:13.5px;padding:10px 12px;margin-bottom:8px}
+.fx .a p{margin:0;color:var(--ink-2);font-size:15.5px}
+
+dl{margin:0;display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);border:1px solid var(--rule);background:var(--card)}
+dt,dd{margin:0;padding:11px 16px;border-bottom:1px solid var(--rule);font-size:15.5px}
+dt{font-weight:500} dd{color:var(--ink-2)}
+dt:last-of-type,dd:last-of-type{border-bottom:none}
+
+footer{color:var(--ink-2);font-size:15px;border-top:1px solid var(--rule);padding-top:16px}
+
+@media (max-width:900px){
+  .shell{grid-template-columns:minmax(0,1fr);gap:0;padding-inline:16px}
+  .page{padding-block:24px 100px;margin:0 auto;width:100%}
+  html{scroll-padding-top:64px}
+  #bar{display:flex;align-items:center;gap:12px;position:sticky;top:0;z-index:6;background:var(--ground);border-bottom:1px solid var(--rule);margin-inline:-16px;padding:calc(8px + env(safe-area-inset-top,0px)) 16px 8px}
+  #bar button{font:700 14px var(--display);letter-spacing:.12em;text-transform:uppercase;background:var(--ink);color:var(--ground);border:none;border-radius:4px;padding:8px 12px;cursor:pointer}
+  #bar span{font:700 15px var(--display);letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  nav{position:fixed;z-index:8;top:0;bottom:0;left:0;width:min(280px,82vw);background:var(--ground);border-right:1px solid var(--rule);padding:calc(20px + env(safe-area-inset-top,0px)) 12px 40px;max-height:none;transform:translateX(-100%);transition:transform .2s ease;visibility:hidden}
+  nav.show{transform:none;visibility:visible}
+  #scrim{display:block;position:fixed;inset:0;z-index:7;background:rgba(0,0,0,.45);opacity:0;pointer-events:none;transition:opacity .2s}
+  #scrim.show{opacity:1;pointer-events:auto}
+}
+@media (prefers-reduced-motion:reduce){nav,#scrim{transition:none}}
+@media (max-width:760px){.toc{grid-template-columns:repeat(3,minmax(0,1fr))}.toc li:nth-child(-n+3) a{border-bottom:1px solid var(--rule)}.toc li:nth-child(3) a{border-right:none}}
+@media (max-width:600px){
+  .toc{grid-template-columns:minmax(0,1fr)}
+  .toc a{display:flex;gap:12px;align-items:center;border-right:none;border-bottom:1px solid var(--rule)}
+  .toc li:last-child a{border-bottom:none}
+  .two{grid-template-columns:minmax(0,1fr)}
+  dl{grid-template-columns:minmax(0,1fr)} dt{border-bottom:none;padding-bottom:0}
+  .step .num{font-size:54px} .step h2{font-size:30px}
+}
+</style>
+<style>[hidden]{display:none!important}img{max-width:100%}</style>
+</head>
+<body>
+
+<div class="shell">
+<div id="bar"><button id="menuBtn" type="button" aria-expanded="false" aria-controls="nav">Menu</button><span id="here">Player Guide</span></div>
+<div id="scrim"></div>
+<nav id="nav" aria-label="Sections">
+  <div class="brand">Player Guide</div>
+  <ul>
+    <li><a href="#s1"><b>1</b>The event</a></li>
+    <li><a href="#s2"><b>2</b>Passwords</a></li>
+    <li><a href="#s3"><b>3</b>Play a tile</a></li>
+    <li><a href="#s4"><b>4</b>Reviews</a></li>
+    <li><a href="#s5"><b>5</b>Board rules</a></li>
+    <li class="sep" role="presentation"></li>
+    <li><a href="#faq"><b>?</b>FAQ</a></li>
+  </ul>
+</nav>
+<div class="page">
+
+<header>
+  <div class="eyebrow">Snakes &amp; Ladders · Oct 16–18</div>
+  <h1>Player Guide</h1>
+  <p class="lede">Commands, proof rules and board mechanics for this event.</p>
+
+  <ul class="loop" aria-label="The turn loop">
+    <li><span><code>/roll</code></span></li>
+    <li><span><code>/current-tile</code></span></li>
+    <li><span>Get the drop</span></li>
+    <li><span><code>/submit</code></span></li>
+    <li class="you"><span>Approved</span></li>
+  </ul>
+  <p class="cap">Command replies are only visible to you and work in any channel. Your team channel is where tasks, review results and admin pings land. Your team also has a private voice channel.</p>
+
+  <ol class="toc">
+    <li><a href="#s1"><b>1</b><span>The event</span></a></li>
+    <li><a href="#s2"><b>2</b><span>Passwords</span></a></li>
+    <li><a href="#s3"><b>3</b><span>Play a tile</span></a></li>
+    <li><a href="#s4"><b>4</b><span>Reviews</span></a></li>
+    <li><a href="#s5"><b>5</b><span>Board rules</span></a></li>
+    <li><a href="#faq"><b>?</b><span>FAQ</span></a></li>
+  </ol>
+</header>
+
+<section class="step" id="s1">
+  <div class="head"><span class="num">1</span><h2>The event</h2></div>
+  <dl>
+    <dt>Starts</dt><dd><time data-utc="2026-10-16T12:00:00Z">Fri Oct 16, 12:00 UTC</time></dd>
+    <dt>Ends</dt><dd><time data-utc="2026-10-18T23:00:00Z">Sun Oct 18, 23:00 UTC</time>, or earlier if every team finishes</dd>
+    <dt>Prize</dt><dd>1st and 2nd place split 500m+ gp.</dd>
+    <dt>Clan points</dt><dd>Every player gets <b>2× their team's final tile</b>. End on tile 30 and each of you gets 60. Every tile counts, even if you're out of the race for 1st.</dd>
+    <dt>Teams</dt><dd>Up to 4 players. Your team and its private channel are already set up.</dd>
+  </dl>
+</section>
+
+<section class="step" id="s2">
+  <div class="head"><span class="num">2</span><h2>Passwords</h2></div>
+  <div class="warn"><strong>New tile, new password</strong>Every tile you land on comes with a new proof password, like <code>herblore12</code>, even a tile you've been on before. Every screenshot has to show the password for the tile you're on. Proof with an old password gets denied, and drops from before you landed don't count.</div>
+  <p>Install the <a href="https://github.com/cmsu224/clan-events">Clan Events</a> RuneLite plugin before the start. It keeps the password on screen as an overlay, so every screenshot includes it without typing it in chat:</p>
+  <ol class="do">
+    <li>RuneLite → Plugin Hub → search <b>Clan Events</b> → install.</li>
+    <li>Put the current password in the plugin's settings. <b>Change it every time you land on a new tile.</b></li>
+    <li>Leave the Google Sheet ID and API key empty. The password overlay doesn't need them.</li>
+  </ol>
+  <p>Not using the plugin? Type the password in your chat box before each screenshot.</p>
+</section>
+
+<section class="step" id="s3">
+  <div class="head"><span class="num">3</span><h2>Play a tile</h2></div>
+
+  <h3>Roll</h3>
+  <code class="cmd">/roll</code>
+  <p>Anyone on the team can roll, from the start time on. 1d6; snakes, ladders and free re-rolls happen as part of the roll. The bot posts the result and your new tile's task <b>and password</b> in your team channel.</p>
+
+  <h3>Check the task</h3>
+  <code class="cmd">/current-tile</code>
+  <p>Your tile, the task, the exact proof requirements, the current password, and what your team is waiting on. Check it before you start grinding.</p>
+
+  <h3>Submit</h3>
+  <code class="cmd">/submit</code>
+  <p>Opens a form for your current tile; you don't pick the tile. Attach your screenshots and add a note if the reviewer needs context (e.g. which teammate got the drop).</p>
+  <ul>
+    <li>Every screenshot shows what the tile asks for <b>and</b> the current password.</li>
+    <li>Don't crop out the password, the drop message or the loot.</li>
+  </ul>
+</section>
+
+<section class="step" id="s4">
+  <div class="head"><span class="num">4</span><h2>Reviews</h2></div>
+  <p>An admin approves or denies each submission. Your team channel gets pinged either way.</p>
+  <dl>
+    <dt>Don't wait for reviews</dt><dd>Submit and roll on. You can keep rolling as long as no more than <b>10</b> of your submissions are waiting on review.</dd>
+    <dt>Denied, still on that tile</dt><dd>The bot posts the reason. Fix it and <code>/submit</code> again. Same password.</dd>
+    <dt>Denied after you rolled on</dt><dd>Your team is pulled back to redo that tile, using the denied proof's password. Your forward progress is saved, and you return to it once the redo is approved. Proof you submitted for later tiles still stands.</dd>
+  </dl>
+</section>
+
+<section class="step" id="s5">
+  <div class="head"><span class="num">5</span><h2>Board rules</h2></div>
+  <dl>
+    <dt>Your task</dt><dd>The tile you end on, after any snake or ladder.</dd>
+    <dt>No repeat tiles</dt><dd>Land on a tile your team has approved or still in review and the bot re-rolls for you, until you land on a fresh tile. If that review is later denied, you're sent back to redo it.</dd>
+    <dt>Finishing</dt><dd>Reach or pass the last tile. If it has a task, you finish when that proof is approved. A finish only counts once every review your team has open is approved.</dd>
+    <dt>Placements</dt><dd>The race goes on after the first finish. Each team places in the order it finishes.</dd>
+    <dt>Time runs out</dt><dd>Finished teams rank first, in finish order. Then the furthest tile, with ties going to whoever got there first. Proof still in review doesn't move you.</dd>
+  </dl>
+  <div class="two">
+    <div><h4>Commands</h4><ol><li><code>/board</code>: the board with every team's token</li><li><code>/standings</code>: every team's tile and status</li></ol></div>
+    <div><h4>Channels</h4><ol><li><b>board</b>: live board and standings. Each team's token shows next to its name.</li><li><b>log</b>: every roll, snake and ladder as it happens</li></ol></div>
+  </div>
+</section>
+
+<section class="step" id="faq">
+  <div class="head"><span class="num">?</span><h2>FAQ</h2></div>
+  <details class="fx"><summary>I can't roll</summary><div class="a"><p><code>/current-tile</code> says why: proof still owed for your tile, more than 10 reviews pending, a redo owed, or the event hasn't started.</p></div></details>
+  <details class="fx"><summary>I'm on the wrong tile</summary><div class="a"><p>Check <code>/current-tile</code> for a snake, ladder or redo. If it's still wrong, ping an admin in your team channel; they can move your team.</p></div></details>
+  <details class="fx"><summary>Can I use a drop I got before landing here?</summary><div class="a"><p>No. Proof needs the password for the tile you're on, and you only get that password when you land.</p></div></details>
+</section>
+
+<footer>Questions go to the event admins: post in your team channel. <code>/gbg-help</code> has a command recap.</footer>
+
+</div>
+</div>
+
+<script>
+(function(){
+  var nav=document.getElementById('nav'),btn=document.getElementById('menuBtn'),scrim=document.getElementById('scrim'),here=document.getElementById('here');
+  function setMenu(open){nav.classList.toggle('show',open);scrim.classList.toggle('show',open);btn.setAttribute('aria-expanded',open?'true':'false')}
+  btn.addEventListener('click',function(){setMenu(!nav.classList.contains('show'))});
+  scrim.addEventListener('click',function(){setMenu(false)});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')setMenu(false)});
+  var links=[].slice.call(nav.querySelectorAll('a')),items=links.map(function(a){return{a:a,el:document.getElementById(a.getAttribute('href').slice(1))}});
+  links.forEach(function(a){a.addEventListener('click',function(){setMenu(false)})});
+  var ticking=false;
+  function spy(){ticking=false;var cur=null;
+    items.forEach(function(t){if(t.el.getBoundingClientRect().top<=160)cur=t});
+    items.forEach(function(t){t.a.classList.toggle('on',t===cur)});
+    here.textContent=cur?cur.a.textContent.replace(/^./,function(c){return c+' · '}):'Player Guide'}
+  window.addEventListener('scroll',function(){if(!ticking){ticking=true;requestAnimationFrame(spy)}},{passive:true});
+  spy();
+  [].forEach.call(document.querySelectorAll('time[data-utc]'),function(t){
+    try{var d=new Date(t.getAttribute('data-utc'));
+      t.textContent=d.toLocaleString(undefined,{weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'})+' ('+t.textContent+')'}catch(e){}});
+})();
+</script>
+
+</body>
+</html>
