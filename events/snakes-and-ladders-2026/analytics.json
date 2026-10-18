@@ -1,0 +1,7312 @@
+{
+  "schemaVersion": 1,
+  "game": {
+    "name": "Snakes and Ladders 2026",
+    "code": "GBG1",
+    "mode": "standard",
+    "startAt": "2026-10-16T12:00:51.395Z",
+    "endAt": "2026-10-20T08:00:00.000Z"
+  },
+  "snapshot": {
+    "at": "2026-10-18T21:20:00.000Z",
+    "tz": "America/New_York",
+    "label": "as of 5:20pm ET, Oct 18, 2026"
+  },
+  "board": {
+    "width": 1254,
+    "height": 1254,
+    "image": "board.png",
+    "tiles": [
+      {
+        "index": 1,
+        "bounds": {
+          "x": 162,
+          "y": 1094,
+          "w": 150,
+          "h": 151
+        },
+        "taskName": "Receive any Barrows Weapon"
+      },
+      {
+        "index": 2,
+        "bounds": {
+          "x": 318,
+          "y": 1093,
+          "w": 150,
+          "h": 153
+        },
+        "taskName": "Obtain a Black mask"
+      },
+      {
+        "index": 3,
+        "bounds": {
+          "x": 475,
+          "y": 1093,
+          "w": 149,
+          "h": 152
+        },
+        "taskName": "Create a Tentacle whip from scratch"
+      },
+      {
+        "index": 4,
+        "bounds": {
+          "x": 630,
+          "y": 1093,
+          "w": 149,
+          "h": 152
+        },
+        "taskName": "Obtain a Zamorakian Spear"
+      },
+      {
+        "index": 5,
+        "bounds": {
+          "x": 782,
+          "y": 1093,
+          "w": 149,
+          "h": 153
+        },
+        "taskName": "Ladder to 9"
+      },
+      {
+        "index": 6,
+        "bounds": {
+          "x": 941,
+          "y": 1093,
+          "w": 151,
+          "h": 152
+        },
+        "taskName": "Recieve a Vorkath Head"
+      },
+      {
+        "index": 7,
+        "bounds": {
+          "x": 1098,
+          "y": 1094,
+          "w": 150,
+          "h": 152
+        },
+        "taskName": "Recieve 3 Unique DK's Rings"
+      },
+      {
+        "index": 8,
+        "bounds": {
+          "x": 1098,
+          "y": 938,
+          "w": 150,
+          "h": 150
+        },
+        "taskName": "Receive any Bandos Unique"
+      },
+      {
+        "index": 9,
+        "bounds": {
+          "x": 940,
+          "y": 937,
+          "w": 152,
+          "h": 153
+        },
+        "taskName": "Recieve an Armadyl Armour Piece"
+      },
+      {
+        "index": 10,
+        "bounds": {
+          "x": 785,
+          "y": 938,
+          "w": 150,
+          "h": 150
+        },
+        "taskName": "Obtains Two Moons of Peril Uniques"
+      },
+      {
+        "index": 11,
+        "bounds": {
+          "x": 629,
+          "y": 938,
+          "w": 150,
+          "h": 150
+        },
+        "taskName": "Receive a piece of the Abyssal Bludgeon"
+      },
+      {
+        "index": 12,
+        "bounds": {
+          "x": 474,
+          "y": 938,
+          "w": 151,
+          "h": 150
+        },
+        "taskName": "Snake to 4"
+      },
+      {
+        "index": 13,
+        "bounds": {
+          "x": 318,
+          "y": 938,
+          "w": 151,
+          "h": 150
+        },
+        "taskName": "Receive 2 Awakeners Orbs"
+      },
+      {
+        "index": 14,
+        "bounds": {
+          "x": 162,
+          "y": 938,
+          "w": 151,
+          "h": 150
+        },
+        "taskName": "Receive an Element Staff Crown from Royal Titans"
+      },
+      {
+        "index": 15,
+        "bounds": {
+          "x": 6,
+          "y": 938,
+          "w": 151,
+          "h": 150
+        },
+        "taskName": "Receive Any Araxxor Unique"
+      },
+      {
+        "index": 16,
+        "bounds": {
+          "x": 7,
+          "y": 784,
+          "w": 149,
+          "h": 148
+        },
+        "taskName": "Receive any Unique from Zulrah (No scales / teleports)"
+      },
+      {
+        "index": 17,
+        "bounds": {
+          "x": 162,
+          "y": 785,
+          "w": 151,
+          "h": 148
+        },
+        "taskName": "Snake to 14"
+      },
+      {
+        "index": 18,
+        "bounds": {
+          "x": 318,
+          "y": 784,
+          "w": 151,
+          "h": 148
+        },
+        "taskName": "Ladder to 27"
+      },
+      {
+        "index": 19,
+        "bounds": {
+          "x": 474,
+          "y": 785,
+          "w": 150,
+          "h": 147
+        },
+        "taskName": "Recieve any GWD Hilt"
+      },
+      {
+        "index": 20,
+        "bounds": {
+          "x": 630,
+          "y": 785,
+          "w": 150,
+          "h": 147
+        },
+        "taskName": "Receive the Dragon Pickaxe from a Wilderness Boss"
+      },
+      {
+        "index": 21,
+        "bounds": {
+          "x": 786,
+          "y": 784,
+          "w": 150,
+          "h": 148
+        },
+        "taskName": "Receive any Seed from Gauntlet / Corrupted Gauntlet"
+      },
+      {
+        "index": 22,
+        "bounds": {
+          "x": 942,
+          "y": 785,
+          "w": 150,
+          "h": 147
+        },
+        "taskName": "Obtain a Dragon Chainbody from Kalphite Queen"
+      },
+      {
+        "index": 23,
+        "bounds": {
+          "x": 1098,
+          "y": 784,
+          "w": 150,
+          "h": 148
+        },
+        "taskName": "Obtain a Hallowfell from the Mad Angel"
+      },
+      {
+        "index": 24,
+        "bounds": {
+          "x": 1098,
+          "y": 629,
+          "w": 150,
+          "h": 150
+        },
+        "taskName": "Receive any Crystal from Cerberus"
+      },
+      {
+        "index": 25,
+        "bounds": {
+          "x": 941,
+          "y": 629,
+          "w": 151,
+          "h": 150
+        },
+        "taskName": "Ladder to 36"
+      },
+      {
+        "index": 26,
+        "bounds": {
+          "x": 785,
+          "y": 628,
+          "w": 151,
+          "h": 151
+        },
+        "taskName": "Obtain a KQ Head (not tattered)"
+      },
+      {
+        "index": 27,
+        "bounds": {
+          "x": 630,
+          "y": 628,
+          "w": 150,
+          "h": 151
+        },
+        "taskName": "Receive any Nex Unique"
+      },
+      {
+        "index": 28,
+        "bounds": {
+          "x": 475,
+          "y": 628,
+          "w": 149,
+          "h": 151
+        },
+        "taskName": "Snake to 21"
+      },
+      {
+        "index": 29,
+        "bounds": {
+          "x": 319,
+          "y": 628,
+          "w": 149,
+          "h": 151
+        },
+        "taskName": "Receive the 3 dual wielded Nagua weapons"
+      },
+      {
+        "index": 30,
+        "bounds": {
+          "x": 162,
+          "y": 629,
+          "w": 150,
+          "h": 150
+        },
+        "taskName": "Ladder to 33"
+      },
+      {
+        "index": 31,
+        "bounds": {
+          "x": 6,
+          "y": 629,
+          "w": 150,
+          "h": 150
+        },
+        "taskName": "Receive a Lightbearer or Osmumtens Fang from Tombs of Amascut"
+      },
+      {
+        "index": 32,
+        "bounds": {
+          "x": 6,
+          "y": 474,
+          "w": 150,
+          "h": 149
+        },
+        "taskName": "Receive a Venator Shard"
+      },
+      {
+        "index": 33,
+        "bounds": {
+          "x": 162,
+          "y": 474,
+          "w": 150,
+          "h": 149
+        },
+        "taskName": "Receive any 3 vestige rolls from DT2 Bosses"
+      },
+      {
+        "index": 34,
+        "bounds": {
+          "x": 318,
+          "y": 473,
+          "w": 151,
+          "h": 150
+        },
+        "taskName": "Receive an Occult Necklace from Thermy"
+      },
+      {
+        "index": 35,
+        "bounds": {
+          "x": 474,
+          "y": 474,
+          "w": 150,
+          "h": 149
+        },
+        "taskName": "Ladder to 35"
+      },
+      {
+        "index": 36,
+        "bounds": {
+          "x": 630,
+          "y": 473,
+          "w": 150,
+          "h": 150
+        },
+        "taskName": "Receive a Basilisk Jaw"
+      },
+      {
+        "index": 37,
+        "bounds": {
+          "x": 785,
+          "y": 474,
+          "w": 151,
+          "h": 149
+        },
+        "taskName": "Receive a Zenyte Shard"
+      },
+      {
+        "index": 38,
+        "bounds": {
+          "x": 941,
+          "y": 473,
+          "w": 152,
+          "h": 150
+        },
+        "taskName": "Any Purple from Cox / Challenge Mode"
+      },
+      {
+        "index": 39,
+        "bounds": {
+          "x": 1098,
+          "y": 474,
+          "w": 150,
+          "h": 149
+        },
+        "taskName": "Two Different Uniques from the Major Wilderness Bosses / Singles Variants"
+      },
+      {
+        "index": 40,
+        "bounds": {
+          "x": 1098,
+          "y": 318,
+          "w": 150,
+          "h": 150
+        },
+        "taskName": "Receive Any Hueycoatl Unique"
+      },
+      {
+        "index": 41,
+        "bounds": {
+          "x": 941,
+          "y": 317,
+          "w": 151,
+          "h": 151
+        },
+        "taskName": "Receive a unique from Grotesque Guardians"
+      },
+      {
+        "index": 42,
+        "bounds": {
+          "x": 786,
+          "y": 318,
+          "w": 149,
+          "h": 150
+        },
+        "taskName": "Receive a Dex or Arcane Prayer Scroll"
+      },
+      {
+        "index": 43,
+        "bounds": {
+          "x": 630,
+          "y": 318,
+          "w": 150,
+          "h": 150
+        },
+        "taskName": "Recieve a Tormented Synapse or Burning Claw"
+      },
+      {
+        "index": 44,
+        "bounds": {
+          "x": 474,
+          "y": 317,
+          "w": 150,
+          "h": 151
+        },
+        "taskName": "Receive a Bandos Hilt or Bandos Boots"
+      },
+      {
+        "index": 45,
+        "bounds": {
+          "x": 319,
+          "y": 317,
+          "w": 149,
+          "h": 150
+        },
+        "taskName": "Obtain a Voidwaker Blade"
+      },
+      {
+        "index": 46,
+        "bounds": {
+          "x": 162,
+          "y": 318,
+          "w": 151,
+          "h": 150
+        },
+        "taskName": "Receive 2 Pieces of the Brimstone Ring"
+      },
+      {
+        "index": 47,
+        "bounds": {
+          "x": 6,
+          "y": 318,
+          "w": 150,
+          "h": 150
+        },
+        "taskName": "Receive 2 different peices of the Elder Chaos set"
+      },
+      {
+        "index": 48,
+        "bounds": {
+          "x": 6,
+          "y": 161,
+          "w": 150,
+          "h": 151
+        },
+        "taskName": "Receive a Unique from the Colosseum"
+      },
+      {
+        "index": 49,
+        "bounds": {
+          "x": 162,
+          "y": 161,
+          "w": 151,
+          "h": 151
+        },
+        "taskName": "Snake to 45"
+      },
+      {
+        "index": 50,
+        "bounds": {
+          "x": 318,
+          "y": 161,
+          "w": 151,
+          "h": 151
+        },
+        "taskName": "Complete a full Odium or Malediction Shield"
+      },
+      {
+        "index": 51,
+        "bounds": {
+          "x": 474,
+          "y": 162,
+          "w": 150,
+          "h": 150
+        },
+        "taskName": "Receive any unique from the Maggot King"
+      },
+      {
+        "index": 52,
+        "bounds": {
+          "x": 630,
+          "y": 161,
+          "w": 150,
+          "h": 151
+        },
+        "taskName": "Receive any two different slayer boss uniques"
+      },
+      {
+        "index": 53,
+        "bounds": {
+          "x": 786,
+          "y": 161,
+          "w": 149,
+          "h": 151
+        },
+        "taskName": "Ladder to 57"
+      },
+      {
+        "index": 54,
+        "bounds": {
+          "x": 941,
+          "y": 162,
+          "w": 151,
+          "h": 150
+        },
+        "taskName": "Obtain Oathplate Armour or a Soulflame Horn from Yama (not from a contract)"
+      },
+      {
+        "index": 55,
+        "bounds": {
+          "x": 1098,
+          "y": 161,
+          "w": 150,
+          "h": 151
+        },
+        "taskName": "Receive any DT2 Unique other than Quartz/Orbs/Tablet"
+      },
+      {
+        "index": 56,
+        "bounds": {
+          "x": 1098,
+          "y": 6,
+          "w": 150,
+          "h": 150
+        },
+        "taskName": "Receive a Purple from the Theatre of Blood"
+      },
+      {
+        "index": 57,
+        "bounds": {
+          "x": 941,
+          "y": 5,
+          "w": 151,
+          "h": 151
+        },
+        "taskName": "Receive any Unique Armour Piece from a Raid"
+      },
+      {
+        "index": 58,
+        "bounds": {
+          "x": 785,
+          "y": 5,
+          "w": 151,
+          "h": 151
+        },
+        "taskName": "Receive a unique from Nightmare"
+      },
+      {
+        "index": 59,
+        "bounds": {
+          "x": 630,
+          "y": 6,
+          "w": 150,
+          "h": 150
+        },
+        "taskName": "Receive any unique from Doom"
+      },
+      {
+        "index": 60,
+        "bounds": {
+          "x": 474,
+          "y": 6,
+          "w": 150,
+          "h": 150
+        },
+        "taskName": "Snake to 52"
+      },
+      {
+        "index": 61,
+        "bounds": {
+          "x": 317,
+          "y": 6,
+          "w": 151,
+          "h": 151
+        },
+        "taskName": "Receive any Jar (excluding Skotizo and Sire)"
+      },
+      {
+        "index": 62,
+        "bounds": {
+          "x": 161,
+          "y": 5,
+          "w": 153,
+          "h": 152
+        },
+        "taskName": "Receive any Two Raid Purples from any Raids"
+      }
+    ],
+    "snakes": [
+      {
+        "from": 12,
+        "to": 4
+      },
+      {
+        "from": 17,
+        "to": 14
+      },
+      {
+        "from": 28,
+        "to": 21
+      },
+      {
+        "from": 49,
+        "to": 45
+      },
+      {
+        "from": 60,
+        "to": 52
+      }
+    ],
+    "ladders": [
+      {
+        "from": 5,
+        "to": 9
+      },
+      {
+        "from": 18,
+        "to": 27
+      },
+      {
+        "from": 25,
+        "to": 36
+      },
+      {
+        "from": 30,
+        "to": 33
+      },
+      {
+        "from": 35,
+        "to": 43
+      },
+      {
+        "from": 53,
+        "to": 57
+      }
+    ]
+  },
+  "teams": [
+    {
+      "key": "t1",
+      "rank": 1,
+      "name": "Raven Haven",
+      "icon": "icons/t1.png",
+      "finished": true,
+      "finishedAt": "2026-10-18T03:21:45.138Z",
+      "position": 62,
+      "timeSpentMs": 141653743,
+      "tilesCompleted": [
+        {
+          "tileIndex": 9,
+          "taskName": "Recieve an Armadyl Armour Piece",
+          "completedAt": "2026-10-16T15:32:57.157Z"
+        },
+        {
+          "tileIndex": 10,
+          "taskName": "Obtains Two Moons of Peril Uniques",
+          "completedAt": "2026-10-16T17:24:26.237Z"
+        },
+        {
+          "tileIndex": 13,
+          "taskName": "Receive 2 Awakeners Orbs",
+          "completedAt": "2026-10-16T17:45:38.508Z"
+        },
+        {
+          "tileIndex": 15,
+          "taskName": "Receive Any Araxxor Unique",
+          "completedAt": "2026-10-16T20:34:38.884Z"
+        },
+        {
+          "tileIndex": 19,
+          "taskName": "Recieve any GWD Hilt",
+          "completedAt": "2026-10-16T22:14:50.014Z"
+        },
+        {
+          "tileIndex": 24,
+          "taskName": "Receive any Crystal from Cerberus",
+          "completedAt": "2026-10-16T22:47:53.476Z"
+        },
+        {
+          "tileIndex": 26,
+          "taskName": "Obtain a KQ Head (not tattered)",
+          "completedAt": "2026-10-17T00:38:51.837Z"
+        },
+        {
+          "tileIndex": 32,
+          "taskName": "Receive a Venator Shard",
+          "completedAt": "2026-10-17T01:22:00.565Z"
+        },
+        {
+          "tileIndex": 34,
+          "taskName": "Receive an Occult Necklace from Thermy",
+          "completedAt": "2026-10-17T02:35:23.952Z"
+        },
+        {
+          "tileIndex": 38,
+          "taskName": "Any Purple from Cox / Challenge Mode",
+          "completedAt": "2026-10-17T04:13:19.625Z"
+        },
+        {
+          "tileIndex": 41,
+          "taskName": "Receive a unique from Grotesque Guardians",
+          "completedAt": "2026-10-17T05:27:19.918Z"
+        },
+        {
+          "tileIndex": 46,
+          "taskName": "Receive 2 Pieces of the Brimstone Ring",
+          "completedAt": "2026-10-17T07:22:00.591Z"
+        },
+        {
+          "tileIndex": 50,
+          "taskName": "Complete a full Odium or Malediction Shield",
+          "completedAt": "2026-10-17T09:07:00.160Z"
+        },
+        {
+          "tileIndex": 52,
+          "taskName": "Receive any two different slayer boss uniques",
+          "completedAt": "2026-10-17T11:48:19.105Z"
+        },
+        {
+          "tileIndex": 57,
+          "taskName": "Receive any Unique Armour Piece from a Raid",
+          "completedAt": "2026-10-17T15:53:01.288Z"
+        },
+        {
+          "tileIndex": 61,
+          "taskName": "Receive any Jar (excluding Skotizo and Sire)",
+          "completedAt": "2026-10-17T18:00:24.843Z"
+        },
+        {
+          "tileIndex": 62,
+          "taskName": "Receive any Two Raid Purples from any Raids",
+          "completedAt": "2026-10-18T03:21:44.604Z"
+        }
+      ],
+      "visits": [
+        {
+          "tileIndex": 9,
+          "arrivedAt": "2026-10-16T12:00:54.384Z",
+          "leftAt": "2026-10-16T15:32:11.124Z",
+          "ms": 12676740,
+          "open": false
+        },
+        {
+          "tileIndex": 10,
+          "arrivedAt": "2026-10-16T15:32:11.124Z",
+          "leftAt": "2026-10-16T17:22:23.427Z",
+          "ms": 6612303,
+          "open": false
+        },
+        {
+          "tileIndex": 13,
+          "arrivedAt": "2026-10-16T17:22:23.427Z",
+          "leftAt": "2026-10-16T17:45:28.065Z",
+          "ms": 1384638,
+          "open": false
+        },
+        {
+          "tileIndex": 15,
+          "arrivedAt": "2026-10-16T17:45:28.065Z",
+          "leftAt": "2026-10-16T20:33:16.726Z",
+          "ms": 10068661,
+          "open": false
+        },
+        {
+          "tileIndex": 19,
+          "arrivedAt": "2026-10-16T20:33:16.726Z",
+          "leftAt": "2026-10-16T22:10:39.230Z",
+          "ms": 5842504,
+          "open": false
+        },
+        {
+          "tileIndex": 24,
+          "arrivedAt": "2026-10-16T22:10:39.230Z",
+          "leftAt": "2026-10-16T22:47:03.012Z",
+          "ms": 2183782,
+          "open": false
+        },
+        {
+          "tileIndex": 26,
+          "arrivedAt": "2026-10-16T22:47:03.012Z",
+          "leftAt": "2026-10-17T00:38:49.236Z",
+          "ms": 6706224,
+          "open": false
+        },
+        {
+          "tileIndex": 32,
+          "arrivedAt": "2026-10-17T00:38:49.236Z",
+          "leftAt": "2026-10-17T01:21:58.812Z",
+          "ms": 2589576,
+          "open": false
+        },
+        {
+          "tileIndex": 34,
+          "arrivedAt": "2026-10-17T01:21:58.812Z",
+          "leftAt": "2026-10-17T02:28:58.831Z",
+          "ms": 4020019,
+          "open": false
+        },
+        {
+          "tileIndex": 38,
+          "arrivedAt": "2026-10-17T02:28:58.831Z",
+          "leftAt": "2026-10-17T04:13:29.193Z",
+          "ms": 6270362,
+          "open": false
+        },
+        {
+          "tileIndex": 41,
+          "arrivedAt": "2026-10-17T04:13:29.193Z",
+          "leftAt": "2026-10-17T05:27:37.705Z",
+          "ms": 4448512,
+          "open": false
+        },
+        {
+          "tileIndex": 46,
+          "arrivedAt": "2026-10-17T05:27:37.705Z",
+          "leftAt": "2026-10-17T07:21:09.046Z",
+          "ms": 6811341,
+          "open": false
+        },
+        {
+          "tileIndex": 50,
+          "arrivedAt": "2026-10-17T07:21:09.046Z",
+          "leftAt": "2026-10-17T08:51:36.294Z",
+          "ms": 5427248,
+          "open": false
+        },
+        {
+          "tileIndex": 52,
+          "arrivedAt": "2026-10-17T08:51:36.294Z",
+          "leftAt": "2026-10-17T11:47:18.056Z",
+          "ms": 10541762,
+          "open": false
+        },
+        {
+          "tileIndex": 57,
+          "arrivedAt": "2026-10-17T11:47:18.056Z",
+          "leftAt": "2026-10-17T15:49:16.692Z",
+          "ms": 14518636,
+          "open": false
+        },
+        {
+          "tileIndex": 61,
+          "arrivedAt": "2026-10-17T15:49:16.692Z",
+          "leftAt": "2026-10-17T17:59:04.342Z",
+          "ms": 7787650,
+          "open": false
+        },
+        {
+          "tileIndex": 62,
+          "arrivedAt": "2026-10-17T17:59:04.342Z",
+          "leftAt": "2026-10-18T03:21:45.138Z",
+          "ms": 33760796,
+          "open": false
+        }
+      ],
+      "tileTimes": [
+        {
+          "tileIndex": 9,
+          "taskName": "Recieve an Armadyl Armour Piece",
+          "arrivedAt": "2026-10-16T12:00:54.384Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T15:32:02.431Z",
+          "ms": 12668047,
+          "open": false
+        },
+        {
+          "tileIndex": 10,
+          "taskName": "Obtains Two Moons of Peril Uniques",
+          "arrivedAt": "2026-10-16T15:32:11.124Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T17:22:01.711Z",
+          "ms": 6590587,
+          "open": false
+        },
+        {
+          "tileIndex": 13,
+          "taskName": "Receive 2 Awakeners Orbs",
+          "arrivedAt": "2026-10-16T17:22:23.427Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T17:45:06.801Z",
+          "ms": 1363374,
+          "open": false
+        },
+        {
+          "tileIndex": 15,
+          "taskName": "Receive Any Araxxor Unique",
+          "arrivedAt": "2026-10-16T17:45:28.065Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T20:33:07.915Z",
+          "ms": 10059850,
+          "open": false
+        },
+        {
+          "tileIndex": 19,
+          "taskName": "Recieve any GWD Hilt",
+          "arrivedAt": "2026-10-16T20:33:16.726Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T22:10:20.218Z",
+          "ms": 5823492,
+          "open": false
+        },
+        {
+          "tileIndex": 24,
+          "taskName": "Receive any Crystal from Cerberus",
+          "arrivedAt": "2026-10-16T22:10:39.230Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T22:46:55.692Z",
+          "ms": 2176462,
+          "open": false
+        },
+        {
+          "tileIndex": 26,
+          "taskName": "Obtain a KQ Head (not tattered)",
+          "arrivedAt": "2026-10-16T22:47:03.012Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T00:38:32.766Z",
+          "ms": 6689754,
+          "open": false
+        },
+        {
+          "tileIndex": 32,
+          "taskName": "Receive a Venator Shard",
+          "arrivedAt": "2026-10-17T00:38:49.236Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T01:21:31.632Z",
+          "ms": 2562396,
+          "open": false
+        },
+        {
+          "tileIndex": 34,
+          "taskName": "Receive an Occult Necklace from Thermy",
+          "arrivedAt": "2026-10-17T01:21:58.812Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T02:28:49.429Z",
+          "ms": 4010617,
+          "open": false
+        },
+        {
+          "tileIndex": 38,
+          "taskName": "Any Purple from Cox / Challenge Mode",
+          "arrivedAt": "2026-10-17T02:28:58.831Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T04:12:56.291Z",
+          "ms": 6237460,
+          "open": false
+        },
+        {
+          "tileIndex": 41,
+          "taskName": "Receive a unique from Grotesque Guardians",
+          "arrivedAt": "2026-10-17T04:13:29.193Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T05:27:11.632Z",
+          "ms": 4422439,
+          "open": false
+        },
+        {
+          "tileIndex": 46,
+          "taskName": "Receive 2 Pieces of the Brimstone Ring",
+          "arrivedAt": "2026-10-17T05:27:37.705Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T07:20:52.941Z",
+          "ms": 6795236,
+          "open": false
+        },
+        {
+          "tileIndex": 50,
+          "taskName": "Complete a full Odium or Malediction Shield",
+          "arrivedAt": "2026-10-17T07:21:09.046Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T08:51:28.012Z",
+          "ms": 5418966,
+          "open": false
+        },
+        {
+          "tileIndex": 52,
+          "taskName": "Receive any two different slayer boss uniques",
+          "arrivedAt": "2026-10-17T08:51:36.294Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T11:47:09.711Z",
+          "ms": 10533417,
+          "open": false
+        },
+        {
+          "tileIndex": 57,
+          "taskName": "Receive any Unique Armour Piece from a Raid",
+          "arrivedAt": "2026-10-17T11:47:18.056Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T15:49:09.749Z",
+          "ms": 14511693,
+          "open": false
+        },
+        {
+          "tileIndex": 61,
+          "taskName": "Receive any Jar (excluding Skotizo and Sire)",
+          "arrivedAt": "2026-10-17T15:49:16.692Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T17:58:55.322Z",
+          "ms": 7778630,
+          "open": false
+        },
+        {
+          "tileIndex": 62,
+          "taskName": "Receive any Two Raid Purples from any Raids",
+          "arrivedAt": "2026-10-17T17:59:04.342Z",
+          "completed": true,
+          "submittedAt": "2026-10-18T03:21:16.557Z",
+          "ms": 33732215,
+          "open": false
+        }
+      ],
+      "longestTile": {
+        "tileIndex": 62,
+        "taskName": "Receive any Two Raid Purples from any Raids",
+        "arrivedAt": "2026-10-17T17:59:04.342Z",
+        "completed": true,
+        "submittedAt": "2026-10-18T03:21:16.557Z",
+        "ms": 33732215,
+        "open": false
+      },
+      "fastestTile": {
+        "tileIndex": 13,
+        "taskName": "Receive 2 Awakeners Orbs",
+        "arrivedAt": "2026-10-16T17:22:23.427Z",
+        "completed": true,
+        "submittedAt": "2026-10-16T17:45:06.801Z",
+        "ms": 1363374,
+        "open": false
+      },
+      "path": [
+        {
+          "from": 0,
+          "to": 5,
+          "kind": "roll",
+          "at": "2026-10-16T12:00:54.384Z",
+          "roll": 5,
+          "pity": false
+        },
+        {
+          "from": 5,
+          "to": 9,
+          "kind": "ladder",
+          "at": "2026-10-16T12:00:54.384Z"
+        },
+        {
+          "from": 9,
+          "to": 10,
+          "kind": "roll",
+          "at": "2026-10-16T15:32:11.124Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 10,
+          "to": 13,
+          "kind": "roll",
+          "at": "2026-10-16T17:22:23.427Z",
+          "roll": 3,
+          "pity": false
+        },
+        {
+          "from": 13,
+          "to": 15,
+          "kind": "roll",
+          "at": "2026-10-16T17:45:28.065Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 15,
+          "to": 19,
+          "kind": "roll",
+          "at": "2026-10-16T20:33:16.726Z",
+          "roll": 4,
+          "pity": false
+        },
+        {
+          "from": 19,
+          "to": 24,
+          "kind": "roll",
+          "at": "2026-10-16T22:10:39.230Z",
+          "roll": 5,
+          "pity": false
+        },
+        {
+          "from": 24,
+          "to": 26,
+          "kind": "roll",
+          "at": "2026-10-16T22:47:03.012Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 26,
+          "to": 32,
+          "kind": "roll",
+          "at": "2026-10-17T00:38:49.236Z",
+          "roll": 6,
+          "pity": false
+        },
+        {
+          "from": 32,
+          "to": 34,
+          "kind": "roll",
+          "at": "2026-10-17T01:21:58.812Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 34,
+          "to": 38,
+          "kind": "roll",
+          "at": "2026-10-17T02:28:58.831Z",
+          "roll": 4,
+          "pity": false
+        },
+        {
+          "from": 38,
+          "to": 41,
+          "kind": "roll",
+          "at": "2026-10-17T04:13:29.193Z",
+          "roll": 3,
+          "pity": false
+        },
+        {
+          "from": 41,
+          "to": 46,
+          "kind": "roll",
+          "at": "2026-10-17T05:27:37.705Z",
+          "roll": 5,
+          "pity": false
+        },
+        {
+          "from": 46,
+          "to": 50,
+          "kind": "roll",
+          "at": "2026-10-17T07:21:09.046Z",
+          "roll": 4,
+          "pity": false
+        },
+        {
+          "from": 50,
+          "to": 52,
+          "kind": "roll",
+          "at": "2026-10-17T08:51:36.294Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 52,
+          "to": 53,
+          "kind": "roll",
+          "at": "2026-10-17T11:47:18.056Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 53,
+          "to": 57,
+          "kind": "ladder",
+          "at": "2026-10-17T11:47:18.056Z"
+        },
+        {
+          "from": 57,
+          "to": 61,
+          "kind": "roll",
+          "at": "2026-10-17T15:49:16.692Z",
+          "roll": 4,
+          "pity": false
+        },
+        {
+          "from": 61,
+          "to": 62,
+          "kind": "roll",
+          "at": "2026-10-17T17:59:04.342Z",
+          "roll": 1,
+          "pity": false
+        }
+      ],
+      "rolls": {
+        "count": 17,
+        "sum": 54,
+        "average": 3.176470588235294,
+        "expected": 3.5,
+        "histogram": [
+          3,
+          4,
+          2,
+          4,
+          3,
+          1
+        ],
+        "pityCount": 0,
+        "pityHistogram": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "luck": {
+        "tiles": 2.5,
+        "dice": -5.5,
+        "ladders": 8,
+        "snakes": 0
+      },
+      "climb": {
+        "tiles": 32.5,
+        "gained": 51,
+        "field": 18.5,
+        "fromTile": 10,
+        "toTile": 61,
+        "fromRank": 8,
+        "toRank": 1,
+        "from": "2026-10-16T17:22:23.427Z",
+        "to": "2026-10-17T15:49:16.692Z",
+        "ms": 80813265
+      },
+      "rollers": [
+        {
+          "key": "r1",
+          "name": "PSO Pokie",
+          "count": 5,
+          "sum": 11,
+          "average": 2.2,
+          "expected": 3.5,
+          "histogram": [
+            2,
+            2,
+            0,
+            0,
+            1,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r27",
+          "name": "MarshalRS",
+          "count": 7,
+          "sum": 23,
+          "average": 3.2857142857142856,
+          "expected": 3.5,
+          "histogram": [
+            1,
+            1,
+            1,
+            3,
+            1,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r29",
+          "name": "Had Enough",
+          "count": 1,
+          "sum": 4,
+          "average": 4,
+          "expected": 3.5,
+          "histogram": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r32",
+          "name": "Nice Brain",
+          "count": 4,
+          "sum": 16,
+          "average": 4,
+          "expected": 3.5,
+          "histogram": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "snakesHit": 0,
+      "laddersHit": 2,
+      "biggestLadder": {
+        "from": 5,
+        "to": 9,
+        "length": 4,
+        "at": "2026-10-16T12:00:54.384Z"
+      },
+      "biggestSnake": null,
+      "score": null
+    },
+    {
+      "key": "t2",
+      "rank": 2,
+      "name": "Astro’s G Spot",
+      "icon": "icons/t2.png",
+      "finished": true,
+      "finishedAt": "2026-10-18T21:08:33.475Z",
+      "position": 62,
+      "timeSpentMs": 205662080,
+      "tilesCompleted": [
+        {
+          "tileIndex": 6,
+          "taskName": "Recieve a Vorkath Head",
+          "completedAt": "2026-10-16T12:26:24.519Z"
+        },
+        {
+          "tileIndex": 9,
+          "taskName": "Recieve an Armadyl Armour Piece",
+          "completedAt": "2026-10-16T13:09:03.310Z"
+        },
+        {
+          "tileIndex": 4,
+          "taskName": "Obtain a Zamorakian Spear",
+          "completedAt": "2026-10-16T14:48:52.760Z"
+        },
+        {
+          "tileIndex": 10,
+          "taskName": "Obtains Two Moons of Peril Uniques",
+          "completedAt": "2026-10-16T15:19:17.565Z"
+        },
+        {
+          "tileIndex": 11,
+          "taskName": "Receive a piece of the Abyssal Bludgeon",
+          "completedAt": "2026-10-16T16:51:54.489Z"
+        },
+        {
+          "tileIndex": 13,
+          "taskName": "Receive 2 Awakeners Orbs",
+          "completedAt": "2026-10-16T19:35:05.414Z"
+        },
+        {
+          "tileIndex": 14,
+          "taskName": "Receive an Element Staff Crown from Royal Titans",
+          "completedAt": "2026-10-16T20:48:13.530Z"
+        },
+        {
+          "tileIndex": 19,
+          "taskName": "Recieve any GWD Hilt",
+          "completedAt": "2026-10-16T21:27:33.502Z"
+        },
+        {
+          "tileIndex": 23,
+          "taskName": "Obtain a Hallowfell from the Mad Angel",
+          "completedAt": "2026-10-16T22:15:19.021Z"
+        },
+        {
+          "tileIndex": 27,
+          "taskName": "Receive any Nex Unique",
+          "completedAt": "2026-10-16T23:00:09.109Z"
+        },
+        {
+          "tileIndex": 33,
+          "taskName": "Receive any 3 vestige rolls from DT2 Bosses",
+          "completedAt": "2026-10-17T15:52:54.479Z"
+        },
+        {
+          "tileIndex": 39,
+          "taskName": "Two Different Uniques from the Major Wilderness Bosses / Singles Variants",
+          "completedAt": "2026-10-17T17:55:35.926Z"
+        },
+        {
+          "tileIndex": 41,
+          "taskName": "Receive a unique from Grotesque Guardians",
+          "completedAt": "2026-10-17T17:57:21.232Z"
+        },
+        {
+          "tileIndex": 46,
+          "taskName": "Receive 2 Pieces of the Brimstone Ring",
+          "completedAt": "2026-10-17T19:37:26.347Z"
+        },
+        {
+          "tileIndex": 51,
+          "taskName": "Receive any unique from the Maggot King",
+          "completedAt": "2026-10-17T20:14:49.551Z"
+        },
+        {
+          "tileIndex": 54,
+          "taskName": "Obtain Oathplate Armour or a Soulflame Horn from Yama (not from a contract)",
+          "completedAt": "2026-10-17T23:20:00.966Z"
+        },
+        {
+          "tileIndex": 56,
+          "taskName": "Receive a Purple from the Theatre of Blood",
+          "completedAt": "2026-10-18T00:58:55.399Z"
+        },
+        {
+          "tileIndex": 57,
+          "taskName": "Receive any Unique Armour Piece from a Raid",
+          "completedAt": "2026-10-18T02:47:42.054Z"
+        },
+        {
+          "tileIndex": 61,
+          "taskName": "Receive any Jar (excluding Skotizo and Sire)",
+          "completedAt": "2026-10-18T19:20:15.130Z"
+        },
+        {
+          "tileIndex": 62,
+          "taskName": "Receive any Two Raid Purples from any Raids",
+          "completedAt": "2026-10-18T21:08:33.012Z"
+        }
+      ],
+      "visits": [
+        {
+          "tileIndex": 6,
+          "arrivedAt": "2026-10-16T12:01:10.296Z",
+          "leftAt": "2026-10-16T12:26:10.715Z",
+          "ms": 1500419,
+          "open": false
+        },
+        {
+          "tileIndex": 9,
+          "arrivedAt": "2026-10-16T12:26:10.715Z",
+          "leftAt": "2026-10-16T13:08:44.636Z",
+          "ms": 2553921,
+          "open": false
+        },
+        {
+          "tileIndex": 4,
+          "arrivedAt": "2026-10-16T13:08:44.636Z",
+          "leftAt": "2026-10-16T14:48:53.021Z",
+          "ms": 6008385,
+          "open": false
+        },
+        {
+          "tileIndex": 10,
+          "arrivedAt": "2026-10-16T14:48:53.021Z",
+          "leftAt": "2026-10-16T15:18:10.210Z",
+          "ms": 1757189,
+          "open": false
+        },
+        {
+          "tileIndex": 11,
+          "arrivedAt": "2026-10-16T15:18:10.210Z",
+          "leftAt": "2026-10-16T16:51:05.928Z",
+          "ms": 5575718,
+          "open": false
+        },
+        {
+          "tileIndex": 13,
+          "arrivedAt": "2026-10-16T16:51:05.928Z",
+          "leftAt": "2026-10-16T19:32:47.743Z",
+          "ms": 9701815,
+          "open": false
+        },
+        {
+          "tileIndex": 14,
+          "arrivedAt": "2026-10-16T19:32:47.743Z",
+          "leftAt": "2026-10-16T20:43:01.413Z",
+          "ms": 4213670,
+          "open": false
+        },
+        {
+          "tileIndex": 19,
+          "arrivedAt": "2026-10-16T20:43:01.413Z",
+          "leftAt": "2026-10-16T21:27:26.667Z",
+          "ms": 2665254,
+          "open": false
+        },
+        {
+          "tileIndex": 23,
+          "arrivedAt": "2026-10-16T21:27:26.667Z",
+          "leftAt": "2026-10-16T22:14:01.356Z",
+          "ms": 2794689,
+          "open": false
+        },
+        {
+          "tileIndex": 27,
+          "arrivedAt": "2026-10-16T22:14:01.356Z",
+          "leftAt": "2026-10-16T23:00:17.352Z",
+          "ms": 2775996,
+          "open": false
+        },
+        {
+          "tileIndex": 33,
+          "arrivedAt": "2026-10-16T23:00:17.352Z",
+          "leftAt": "2026-10-17T15:48:37.365Z",
+          "ms": 60500013,
+          "open": false
+        },
+        {
+          "tileIndex": 39,
+          "arrivedAt": "2026-10-17T15:48:37.365Z",
+          "leftAt": "2026-10-17T17:19:02.781Z",
+          "ms": 5425416,
+          "open": false
+        },
+        {
+          "tileIndex": 41,
+          "arrivedAt": "2026-10-17T17:19:02.781Z",
+          "leftAt": "2026-10-17T17:35:39.169Z",
+          "ms": 996388,
+          "open": false
+        },
+        {
+          "tileIndex": 46,
+          "arrivedAt": "2026-10-17T17:35:39.169Z",
+          "leftAt": "2026-10-17T19:25:44.338Z",
+          "ms": 6605169,
+          "open": false
+        },
+        {
+          "tileIndex": 51,
+          "arrivedAt": "2026-10-17T19:25:44.338Z",
+          "leftAt": "2026-10-17T19:46:34.262Z",
+          "ms": 1249924,
+          "open": false
+        },
+        {
+          "tileIndex": 54,
+          "arrivedAt": "2026-10-17T19:46:34.262Z",
+          "leftAt": "2026-10-17T23:17:20.905Z",
+          "ms": 12646643,
+          "open": false
+        },
+        {
+          "tileIndex": 56,
+          "arrivedAt": "2026-10-17T23:17:20.905Z",
+          "leftAt": "2026-10-18T00:57:17.232Z",
+          "ms": 5996327,
+          "open": false
+        },
+        {
+          "tileIndex": 57,
+          "arrivedAt": "2026-10-18T00:57:17.232Z",
+          "leftAt": "2026-10-18T02:46:29.037Z",
+          "ms": 6551805,
+          "open": false
+        },
+        {
+          "tileIndex": 61,
+          "arrivedAt": "2026-10-18T02:46:29.037Z",
+          "leftAt": "2026-10-18T19:16:19.673Z",
+          "ms": 59390636,
+          "open": false
+        },
+        {
+          "tileIndex": 62,
+          "arrivedAt": "2026-10-18T19:16:19.673Z",
+          "leftAt": "2026-10-18T21:08:33.475Z",
+          "ms": 6733802,
+          "open": false
+        }
+      ],
+      "tileTimes": [
+        {
+          "tileIndex": 6,
+          "taskName": "Recieve a Vorkath Head",
+          "arrivedAt": "2026-10-16T12:01:10.296Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T12:25:56.301Z",
+          "ms": 1486005,
+          "open": false
+        },
+        {
+          "tileIndex": 9,
+          "taskName": "Recieve an Armadyl Armour Piece",
+          "arrivedAt": "2026-10-16T12:26:10.715Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T13:08:33.365Z",
+          "ms": 2542650,
+          "open": false
+        },
+        {
+          "tileIndex": 4,
+          "taskName": "Obtain a Zamorakian Spear",
+          "arrivedAt": "2026-10-16T13:08:44.636Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T14:48:33.467Z",
+          "ms": 5988831,
+          "open": false
+        },
+        {
+          "tileIndex": 10,
+          "taskName": "Obtains Two Moons of Peril Uniques",
+          "arrivedAt": "2026-10-16T14:48:53.021Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T15:18:01.121Z",
+          "ms": 1748100,
+          "open": false
+        },
+        {
+          "tileIndex": 11,
+          "taskName": "Receive a piece of the Abyssal Bludgeon",
+          "arrivedAt": "2026-10-16T15:18:10.210Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T16:50:45.672Z",
+          "ms": 5555462,
+          "open": false
+        },
+        {
+          "tileIndex": 13,
+          "taskName": "Receive 2 Awakeners Orbs",
+          "arrivedAt": "2026-10-16T16:51:05.928Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T19:32:34.586Z",
+          "ms": 9688658,
+          "open": false
+        },
+        {
+          "tileIndex": 14,
+          "taskName": "Receive an Element Staff Crown from Royal Titans",
+          "arrivedAt": "2026-10-16T19:32:47.743Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T20:42:41.723Z",
+          "ms": 4193980,
+          "open": false
+        },
+        {
+          "tileIndex": 19,
+          "taskName": "Recieve any GWD Hilt",
+          "arrivedAt": "2026-10-16T20:43:01.413Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T21:27:11.062Z",
+          "ms": 2649649,
+          "open": false
+        },
+        {
+          "tileIndex": 23,
+          "taskName": "Obtain a Hallowfell from the Mad Angel",
+          "arrivedAt": "2026-10-16T21:27:26.667Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T22:13:15.733Z",
+          "ms": 2749066,
+          "open": false
+        },
+        {
+          "tileIndex": 27,
+          "taskName": "Receive any Nex Unique",
+          "arrivedAt": "2026-10-16T22:14:01.356Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T22:59:46.760Z",
+          "ms": 2745404,
+          "open": false
+        },
+        {
+          "tileIndex": 33,
+          "taskName": "Receive any 3 vestige rolls from DT2 Bosses",
+          "arrivedAt": "2026-10-16T23:00:17.352Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T15:48:28.567Z",
+          "ms": 60491215,
+          "open": false
+        },
+        {
+          "tileIndex": 39,
+          "taskName": "Two Different Uniques from the Major Wilderness Bosses / Singles Variants",
+          "arrivedAt": "2026-10-17T15:48:37.365Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T17:18:45.623Z",
+          "ms": 5408258,
+          "open": false
+        },
+        {
+          "tileIndex": 41,
+          "taskName": "Receive a unique from Grotesque Guardians",
+          "arrivedAt": "2026-10-17T17:19:02.781Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T17:34:47.330Z",
+          "ms": 944549,
+          "open": false
+        },
+        {
+          "tileIndex": 46,
+          "taskName": "Receive 2 Pieces of the Brimstone Ring",
+          "arrivedAt": "2026-10-17T17:35:39.169Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T19:25:31.576Z",
+          "ms": 6592407,
+          "open": false
+        },
+        {
+          "tileIndex": 51,
+          "taskName": "Receive any unique from the Maggot King",
+          "arrivedAt": "2026-10-17T19:25:44.338Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T19:46:17.633Z",
+          "ms": 1233295,
+          "open": false
+        },
+        {
+          "tileIndex": 54,
+          "taskName": "Obtain Oathplate Armour or a Soulflame Horn from Yama (not from a contract)",
+          "arrivedAt": "2026-10-17T19:46:34.262Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T23:17:04.123Z",
+          "ms": 12629861,
+          "open": false
+        },
+        {
+          "tileIndex": 56,
+          "taskName": "Receive a Purple from the Theatre of Blood",
+          "arrivedAt": "2026-10-17T23:17:20.905Z",
+          "completed": true,
+          "submittedAt": "2026-10-18T00:56:48.970Z",
+          "ms": 5968065,
+          "open": false
+        },
+        {
+          "tileIndex": 57,
+          "taskName": "Receive any Unique Armour Piece from a Raid",
+          "arrivedAt": "2026-10-18T00:57:17.232Z",
+          "completed": true,
+          "submittedAt": "2026-10-18T02:46:11.191Z",
+          "ms": 6533959,
+          "open": false
+        },
+        {
+          "tileIndex": 61,
+          "taskName": "Receive any Jar (excluding Skotizo and Sire)",
+          "arrivedAt": "2026-10-18T02:46:29.037Z",
+          "completed": true,
+          "submittedAt": "2026-10-18T19:16:09.803Z",
+          "ms": 59380766,
+          "open": false
+        },
+        {
+          "tileIndex": 62,
+          "taskName": "Receive any Two Raid Purples from any Raids",
+          "arrivedAt": "2026-10-18T19:16:19.673Z",
+          "completed": true,
+          "submittedAt": "2026-10-18T21:05:39.456Z",
+          "ms": 6559783,
+          "open": false
+        }
+      ],
+      "longestTile": {
+        "tileIndex": 33,
+        "taskName": "Receive any 3 vestige rolls from DT2 Bosses",
+        "arrivedAt": "2026-10-16T23:00:17.352Z",
+        "completed": true,
+        "submittedAt": "2026-10-17T15:48:28.567Z",
+        "ms": 60491215,
+        "open": false
+      },
+      "fastestTile": {
+        "tileIndex": 41,
+        "taskName": "Receive a unique from Grotesque Guardians",
+        "arrivedAt": "2026-10-17T17:19:02.781Z",
+        "completed": true,
+        "submittedAt": "2026-10-17T17:34:47.330Z",
+        "ms": 944549,
+        "open": false
+      },
+      "path": [
+        {
+          "from": 0,
+          "to": 6,
+          "kind": "roll",
+          "at": "2026-10-16T12:01:10.296Z",
+          "roll": 6,
+          "pity": false
+        },
+        {
+          "from": 6,
+          "to": 9,
+          "kind": "roll",
+          "at": "2026-10-16T12:26:10.715Z",
+          "roll": 3,
+          "pity": false
+        },
+        {
+          "from": 9,
+          "to": 12,
+          "kind": "roll",
+          "at": "2026-10-16T13:08:44.636Z",
+          "roll": 3,
+          "pity": false
+        },
+        {
+          "from": 12,
+          "to": 4,
+          "kind": "snake",
+          "at": "2026-10-16T13:08:44.636Z"
+        },
+        {
+          "from": 4,
+          "to": 10,
+          "kind": "roll",
+          "at": "2026-10-16T14:48:53.021Z",
+          "roll": 6,
+          "pity": false
+        },
+        {
+          "from": 10,
+          "to": 11,
+          "kind": "roll",
+          "at": "2026-10-16T15:18:10.210Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 11,
+          "to": 13,
+          "kind": "roll",
+          "at": "2026-10-16T16:51:05.928Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 13,
+          "to": 14,
+          "kind": "roll",
+          "at": "2026-10-16T19:32:47.743Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 14,
+          "to": 19,
+          "kind": "roll",
+          "at": "2026-10-16T20:43:01.413Z",
+          "roll": 5,
+          "pity": false
+        },
+        {
+          "from": 19,
+          "to": 23,
+          "kind": "roll",
+          "at": "2026-10-16T21:27:26.667Z",
+          "roll": 4,
+          "pity": false
+        },
+        {
+          "from": 23,
+          "to": 27,
+          "kind": "roll",
+          "at": "2026-10-16T22:14:01.356Z",
+          "roll": 4,
+          "pity": false
+        },
+        {
+          "from": 27,
+          "to": 30,
+          "kind": "roll",
+          "at": "2026-10-16T23:00:17.352Z",
+          "roll": 3,
+          "pity": false
+        },
+        {
+          "from": 30,
+          "to": 33,
+          "kind": "ladder",
+          "at": "2026-10-16T23:00:17.352Z"
+        },
+        {
+          "from": 33,
+          "to": 39,
+          "kind": "roll",
+          "at": "2026-10-17T15:48:37.365Z",
+          "roll": 6,
+          "pity": false
+        },
+        {
+          "from": 39,
+          "to": 41,
+          "kind": "roll",
+          "at": "2026-10-17T17:19:02.781Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 41,
+          "to": 46,
+          "kind": "roll",
+          "at": "2026-10-17T17:35:39.169Z",
+          "roll": 5,
+          "pity": false
+        },
+        {
+          "from": 46,
+          "to": 51,
+          "kind": "roll",
+          "at": "2026-10-17T19:25:44.338Z",
+          "roll": 5,
+          "pity": false
+        },
+        {
+          "from": 51,
+          "to": 54,
+          "kind": "roll",
+          "at": "2026-10-17T19:46:34.262Z",
+          "roll": 3,
+          "pity": false
+        },
+        {
+          "from": 54,
+          "to": 56,
+          "kind": "roll",
+          "at": "2026-10-17T23:17:20.905Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 56,
+          "to": 57,
+          "kind": "roll",
+          "at": "2026-10-18T00:57:17.232Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 57,
+          "to": 61,
+          "kind": "roll",
+          "at": "2026-10-18T02:46:29.037Z",
+          "roll": 4,
+          "pity": false
+        },
+        {
+          "from": 61,
+          "to": 62,
+          "kind": "roll",
+          "at": "2026-10-18T19:16:19.673Z",
+          "roll": 3,
+          "pity": false
+        }
+      ],
+      "rolls": {
+        "count": 20,
+        "sum": 69,
+        "average": 3.45,
+        "expected": 3.5,
+        "histogram": [
+          3,
+          3,
+          5,
+          3,
+          3,
+          3
+        ],
+        "pityCount": 0,
+        "pityHistogram": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "luck": {
+        "tiles": -6,
+        "dice": -1,
+        "ladders": 3,
+        "snakes": 8
+      },
+      "climb": {
+        "tiles": 22.5,
+        "gained": 28,
+        "field": 5.5,
+        "fromTile": 33,
+        "toTile": 61,
+        "fromRank": 6,
+        "toRank": 2,
+        "from": "2026-10-17T15:48:37.365Z",
+        "to": "2026-10-18T02:46:29.037Z",
+        "ms": 39471672
+      },
+      "rollers": [
+        {
+          "key": "r6",
+          "name": "PapaShlump",
+          "count": 14,
+          "sum": 48,
+          "average": 3.4285714285714284,
+          "expected": 3.5,
+          "histogram": [
+            3,
+            3,
+            1,
+            2,
+            2,
+            3
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r14",
+          "name": "Astro",
+          "count": 2,
+          "sum": 8,
+          "average": 4,
+          "expected": 3.5,
+          "histogram": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r21",
+          "name": "AngryQ",
+          "count": 2,
+          "sum": 6,
+          "average": 3,
+          "expected": 3.5,
+          "histogram": [
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r33",
+          "name": "Giddy Yup",
+          "count": 2,
+          "sum": 7,
+          "average": 3.5,
+          "expected": 3.5,
+          "histogram": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "snakesHit": 1,
+      "laddersHit": 1,
+      "biggestLadder": {
+        "from": 30,
+        "to": 33,
+        "length": 3,
+        "at": "2026-10-16T23:00:17.352Z"
+      },
+      "biggestSnake": {
+        "from": 12,
+        "to": 4,
+        "length": 8,
+        "at": "2026-10-16T13:08:44.636Z"
+      },
+      "score": null
+    },
+    {
+      "key": "t3",
+      "rank": 3,
+      "name": "Ladderally Aware",
+      "icon": "icons/t3.png",
+      "finished": false,
+      "finishedAt": null,
+      "position": 62,
+      "timeSpentMs": 206348605,
+      "tilesCompleted": [
+        {
+          "tileIndex": 3,
+          "taskName": "Create a Tentacle whip from scratch",
+          "completedAt": "2026-10-16T13:01:25.458Z"
+        },
+        {
+          "tileIndex": 4,
+          "taskName": "Obtain a Zamorakian Spear",
+          "completedAt": "2026-10-16T14:12:53.989Z"
+        },
+        {
+          "tileIndex": 9,
+          "taskName": "Recieve an Armadyl Armour Piece",
+          "completedAt": "2026-10-16T15:04:12.906Z"
+        },
+        {
+          "tileIndex": 15,
+          "taskName": "Receive Any Araxxor Unique",
+          "completedAt": "2026-10-16T16:51:04.473Z"
+        },
+        {
+          "tileIndex": 27,
+          "taskName": "Receive any Nex Unique",
+          "completedAt": "2026-10-16T18:00:25.118Z"
+        },
+        {
+          "tileIndex": 31,
+          "taskName": "Receive a Lightbearer or Osmumtens Fang from Tombs of Amascut",
+          "completedAt": "2026-10-17T05:37:33.426Z"
+        },
+        {
+          "tileIndex": 33,
+          "taskName": "Receive any 3 vestige rolls from DT2 Bosses",
+          "completedAt": "2026-10-17T11:31:55.942Z"
+        },
+        {
+          "tileIndex": 38,
+          "taskName": "Any Purple from Cox / Challenge Mode",
+          "completedAt": "2026-10-17T13:28:01.045Z"
+        },
+        {
+          "tileIndex": 44,
+          "taskName": "Receive a Bandos Hilt or Bandos Boots",
+          "completedAt": "2026-10-17T15:45:31.770Z"
+        },
+        {
+          "tileIndex": 48,
+          "taskName": "Receive a Unique from the Colosseum",
+          "completedAt": "2026-10-17T16:15:57.990Z"
+        },
+        {
+          "tileIndex": 52,
+          "taskName": "Receive any two different slayer boss uniques",
+          "completedAt": "2026-10-17T17:56:25.327Z"
+        },
+        {
+          "tileIndex": 57,
+          "taskName": "Receive any Unique Armour Piece from a Raid",
+          "completedAt": "2026-10-18T16:00:37.527Z"
+        }
+      ],
+      "visits": [
+        {
+          "tileIndex": 3,
+          "arrivedAt": "2026-10-16T12:01:52.024Z",
+          "leftAt": "2026-10-16T13:01:26.964Z",
+          "ms": 3574940,
+          "open": false
+        },
+        {
+          "tileIndex": 4,
+          "arrivedAt": "2026-10-16T13:01:26.964Z",
+          "leftAt": "2026-10-16T14:12:19.884Z",
+          "ms": 4252920,
+          "open": false
+        },
+        {
+          "tileIndex": 9,
+          "arrivedAt": "2026-10-16T14:12:19.884Z",
+          "leftAt": "2026-10-16T15:04:14.100Z",
+          "ms": 3114216,
+          "open": false
+        },
+        {
+          "tileIndex": 15,
+          "arrivedAt": "2026-10-16T15:04:14.100Z",
+          "leftAt": "2026-10-16T16:50:57.581Z",
+          "ms": 6403481,
+          "open": false
+        },
+        {
+          "tileIndex": 27,
+          "arrivedAt": "2026-10-16T16:50:57.581Z",
+          "leftAt": "2026-10-16T17:54:50.592Z",
+          "ms": 3833011,
+          "open": false
+        },
+        {
+          "tileIndex": 31,
+          "arrivedAt": "2026-10-16T17:54:50.592Z",
+          "leftAt": "2026-10-17T05:37:13.792Z",
+          "ms": 42143200,
+          "open": false
+        },
+        {
+          "tileIndex": 33,
+          "arrivedAt": "2026-10-17T05:37:13.792Z",
+          "leftAt": "2026-10-17T11:25:31.778Z",
+          "ms": 20897986,
+          "open": false
+        },
+        {
+          "tileIndex": 38,
+          "arrivedAt": "2026-10-17T11:25:31.778Z",
+          "leftAt": "2026-10-17T13:27:53.925Z",
+          "ms": 7342147,
+          "open": false
+        },
+        {
+          "tileIndex": 44,
+          "arrivedAt": "2026-10-17T13:27:53.925Z",
+          "leftAt": "2026-10-17T15:32:52.624Z",
+          "ms": 7498699,
+          "open": false
+        },
+        {
+          "tileIndex": 48,
+          "arrivedAt": "2026-10-17T15:32:52.624Z",
+          "leftAt": "2026-10-17T16:05:10.476Z",
+          "ms": 1937852,
+          "open": false
+        },
+        {
+          "tileIndex": 52,
+          "arrivedAt": "2026-10-17T16:05:10.476Z",
+          "leftAt": "2026-10-17T17:30:30.515Z",
+          "ms": 5120039,
+          "open": false
+        },
+        {
+          "tileIndex": 57,
+          "arrivedAt": "2026-10-17T17:30:30.515Z",
+          "leftAt": "2026-10-18T15:59:27.224Z",
+          "ms": 80936709,
+          "open": false
+        },
+        {
+          "tileIndex": 62,
+          "arrivedAt": "2026-10-18T15:59:27.224Z",
+          "leftAt": "2026-10-18T21:20:00.000Z",
+          "ms": 19232776,
+          "open": true
+        }
+      ],
+      "tileTimes": [
+        {
+          "tileIndex": 3,
+          "taskName": "Create a Tentacle whip from scratch",
+          "arrivedAt": "2026-10-16T12:01:52.024Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T13:00:47.131Z",
+          "ms": 3535107,
+          "open": false
+        },
+        {
+          "tileIndex": 4,
+          "taskName": "Obtain a Zamorakian Spear",
+          "arrivedAt": "2026-10-16T13:01:26.964Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T14:11:49.627Z",
+          "ms": 4222663,
+          "open": false
+        },
+        {
+          "tileIndex": 9,
+          "taskName": "Recieve an Armadyl Armour Piece",
+          "arrivedAt": "2026-10-16T14:12:19.884Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T15:03:59.388Z",
+          "ms": 3099504,
+          "open": false
+        },
+        {
+          "tileIndex": 15,
+          "taskName": "Receive Any Araxxor Unique",
+          "arrivedAt": "2026-10-16T15:04:14.100Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T16:50:34.503Z",
+          "ms": 6380403,
+          "open": false
+        },
+        {
+          "tileIndex": 27,
+          "taskName": "Receive any Nex Unique",
+          "arrivedAt": "2026-10-16T16:50:57.581Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T17:54:32.606Z",
+          "ms": 3815025,
+          "open": false
+        },
+        {
+          "tileIndex": 31,
+          "taskName": "Receive a Lightbearer or Osmumtens Fang from Tombs of Amascut",
+          "arrivedAt": "2026-10-16T17:54:50.592Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T05:37:07.222Z",
+          "ms": 42136630,
+          "open": false
+        },
+        {
+          "tileIndex": 33,
+          "taskName": "Receive any 3 vestige rolls from DT2 Bosses",
+          "arrivedAt": "2026-10-17T05:37:13.792Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T11:25:02.384Z",
+          "ms": 20868592,
+          "open": false
+        },
+        {
+          "tileIndex": 38,
+          "taskName": "Any Purple from Cox / Challenge Mode",
+          "arrivedAt": "2026-10-17T11:25:31.778Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T13:27:43.792Z",
+          "ms": 7332014,
+          "open": false
+        },
+        {
+          "tileIndex": 44,
+          "taskName": "Receive a Bandos Hilt or Bandos Boots",
+          "arrivedAt": "2026-10-17T13:27:53.925Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T15:32:32.788Z",
+          "ms": 7478863,
+          "open": false
+        },
+        {
+          "tileIndex": 48,
+          "taskName": "Receive a Unique from the Colosseum",
+          "arrivedAt": "2026-10-17T15:32:52.624Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T16:05:00.924Z",
+          "ms": 1928300,
+          "open": false
+        },
+        {
+          "tileIndex": 52,
+          "taskName": "Receive any two different slayer boss uniques",
+          "arrivedAt": "2026-10-17T16:05:10.476Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T17:30:11.481Z",
+          "ms": 5101005,
+          "open": false
+        },
+        {
+          "tileIndex": 57,
+          "taskName": "Receive any Unique Armour Piece from a Raid",
+          "arrivedAt": "2026-10-17T17:30:30.515Z",
+          "completed": true,
+          "submittedAt": "2026-10-18T15:59:23.631Z",
+          "ms": 80933116,
+          "open": false
+        },
+        {
+          "tileIndex": 62,
+          "taskName": "Receive any Two Raid Purples from any Raids",
+          "arrivedAt": "2026-10-18T15:59:27.224Z",
+          "completed": false,
+          "submittedAt": null,
+          "ms": 19232776,
+          "open": true
+        }
+      ],
+      "longestTile": {
+        "tileIndex": 57,
+        "taskName": "Receive any Unique Armour Piece from a Raid",
+        "arrivedAt": "2026-10-17T17:30:30.515Z",
+        "completed": true,
+        "submittedAt": "2026-10-18T15:59:23.631Z",
+        "ms": 80933116,
+        "open": false
+      },
+      "fastestTile": {
+        "tileIndex": 48,
+        "taskName": "Receive a Unique from the Colosseum",
+        "arrivedAt": "2026-10-17T15:32:52.624Z",
+        "completed": true,
+        "submittedAt": "2026-10-17T16:05:00.924Z",
+        "ms": 1928300,
+        "open": false
+      },
+      "path": [
+        {
+          "from": 0,
+          "to": 3,
+          "kind": "roll",
+          "at": "2026-10-16T12:01:52.024Z",
+          "roll": 3,
+          "pity": false
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "kind": "roll",
+          "at": "2026-10-16T13:01:26.964Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "kind": "roll",
+          "at": "2026-10-16T14:12:19.884Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 5,
+          "to": 9,
+          "kind": "ladder",
+          "at": "2026-10-16T14:12:19.884Z"
+        },
+        {
+          "from": 9,
+          "to": 15,
+          "kind": "roll",
+          "at": "2026-10-16T15:04:14.100Z",
+          "roll": 6,
+          "pity": false
+        },
+        {
+          "from": 15,
+          "to": 18,
+          "kind": "roll",
+          "at": "2026-10-16T16:50:57.581Z",
+          "roll": 3,
+          "pity": false
+        },
+        {
+          "from": 18,
+          "to": 27,
+          "kind": "ladder",
+          "at": "2026-10-16T16:50:57.581Z"
+        },
+        {
+          "from": 27,
+          "to": 31,
+          "kind": "roll",
+          "at": "2026-10-16T17:54:50.592Z",
+          "roll": 4,
+          "pity": false
+        },
+        {
+          "from": 31,
+          "to": 33,
+          "kind": "roll",
+          "at": "2026-10-17T05:37:13.792Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 33,
+          "to": 38,
+          "kind": "roll",
+          "at": "2026-10-17T11:25:31.778Z",
+          "roll": 5,
+          "pity": false
+        },
+        {
+          "from": 38,
+          "to": 44,
+          "kind": "roll",
+          "at": "2026-10-17T13:27:53.925Z",
+          "roll": 6,
+          "pity": false
+        },
+        {
+          "from": 44,
+          "to": 48,
+          "kind": "roll",
+          "at": "2026-10-17T15:32:52.624Z",
+          "roll": 4,
+          "pity": false
+        },
+        {
+          "from": 48,
+          "to": 52,
+          "kind": "roll",
+          "at": "2026-10-17T16:05:10.476Z",
+          "roll": 4,
+          "pity": false
+        },
+        {
+          "from": 52,
+          "to": 53,
+          "kind": "roll",
+          "at": "2026-10-17T17:30:30.515Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 53,
+          "to": 57,
+          "kind": "ladder",
+          "at": "2026-10-17T17:30:30.515Z"
+        },
+        {
+          "from": 57,
+          "to": 62,
+          "kind": "roll",
+          "at": "2026-10-18T15:59:27.224Z",
+          "roll": 5,
+          "pity": false
+        }
+      ],
+      "rolls": {
+        "count": 13,
+        "sum": 45,
+        "average": 3.4615384615384617,
+        "expected": 3.5,
+        "histogram": [
+          3,
+          1,
+          2,
+          3,
+          2,
+          2
+        ],
+        "pityCount": 0,
+        "pityHistogram": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "luck": {
+        "tiles": 16.5,
+        "dice": -0.5,
+        "ladders": 17,
+        "snakes": 0
+      },
+      "climb": {
+        "tiles": 16.5,
+        "gained": 40,
+        "field": 23.5,
+        "fromTile": 4,
+        "toTile": 44,
+        "fromRank": 9,
+        "toRank": 2,
+        "from": "2026-10-16T14:12:19.884Z",
+        "to": "2026-10-17T13:27:53.925Z",
+        "ms": 83734041
+      },
+      "rollers": [
+        {
+          "key": "r9",
+          "name": "PopInSmoke",
+          "count": 4,
+          "sum": 14,
+          "average": 3.5,
+          "expected": 3.5,
+          "histogram": [
+            0,
+            1,
+            2,
+            0,
+            0,
+            1
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r19",
+          "name": "Some Solace | Brief Solace",
+          "count": 4,
+          "sum": 12,
+          "average": 3,
+          "expected": 3.5,
+          "histogram": [
+            2,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r25",
+          "name": "Mercenary",
+          "count": 5,
+          "sum": 19,
+          "average": 3.8,
+          "expected": 3.5,
+          "histogram": [
+            1,
+            0,
+            0,
+            2,
+            2,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "snakesHit": 0,
+      "laddersHit": 3,
+      "biggestLadder": {
+        "from": 18,
+        "to": 27,
+        "length": 9,
+        "at": "2026-10-16T16:50:57.581Z"
+      },
+      "biggestSnake": null,
+      "score": null
+    },
+    {
+      "key": "t4",
+      "rank": 4,
+      "name": "Nex Offenders",
+      "icon": "icons/t4.png",
+      "finished": false,
+      "finishedAt": null,
+      "position": 57,
+      "timeSpentMs": 206348605,
+      "tilesCompleted": [
+        {
+          "tileIndex": 2,
+          "taskName": "Obtain a Black mask",
+          "completedAt": "2026-10-16T13:00:13.297Z"
+        },
+        {
+          "tileIndex": 3,
+          "taskName": "Create a Tentacle whip from scratch",
+          "completedAt": "2026-10-16T16:45:28.903Z"
+        },
+        {
+          "tileIndex": 4,
+          "taskName": "Obtain a Zamorakian Spear",
+          "completedAt": "2026-10-16T22:15:01.401Z"
+        },
+        {
+          "tileIndex": 6,
+          "taskName": "Recieve a Vorkath Head",
+          "completedAt": "2026-10-17T11:10:18.810Z"
+        },
+        {
+          "tileIndex": 7,
+          "taskName": "Recieve 3 Unique DK's Rings",
+          "completedAt": "2026-10-17T15:45:12.381Z"
+        },
+        {
+          "tileIndex": 9,
+          "taskName": "Recieve an Armadyl Armour Piece",
+          "completedAt": "2026-10-17T17:57:22.053Z"
+        },
+        {
+          "tileIndex": 15,
+          "taskName": "Receive Any Araxxor Unique",
+          "completedAt": "2026-10-17T20:59:59.741Z"
+        },
+        {
+          "tileIndex": 27,
+          "taskName": "Receive any Nex Unique",
+          "completedAt": "2026-10-17T22:06:49.357Z"
+        },
+        {
+          "tileIndex": 31,
+          "taskName": "Receive a Lightbearer or Osmumtens Fang from Tombs of Amascut",
+          "completedAt": "2026-10-18T05:31:46.405Z"
+        },
+        {
+          "tileIndex": 43,
+          "taskName": "Recieve a Tormented Synapse or Burning Claw",
+          "completedAt": "2026-10-18T07:16:00.734Z"
+        },
+        {
+          "tileIndex": 47,
+          "taskName": "Receive 2 different peices of the Elder Chaos set",
+          "completedAt": "2026-10-18T09:52:09.272Z"
+        }
+      ],
+      "visits": [
+        {
+          "tileIndex": 2,
+          "arrivedAt": "2026-10-16T12:01:08.198Z",
+          "leftAt": "2026-10-16T13:00:08.907Z",
+          "ms": 3540709,
+          "open": false
+        },
+        {
+          "tileIndex": 3,
+          "arrivedAt": "2026-10-16T13:00:08.907Z",
+          "leftAt": "2026-10-16T16:45:01.218Z",
+          "ms": 13492311,
+          "open": false
+        },
+        {
+          "tileIndex": 4,
+          "arrivedAt": "2026-10-16T16:45:01.218Z",
+          "leftAt": "2026-10-16T22:11:48.008Z",
+          "ms": 19606790,
+          "open": false
+        },
+        {
+          "tileIndex": 6,
+          "arrivedAt": "2026-10-16T22:11:48.008Z",
+          "leftAt": "2026-10-17T10:15:01.128Z",
+          "ms": 43393120,
+          "open": false
+        },
+        {
+          "tileIndex": 7,
+          "arrivedAt": "2026-10-17T10:15:01.128Z",
+          "leftAt": "2026-10-17T15:22:10.406Z",
+          "ms": 18429278,
+          "open": false
+        },
+        {
+          "tileIndex": 9,
+          "arrivedAt": "2026-10-17T15:22:10.406Z",
+          "leftAt": "2026-10-17T17:44:19.436Z",
+          "ms": 8529030,
+          "open": false
+        },
+        {
+          "tileIndex": 15,
+          "arrivedAt": "2026-10-17T17:44:19.436Z",
+          "leftAt": "2026-10-17T20:51:30.727Z",
+          "ms": 11231291,
+          "open": false
+        },
+        {
+          "tileIndex": 27,
+          "arrivedAt": "2026-10-17T20:51:30.727Z",
+          "leftAt": "2026-10-17T22:04:42.115Z",
+          "ms": 4391388,
+          "open": false
+        },
+        {
+          "tileIndex": 31,
+          "arrivedAt": "2026-10-17T22:04:42.115Z",
+          "leftAt": "2026-10-18T05:30:13.421Z",
+          "ms": 26731306,
+          "open": false
+        },
+        {
+          "tileIndex": 43,
+          "arrivedAt": "2026-10-18T05:30:13.421Z",
+          "leftAt": "2026-10-18T07:14:03.206Z",
+          "ms": 6229785,
+          "open": false
+        },
+        {
+          "tileIndex": 47,
+          "arrivedAt": "2026-10-18T07:14:03.206Z",
+          "leftAt": "2026-10-18T09:46:28.295Z",
+          "ms": 9145089,
+          "open": false
+        },
+        {
+          "tileIndex": 57,
+          "arrivedAt": "2026-10-18T09:46:28.295Z",
+          "leftAt": "2026-10-18T21:20:00.000Z",
+          "ms": 41611705,
+          "open": true
+        }
+      ],
+      "tileTimes": [
+        {
+          "tileIndex": 2,
+          "taskName": "Obtain a Black mask",
+          "arrivedAt": "2026-10-16T12:01:08.198Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T13:00:01.643Z",
+          "ms": 3533445,
+          "open": false
+        },
+        {
+          "tileIndex": 3,
+          "taskName": "Create a Tentacle whip from scratch",
+          "arrivedAt": "2026-10-16T13:00:08.907Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T16:44:51.130Z",
+          "ms": 13482223,
+          "open": false
+        },
+        {
+          "tileIndex": 4,
+          "taskName": "Obtain a Zamorakian Spear",
+          "arrivedAt": "2026-10-16T16:45:01.218Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T22:11:38.022Z",
+          "ms": 19596804,
+          "open": false
+        },
+        {
+          "tileIndex": 6,
+          "taskName": "Recieve a Vorkath Head",
+          "arrivedAt": "2026-10-16T22:11:48.008Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T10:14:39.982Z",
+          "ms": 43371974,
+          "open": false
+        },
+        {
+          "tileIndex": 7,
+          "taskName": "Recieve 3 Unique DK's Rings",
+          "arrivedAt": "2026-10-17T10:15:01.128Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T15:21:58.445Z",
+          "ms": 18417317,
+          "open": false
+        },
+        {
+          "tileIndex": 9,
+          "taskName": "Recieve an Armadyl Armour Piece",
+          "arrivedAt": "2026-10-17T15:22:10.406Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T17:43:38.369Z",
+          "ms": 8487963,
+          "open": false
+        },
+        {
+          "tileIndex": 15,
+          "taskName": "Receive Any Araxxor Unique",
+          "arrivedAt": "2026-10-17T17:44:19.436Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T20:51:23.740Z",
+          "ms": 11224304,
+          "open": false
+        },
+        {
+          "tileIndex": 27,
+          "taskName": "Receive any Nex Unique",
+          "arrivedAt": "2026-10-17T20:51:30.727Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T22:04:29.145Z",
+          "ms": 4378418,
+          "open": false
+        },
+        {
+          "tileIndex": 31,
+          "taskName": "Receive a Lightbearer or Osmumtens Fang from Tombs of Amascut",
+          "arrivedAt": "2026-10-17T22:04:42.115Z",
+          "completed": true,
+          "submittedAt": "2026-10-18T05:29:52.121Z",
+          "ms": 26710006,
+          "open": false
+        },
+        {
+          "tileIndex": 43,
+          "taskName": "Recieve a Tormented Synapse or Burning Claw",
+          "arrivedAt": "2026-10-18T05:30:13.421Z",
+          "completed": true,
+          "submittedAt": "2026-10-18T07:13:52.152Z",
+          "ms": 6218731,
+          "open": false
+        },
+        {
+          "tileIndex": 47,
+          "taskName": "Receive 2 different peices of the Elder Chaos set",
+          "arrivedAt": "2026-10-18T07:14:03.206Z",
+          "completed": true,
+          "submittedAt": "2026-10-18T09:46:18.907Z",
+          "ms": 9135701,
+          "open": false
+        },
+        {
+          "tileIndex": 57,
+          "taskName": "Receive any Unique Armour Piece from a Raid",
+          "arrivedAt": "2026-10-18T09:46:28.295Z",
+          "completed": false,
+          "submittedAt": null,
+          "ms": 41611705,
+          "open": true
+        }
+      ],
+      "longestTile": {
+        "tileIndex": 6,
+        "taskName": "Recieve a Vorkath Head",
+        "arrivedAt": "2026-10-16T22:11:48.008Z",
+        "completed": true,
+        "submittedAt": "2026-10-17T10:14:39.982Z",
+        "ms": 43371974,
+        "open": false
+      },
+      "fastestTile": {
+        "tileIndex": 2,
+        "taskName": "Obtain a Black mask",
+        "arrivedAt": "2026-10-16T12:01:08.198Z",
+        "completed": true,
+        "submittedAt": "2026-10-16T13:00:01.643Z",
+        "ms": 3533445,
+        "open": false
+      },
+      "path": [
+        {
+          "from": 0,
+          "to": 2,
+          "kind": "roll",
+          "at": "2026-10-16T12:01:08.198Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "kind": "roll",
+          "at": "2026-10-16T13:00:08.907Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "kind": "roll",
+          "at": "2026-10-16T16:45:01.218Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 4,
+          "to": 6,
+          "kind": "roll",
+          "at": "2026-10-16T22:11:48.008Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "kind": "roll",
+          "at": "2026-10-17T10:15:01.128Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 7,
+          "to": 9,
+          "kind": "roll",
+          "at": "2026-10-17T15:22:10.406Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 9,
+          "to": 15,
+          "kind": "roll",
+          "at": "2026-10-17T17:44:19.436Z",
+          "roll": 6,
+          "pity": false
+        },
+        {
+          "from": 15,
+          "to": 18,
+          "kind": "roll",
+          "at": "2026-10-17T20:51:30.727Z",
+          "roll": 3,
+          "pity": false
+        },
+        {
+          "from": 18,
+          "to": 27,
+          "kind": "ladder",
+          "at": "2026-10-17T20:51:30.727Z"
+        },
+        {
+          "from": 27,
+          "to": 31,
+          "kind": "roll",
+          "at": "2026-10-17T22:04:42.115Z",
+          "roll": 4,
+          "pity": false
+        },
+        {
+          "from": 31,
+          "to": 35,
+          "kind": "roll",
+          "at": "2026-10-18T05:30:13.421Z",
+          "roll": 4,
+          "pity": false
+        },
+        {
+          "from": 35,
+          "to": 43,
+          "kind": "ladder",
+          "at": "2026-10-18T05:30:13.421Z"
+        },
+        {
+          "from": 43,
+          "to": 47,
+          "kind": "roll",
+          "at": "2026-10-18T07:14:03.206Z",
+          "roll": 4,
+          "pity": false
+        },
+        {
+          "from": 47,
+          "to": 53,
+          "kind": "roll",
+          "at": "2026-10-18T09:46:28.295Z",
+          "roll": 6,
+          "pity": false
+        },
+        {
+          "from": 53,
+          "to": 57,
+          "kind": "ladder",
+          "at": "2026-10-18T09:46:28.295Z"
+        }
+      ],
+      "rolls": {
+        "count": 12,
+        "sum": 36,
+        "average": 3,
+        "expected": 3.5,
+        "histogram": [
+          3,
+          3,
+          1,
+          3,
+          0,
+          2
+        ],
+        "pityCount": 0,
+        "pityHistogram": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "luck": {
+        "tiles": 15,
+        "dice": -6,
+        "ladders": 21,
+        "snakes": 0
+      },
+      "climb": {
+        "tiles": 45,
+        "gained": 48,
+        "field": 3,
+        "fromTile": 9,
+        "toTile": 57,
+        "fromRank": 13,
+        "toRank": 3,
+        "from": "2026-10-17T17:44:19.436Z",
+        "to": "2026-10-18T09:46:28.295Z",
+        "ms": 57728859
+      },
+      "rollers": [
+        {
+          "key": "r5",
+          "name": "Birt",
+          "count": 4,
+          "sum": 6,
+          "average": 1.5,
+          "expected": 3.5,
+          "histogram": [
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r40",
+          "name": "Neiyoh",
+          "count": 4,
+          "sum": 13,
+          "average": 3.25,
+          "expected": 3.5,
+          "histogram": [
+            1,
+            0,
+            0,
+            3,
+            0,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r41",
+          "name": "Weurst",
+          "count": 4,
+          "sum": 17,
+          "average": 4.25,
+          "expected": 3.5,
+          "histogram": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            2
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "snakesHit": 0,
+      "laddersHit": 3,
+      "biggestLadder": {
+        "from": 18,
+        "to": 27,
+        "length": 9,
+        "at": "2026-10-17T20:51:30.727Z"
+      },
+      "biggestSnake": null,
+      "score": null
+    },
+    {
+      "key": "t5",
+      "rank": 5,
+      "name": "Zurich Fried BBQ Chicken",
+      "icon": "icons/t5.png",
+      "finished": false,
+      "finishedAt": null,
+      "position": 51,
+      "timeSpentMs": 206348605,
+      "tilesCompleted": [
+        {
+          "tileIndex": 3,
+          "taskName": "Create a Tentacle whip from scratch",
+          "completedAt": "2026-10-16T13:11:45.195Z"
+        },
+        {
+          "tileIndex": 4,
+          "taskName": "Obtain a Zamorakian Spear",
+          "completedAt": "2026-10-16T13:44:59.328Z"
+        },
+        {
+          "tileIndex": 10,
+          "taskName": "Obtains Two Moons of Peril Uniques",
+          "completedAt": "2026-10-16T14:21:15.779Z"
+        },
+        {
+          "tileIndex": 11,
+          "taskName": "Receive a piece of the Abyssal Bludgeon",
+          "completedAt": "2026-10-16T19:22:33.892Z"
+        },
+        {
+          "tileIndex": 15,
+          "taskName": "Receive Any Araxxor Unique",
+          "completedAt": "2026-10-16T21:55:22.918Z"
+        },
+        {
+          "tileIndex": 27,
+          "taskName": "Receive any Nex Unique",
+          "completedAt": "2026-10-17T11:48:12.830Z"
+        },
+        {
+          "tileIndex": 33,
+          "taskName": "Receive any 3 vestige rolls from DT2 Bosses",
+          "completedAt": "2026-10-17T16:42:33.493Z"
+        },
+        {
+          "tileIndex": 39,
+          "taskName": "Two Different Uniques from the Major Wilderness Bosses / Singles Variants",
+          "completedAt": "2026-10-17T20:14:34.915Z"
+        },
+        {
+          "tileIndex": 40,
+          "taskName": "Receive Any Hueycoatl Unique",
+          "completedAt": "2026-10-17T20:16:43.011Z"
+        },
+        {
+          "tileIndex": 46,
+          "taskName": "Receive 2 Pieces of the Brimstone Ring",
+          "completedAt": "2026-10-17T23:59:58.417Z"
+        },
+        {
+          "tileIndex": 45,
+          "taskName": "Obtain a Voidwaker Blade",
+          "completedAt": "2026-10-18T11:05:23.547Z"
+        }
+      ],
+      "visits": [
+        {
+          "tileIndex": 3,
+          "arrivedAt": "2026-10-16T12:01:15.584Z",
+          "leftAt": "2026-10-16T13:11:28.275Z",
+          "ms": 4212691,
+          "open": false
+        },
+        {
+          "tileIndex": 4,
+          "arrivedAt": "2026-10-16T13:11:28.275Z",
+          "leftAt": "2026-10-16T13:45:05.334Z",
+          "ms": 2017059,
+          "open": false
+        },
+        {
+          "tileIndex": 10,
+          "arrivedAt": "2026-10-16T13:45:05.334Z",
+          "leftAt": "2026-10-16T14:19:18.049Z",
+          "ms": 2052715,
+          "open": false
+        },
+        {
+          "tileIndex": 11,
+          "arrivedAt": "2026-10-16T14:19:18.049Z",
+          "leftAt": "2026-10-16T19:18:15.458Z",
+          "ms": 17937409,
+          "open": false
+        },
+        {
+          "tileIndex": 15,
+          "arrivedAt": "2026-10-16T19:18:15.458Z",
+          "leftAt": "2026-10-16T21:50:19.123Z",
+          "ms": 9123665,
+          "open": false
+        },
+        {
+          "tileIndex": 27,
+          "arrivedAt": "2026-10-16T21:50:19.123Z",
+          "leftAt": "2026-10-17T11:42:06.677Z",
+          "ms": 49907554,
+          "open": false
+        },
+        {
+          "tileIndex": 33,
+          "arrivedAt": "2026-10-17T11:42:06.677Z",
+          "leftAt": "2026-10-17T16:41:43.870Z",
+          "ms": 17977193,
+          "open": false
+        },
+        {
+          "tileIndex": 39,
+          "arrivedAt": "2026-10-17T16:41:43.870Z",
+          "leftAt": "2026-10-17T19:42:52.721Z",
+          "ms": 10868851,
+          "open": false
+        },
+        {
+          "tileIndex": 40,
+          "arrivedAt": "2026-10-17T19:42:52.721Z",
+          "leftAt": "2026-10-17T20:15:47.235Z",
+          "ms": 1974514,
+          "open": false
+        },
+        {
+          "tileIndex": 46,
+          "arrivedAt": "2026-10-17T20:15:47.235Z",
+          "leftAt": "2026-10-17T23:59:11.430Z",
+          "ms": 13404195,
+          "open": false
+        },
+        {
+          "tileIndex": 45,
+          "arrivedAt": "2026-10-17T23:59:11.430Z",
+          "leftAt": "2026-10-18T11:02:09.408Z",
+          "ms": 39777978,
+          "open": false
+        },
+        {
+          "tileIndex": 51,
+          "arrivedAt": "2026-10-18T11:02:09.409Z",
+          "leftAt": "2026-10-18T11:04:35.689Z",
+          "ms": 146280,
+          "open": false
+        },
+        {
+          "tileIndex": 45,
+          "arrivedAt": "2026-10-18T11:04:35.689Z",
+          "leftAt": "2026-10-18T11:05:23.713Z",
+          "ms": 48024,
+          "open": false
+        },
+        {
+          "tileIndex": 51,
+          "arrivedAt": "2026-10-18T11:05:23.713Z",
+          "leftAt": "2026-10-18T21:20:00.000Z",
+          "ms": 36876287,
+          "open": true
+        }
+      ],
+      "tileTimes": [
+        {
+          "tileIndex": 3,
+          "taskName": "Create a Tentacle whip from scratch",
+          "arrivedAt": "2026-10-16T12:01:15.584Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T13:11:17.695Z",
+          "ms": 4202111,
+          "open": false
+        },
+        {
+          "tileIndex": 4,
+          "taskName": "Obtain a Zamorakian Spear",
+          "arrivedAt": "2026-10-16T13:11:28.275Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T13:44:52.641Z",
+          "ms": 2004366,
+          "open": false
+        },
+        {
+          "tileIndex": 10,
+          "taskName": "Obtains Two Moons of Peril Uniques",
+          "arrivedAt": "2026-10-16T13:45:05.334Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T14:19:07.581Z",
+          "ms": 2042247,
+          "open": false
+        },
+        {
+          "tileIndex": 11,
+          "taskName": "Receive a piece of the Abyssal Bludgeon",
+          "arrivedAt": "2026-10-16T14:19:18.049Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T19:16:46.334Z",
+          "ms": 17848285,
+          "open": false
+        },
+        {
+          "tileIndex": 15,
+          "taskName": "Receive Any Araxxor Unique",
+          "arrivedAt": "2026-10-16T19:18:15.458Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T21:50:01.806Z",
+          "ms": 9106348,
+          "open": false
+        },
+        {
+          "tileIndex": 27,
+          "taskName": "Receive any Nex Unique",
+          "arrivedAt": "2026-10-16T21:50:19.123Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T11:41:16.246Z",
+          "ms": 49857123,
+          "open": false
+        },
+        {
+          "tileIndex": 33,
+          "taskName": "Receive any 3 vestige rolls from DT2 Bosses",
+          "arrivedAt": "2026-10-17T11:42:06.677Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T16:41:28.367Z",
+          "ms": 17961690,
+          "open": false
+        },
+        {
+          "tileIndex": 39,
+          "taskName": "Two Different Uniques from the Major Wilderness Bosses / Singles Variants",
+          "arrivedAt": "2026-10-17T16:41:43.870Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T19:42:23.246Z",
+          "ms": 10839376,
+          "open": false
+        },
+        {
+          "tileIndex": 40,
+          "taskName": "Receive Any Hueycoatl Unique",
+          "arrivedAt": "2026-10-17T19:42:52.721Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T20:15:32.367Z",
+          "ms": 1959646,
+          "open": false
+        },
+        {
+          "tileIndex": 46,
+          "taskName": "Receive 2 Pieces of the Brimstone Ring",
+          "arrivedAt": "2026-10-17T20:15:47.235Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T23:58:37.749Z",
+          "ms": 13370514,
+          "open": false
+        },
+        {
+          "tileIndex": 45,
+          "taskName": "Obtain a Voidwaker Blade",
+          "arrivedAt": "2026-10-17T23:59:11.430Z",
+          "completed": true,
+          "submittedAt": "2026-10-18T11:05:15.873Z",
+          "ms": 39964443,
+          "open": false
+        },
+        {
+          "tileIndex": 51,
+          "taskName": "Receive any unique from the Maggot King",
+          "arrivedAt": "2026-10-18T11:02:09.409Z",
+          "completed": false,
+          "submittedAt": null,
+          "ms": 37070591,
+          "open": true
+        }
+      ],
+      "longestTile": {
+        "tileIndex": 27,
+        "taskName": "Receive any Nex Unique",
+        "arrivedAt": "2026-10-16T21:50:19.123Z",
+        "completed": true,
+        "submittedAt": "2026-10-17T11:41:16.246Z",
+        "ms": 49857123,
+        "open": false
+      },
+      "fastestTile": {
+        "tileIndex": 40,
+        "taskName": "Receive Any Hueycoatl Unique",
+        "arrivedAt": "2026-10-17T19:42:52.721Z",
+        "completed": true,
+        "submittedAt": "2026-10-17T20:15:32.367Z",
+        "ms": 1959646,
+        "open": false
+      },
+      "path": [
+        {
+          "from": 0,
+          "to": 3,
+          "kind": "roll",
+          "at": "2026-10-16T12:01:15.584Z",
+          "roll": 3,
+          "pity": false
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "kind": "roll",
+          "at": "2026-10-16T13:11:28.275Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 4,
+          "to": 10,
+          "kind": "roll",
+          "at": "2026-10-16T13:45:05.334Z",
+          "roll": 6,
+          "pity": false
+        },
+        {
+          "from": 10,
+          "to": 11,
+          "kind": "roll",
+          "at": "2026-10-16T14:19:18.049Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 11,
+          "to": 15,
+          "kind": "roll",
+          "at": "2026-10-16T19:18:15.458Z",
+          "roll": 4,
+          "pity": false
+        },
+        {
+          "from": 15,
+          "to": 18,
+          "kind": "roll",
+          "at": "2026-10-16T21:50:19.123Z",
+          "roll": 3,
+          "pity": false
+        },
+        {
+          "from": 18,
+          "to": 27,
+          "kind": "ladder",
+          "at": "2026-10-16T21:50:19.123Z"
+        },
+        {
+          "from": 27,
+          "to": 33,
+          "kind": "roll",
+          "at": "2026-10-17T11:42:06.677Z",
+          "roll": 6,
+          "pity": false
+        },
+        {
+          "from": 33,
+          "to": 39,
+          "kind": "roll",
+          "at": "2026-10-17T16:41:43.870Z",
+          "roll": 6,
+          "pity": false
+        },
+        {
+          "from": 39,
+          "to": 40,
+          "kind": "roll",
+          "at": "2026-10-17T19:42:52.721Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 40,
+          "to": 46,
+          "kind": "roll",
+          "at": "2026-10-17T20:15:47.235Z",
+          "roll": 6,
+          "pity": false
+        },
+        {
+          "from": 46,
+          "to": 49,
+          "kind": "roll",
+          "at": "2026-10-17T23:59:11.430Z",
+          "roll": 3,
+          "pity": false
+        },
+        {
+          "from": 49,
+          "to": 45,
+          "kind": "snake",
+          "at": "2026-10-17T23:59:11.430Z"
+        },
+        {
+          "from": 45,
+          "to": 46,
+          "kind": "roll",
+          "at": "2026-10-18T11:02:09.408Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 46,
+          "to": 51,
+          "kind": "roll",
+          "at": "2026-10-18T11:02:09.409Z",
+          "roll": 5,
+          "pity": true
+        },
+        {
+          "from": 51,
+          "to": 45,
+          "kind": "setback",
+          "at": "2026-10-18T11:04:35.689Z"
+        },
+        {
+          "from": 45,
+          "to": 51,
+          "kind": "return",
+          "at": "2026-10-18T11:05:23.713Z"
+        }
+      ],
+      "rolls": {
+        "count": 13,
+        "sum": 46,
+        "average": 3.5384615384615383,
+        "expected": 3.5,
+        "histogram": [
+          4,
+          0,
+          3,
+          1,
+          1,
+          4
+        ],
+        "pityCount": 1,
+        "pityHistogram": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "luck": {
+        "tiles": 5.5,
+        "dice": 0.5,
+        "ladders": 9,
+        "snakes": 4
+      },
+      "climb": {
+        "tiles": 16.5,
+        "gained": 24,
+        "field": 7.5,
+        "fromTile": 27,
+        "toTile": 51,
+        "fromRank": 7,
+        "toRank": 5,
+        "from": "2026-10-17T11:42:06.677Z",
+        "to": "2026-10-18T11:05:23.713Z",
+        "ms": 84197036
+      },
+      "rollers": [
+        {
+          "key": "r7",
+          "name": "Raging Sea",
+          "count": 8,
+          "sum": 27,
+          "average": 3.375,
+          "expected": 3.5,
+          "histogram": [
+            3,
+            0,
+            1,
+            1,
+            1,
+            2
+          ],
+          "pityCount": 1,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "key": "r31",
+          "name": "P074705474D - EtR Flicker",
+          "count": 5,
+          "sum": 19,
+          "average": 3.8,
+          "expected": 3.5,
+          "histogram": [
+            1,
+            0,
+            2,
+            0,
+            0,
+            2
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "snakesHit": 1,
+      "laddersHit": 1,
+      "biggestLadder": {
+        "from": 18,
+        "to": 27,
+        "length": 9,
+        "at": "2026-10-16T21:50:19.123Z"
+      },
+      "biggestSnake": {
+        "from": 49,
+        "to": 45,
+        "length": 4,
+        "at": "2026-10-17T23:59:11.430Z"
+      },
+      "score": null
+    },
+    {
+      "key": "t6",
+      "rank": 6,
+      "name": "Four Horsemen",
+      "icon": "icons/t6.png",
+      "finished": false,
+      "finishedAt": null,
+      "position": 47,
+      "timeSpentMs": 206348605,
+      "tilesCompleted": [
+        {
+          "tileIndex": 2,
+          "taskName": "Obtain a Black mask",
+          "completedAt": "2026-10-16T13:02:17.478Z"
+        },
+        {
+          "tileIndex": 4,
+          "taskName": "Obtain a Zamorakian Spear",
+          "completedAt": "2026-10-16T13:24:32.640Z"
+        },
+        {
+          "tileIndex": 10,
+          "taskName": "Obtains Two Moons of Peril Uniques",
+          "completedAt": "2026-10-16T16:03:30.430Z"
+        },
+        {
+          "tileIndex": 11,
+          "taskName": "Receive a piece of the Abyssal Bludgeon",
+          "completedAt": "2026-10-17T01:39:37.431Z"
+        },
+        {
+          "tileIndex": 14,
+          "taskName": "Receive an Element Staff Crown from Royal Titans",
+          "completedAt": "2026-10-17T04:35:35.651Z"
+        },
+        {
+          "tileIndex": 19,
+          "taskName": "Recieve any GWD Hilt",
+          "completedAt": "2026-10-17T07:32:55.890Z"
+        },
+        {
+          "tileIndex": 36,
+          "taskName": "Receive a Basilisk Jaw",
+          "completedAt": "2026-10-18T06:26:51.784Z"
+        },
+        {
+          "tileIndex": 42,
+          "taskName": "Receive a Dex or Arcane Prayer Scroll",
+          "completedAt": "2026-10-18T12:44:03.546Z"
+        },
+        {
+          "tileIndex": 43,
+          "taskName": "Recieve a Tormented Synapse or Burning Claw",
+          "completedAt": "2026-10-18T15:13:50.586Z"
+        },
+        {
+          "tileIndex": 45,
+          "taskName": "Obtain a Voidwaker Blade",
+          "completedAt": "2026-10-18T16:57:42.030Z"
+        }
+      ],
+      "visits": [
+        {
+          "tileIndex": 2,
+          "arrivedAt": "2026-10-16T12:01:59.098Z",
+          "leftAt": "2026-10-16T13:02:23.273Z",
+          "ms": 3624175,
+          "open": false
+        },
+        {
+          "tileIndex": 4,
+          "arrivedAt": "2026-10-16T13:02:23.273Z",
+          "leftAt": "2026-10-16T13:23:38.568Z",
+          "ms": 1275295,
+          "open": false
+        },
+        {
+          "tileIndex": 10,
+          "arrivedAt": "2026-10-16T13:23:38.568Z",
+          "leftAt": "2026-10-16T16:02:25.222Z",
+          "ms": 9526654,
+          "open": false
+        },
+        {
+          "tileIndex": 11,
+          "arrivedAt": "2026-10-16T16:02:25.222Z",
+          "leftAt": "2026-10-17T01:30:50.271Z",
+          "ms": 34105049,
+          "open": false
+        },
+        {
+          "tileIndex": 14,
+          "arrivedAt": "2026-10-17T01:30:50.271Z",
+          "leftAt": "2026-10-17T04:36:05.999Z",
+          "ms": 11115728,
+          "open": false
+        },
+        {
+          "tileIndex": 19,
+          "arrivedAt": "2026-10-17T04:36:05.999Z",
+          "leftAt": "2026-10-17T07:33:08.148Z",
+          "ms": 10622149,
+          "open": false
+        },
+        {
+          "tileIndex": 36,
+          "arrivedAt": "2026-10-17T07:33:08.148Z",
+          "leftAt": "2026-10-18T06:24:59.389Z",
+          "ms": 82311241,
+          "open": false
+        },
+        {
+          "tileIndex": 42,
+          "arrivedAt": "2026-10-18T06:24:59.389Z",
+          "leftAt": "2026-10-18T12:43:08.367Z",
+          "ms": 22688978,
+          "open": false
+        },
+        {
+          "tileIndex": 43,
+          "arrivedAt": "2026-10-18T12:43:08.367Z",
+          "leftAt": "2026-10-18T15:10:48.201Z",
+          "ms": 8859834,
+          "open": false
+        },
+        {
+          "tileIndex": 45,
+          "arrivedAt": "2026-10-18T15:10:48.201Z",
+          "leftAt": "2026-10-18T16:55:44.200Z",
+          "ms": 6295999,
+          "open": false
+        },
+        {
+          "tileIndex": 47,
+          "arrivedAt": "2026-10-18T16:55:44.200Z",
+          "leftAt": "2026-10-18T21:20:00.000Z",
+          "ms": 15855800,
+          "open": true
+        }
+      ],
+      "tileTimes": [
+        {
+          "tileIndex": 2,
+          "taskName": "Obtain a Black mask",
+          "arrivedAt": "2026-10-16T12:01:59.098Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T13:01:56.638Z",
+          "ms": 3597540,
+          "open": false
+        },
+        {
+          "tileIndex": 4,
+          "taskName": "Obtain a Zamorakian Spear",
+          "arrivedAt": "2026-10-16T13:02:23.273Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T13:23:29.542Z",
+          "ms": 1266269,
+          "open": false
+        },
+        {
+          "tileIndex": 10,
+          "taskName": "Obtains Two Moons of Peril Uniques",
+          "arrivedAt": "2026-10-16T13:23:38.568Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T16:02:16.756Z",
+          "ms": 9518188,
+          "open": false
+        },
+        {
+          "tileIndex": 11,
+          "taskName": "Receive a piece of the Abyssal Bludgeon",
+          "arrivedAt": "2026-10-16T16:02:25.222Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T01:30:18.468Z",
+          "ms": 34073246,
+          "open": false
+        },
+        {
+          "tileIndex": 14,
+          "taskName": "Receive an Element Staff Crown from Royal Titans",
+          "arrivedAt": "2026-10-17T01:30:50.271Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T04:34:16.841Z",
+          "ms": 11006570,
+          "open": false
+        },
+        {
+          "tileIndex": 19,
+          "taskName": "Recieve any GWD Hilt",
+          "arrivedAt": "2026-10-17T04:36:05.999Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T07:30:47.869Z",
+          "ms": 10481870,
+          "open": false
+        },
+        {
+          "tileIndex": 36,
+          "taskName": "Receive a Basilisk Jaw",
+          "arrivedAt": "2026-10-17T07:33:08.148Z",
+          "completed": true,
+          "submittedAt": "2026-10-18T06:24:24.953Z",
+          "ms": 82276805,
+          "open": false
+        },
+        {
+          "tileIndex": 42,
+          "taskName": "Receive a Dex or Arcane Prayer Scroll",
+          "arrivedAt": "2026-10-18T06:24:59.389Z",
+          "completed": true,
+          "submittedAt": "2026-10-18T12:43:01.246Z",
+          "ms": 22681857,
+          "open": false
+        },
+        {
+          "tileIndex": 43,
+          "taskName": "Recieve a Tormented Synapse or Burning Claw",
+          "arrivedAt": "2026-10-18T12:43:08.367Z",
+          "completed": true,
+          "submittedAt": "2026-10-18T15:10:36.009Z",
+          "ms": 8847642,
+          "open": false
+        },
+        {
+          "tileIndex": 45,
+          "taskName": "Obtain a Voidwaker Blade",
+          "arrivedAt": "2026-10-18T15:10:48.201Z",
+          "completed": true,
+          "submittedAt": "2026-10-18T16:55:33.352Z",
+          "ms": 6285151,
+          "open": false
+        },
+        {
+          "tileIndex": 47,
+          "taskName": "Receive 2 different peices of the Elder Chaos set",
+          "arrivedAt": "2026-10-18T16:55:44.200Z",
+          "completed": false,
+          "submittedAt": null,
+          "ms": 15855800,
+          "open": true
+        }
+      ],
+      "longestTile": {
+        "tileIndex": 36,
+        "taskName": "Receive a Basilisk Jaw",
+        "arrivedAt": "2026-10-17T07:33:08.148Z",
+        "completed": true,
+        "submittedAt": "2026-10-18T06:24:24.953Z",
+        "ms": 82276805,
+        "open": false
+      },
+      "fastestTile": {
+        "tileIndex": 4,
+        "taskName": "Obtain a Zamorakian Spear",
+        "arrivedAt": "2026-10-16T13:02:23.273Z",
+        "completed": true,
+        "submittedAt": "2026-10-16T13:23:29.542Z",
+        "ms": 1266269,
+        "open": false
+      },
+      "path": [
+        {
+          "from": 0,
+          "to": 2,
+          "kind": "roll",
+          "at": "2026-10-16T12:01:59.098Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 2,
+          "to": 4,
+          "kind": "roll",
+          "at": "2026-10-16T13:02:23.273Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 4,
+          "to": 10,
+          "kind": "roll",
+          "at": "2026-10-16T13:23:38.568Z",
+          "roll": 6,
+          "pity": false
+        },
+        {
+          "from": 10,
+          "to": 11,
+          "kind": "roll",
+          "at": "2026-10-16T16:02:25.222Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 11,
+          "to": 17,
+          "kind": "roll",
+          "at": "2026-10-17T01:30:50.271Z",
+          "roll": 6,
+          "pity": false
+        },
+        {
+          "from": 17,
+          "to": 14,
+          "kind": "snake",
+          "at": "2026-10-17T01:30:50.271Z"
+        },
+        {
+          "from": 14,
+          "to": 19,
+          "kind": "roll",
+          "at": "2026-10-17T04:36:05.999Z",
+          "roll": 5,
+          "pity": false
+        },
+        {
+          "from": 19,
+          "to": 25,
+          "kind": "roll",
+          "at": "2026-10-17T07:33:08.148Z",
+          "roll": 6,
+          "pity": false
+        },
+        {
+          "from": 25,
+          "to": 36,
+          "kind": "ladder",
+          "at": "2026-10-17T07:33:08.148Z"
+        },
+        {
+          "from": 36,
+          "to": 42,
+          "kind": "roll",
+          "at": "2026-10-18T06:24:59.389Z",
+          "roll": 6,
+          "pity": false
+        },
+        {
+          "from": 42,
+          "to": 43,
+          "kind": "roll",
+          "at": "2026-10-18T12:43:08.367Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 43,
+          "to": 45,
+          "kind": "roll",
+          "at": "2026-10-18T15:10:48.201Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 45,
+          "to": 47,
+          "kind": "roll",
+          "at": "2026-10-18T16:55:44.200Z",
+          "roll": 2,
+          "pity": false
+        }
+      ],
+      "rolls": {
+        "count": 11,
+        "sum": 39,
+        "average": 3.5454545454545454,
+        "expected": 3.5,
+        "histogram": [
+          2,
+          4,
+          0,
+          0,
+          1,
+          4
+        ],
+        "pityCount": 0,
+        "pityHistogram": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "luck": {
+        "tiles": 8.5,
+        "dice": 0.5,
+        "ladders": 11,
+        "snakes": 3
+      },
+      "climb": {
+        "tiles": 12.5,
+        "gained": 23,
+        "field": 10.5,
+        "fromTile": 19,
+        "toTile": 42,
+        "fromRank": 9,
+        "toRank": 7,
+        "from": "2026-10-17T07:33:08.148Z",
+        "to": "2026-10-18T06:24:59.389Z",
+        "ms": 82311241
+      },
+      "rollers": [
+        {
+          "key": "r12",
+          "name": "S aitaama",
+          "count": 5,
+          "sum": 12,
+          "average": 2.4,
+          "expected": 3.5,
+          "histogram": [
+            2,
+            2,
+            0,
+            0,
+            0,
+            1
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r20",
+          "name": "Scyptile",
+          "count": 1,
+          "sum": 2,
+          "average": 2,
+          "expected": 3.5,
+          "histogram": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r35",
+          "name": "Jarl Rune",
+          "count": 1,
+          "sum": 6,
+          "average": 6,
+          "expected": 3.5,
+          "histogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r37",
+          "name": "Pitsea",
+          "count": 4,
+          "sum": 19,
+          "average": 4.75,
+          "expected": 3.5,
+          "histogram": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            2
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "snakesHit": 1,
+      "laddersHit": 1,
+      "biggestLadder": {
+        "from": 25,
+        "to": 36,
+        "length": 11,
+        "at": "2026-10-17T07:33:08.148Z"
+      },
+      "biggestSnake": {
+        "from": 17,
+        "to": 14,
+        "length": 3,
+        "at": "2026-10-17T01:30:50.271Z"
+      },
+      "score": null
+    },
+    {
+      "key": "t7",
+      "rank": 7,
+      "name": "Trialists Reborn",
+      "icon": "icons/t7.png",
+      "finished": false,
+      "finishedAt": null,
+      "position": 46,
+      "timeSpentMs": 206348605,
+      "tilesCompleted": [
+        {
+          "tileIndex": 2,
+          "taskName": "Obtain a Black mask",
+          "completedAt": "2026-10-16T12:32:18.913Z"
+        },
+        {
+          "tileIndex": 6,
+          "taskName": "Recieve a Vorkath Head",
+          "completedAt": "2026-10-16T12:36:28.616Z"
+        },
+        {
+          "tileIndex": 9,
+          "taskName": "Recieve an Armadyl Armour Piece",
+          "completedAt": "2026-10-16T15:30:36.696Z"
+        },
+        {
+          "tileIndex": 14,
+          "taskName": "Receive an Element Staff Crown from Royal Titans",
+          "completedAt": "2026-10-16T17:18:32.686Z"
+        },
+        {
+          "tileIndex": 20,
+          "taskName": "Receive the Dragon Pickaxe from a Wilderness Boss",
+          "completedAt": "2026-10-16T19:13:18.077Z"
+        },
+        {
+          "tileIndex": 36,
+          "taskName": "Receive a Basilisk Jaw",
+          "completedAt": "2026-10-17T17:55:59.632Z"
+        },
+        {
+          "tileIndex": 38,
+          "taskName": "Any Purple from Cox / Challenge Mode",
+          "completedAt": "2026-10-18T00:39:10.594Z"
+        },
+        {
+          "tileIndex": 40,
+          "taskName": "Receive Any Hueycoatl Unique",
+          "completedAt": "2026-10-18T02:33:12.894Z"
+        },
+        {
+          "tileIndex": 43,
+          "taskName": "Recieve a Tormented Synapse or Burning Claw",
+          "completedAt": "2026-10-18T02:42:47.366Z"
+        },
+        {
+          "tileIndex": 45,
+          "taskName": "Obtain a Voidwaker Blade",
+          "completedAt": "2026-10-18T14:49:08.085Z"
+        }
+      ],
+      "visits": [
+        {
+          "tileIndex": 2,
+          "arrivedAt": "2026-10-16T12:03:00.436Z",
+          "leftAt": "2026-10-16T12:31:56.362Z",
+          "ms": 1735926,
+          "open": false
+        },
+        {
+          "tileIndex": 6,
+          "arrivedAt": "2026-10-16T12:31:56.362Z",
+          "leftAt": "2026-10-16T12:36:25.663Z",
+          "ms": 269301,
+          "open": false
+        },
+        {
+          "tileIndex": 9,
+          "arrivedAt": "2026-10-16T12:36:25.663Z",
+          "leftAt": "2026-10-16T15:30:27.316Z",
+          "ms": 10441653,
+          "open": false
+        },
+        {
+          "tileIndex": 14,
+          "arrivedAt": "2026-10-16T15:30:27.316Z",
+          "leftAt": "2026-10-16T17:18:39.440Z",
+          "ms": 6492124,
+          "open": false
+        },
+        {
+          "tileIndex": 20,
+          "arrivedAt": "2026-10-16T17:18:39.440Z",
+          "leftAt": "2026-10-16T19:09:41.100Z",
+          "ms": 6661660,
+          "open": false
+        },
+        {
+          "tileIndex": 36,
+          "arrivedAt": "2026-10-16T19:09:41.100Z",
+          "leftAt": "2026-10-17T17:25:17.597Z",
+          "ms": 80136497,
+          "open": false
+        },
+        {
+          "tileIndex": 38,
+          "arrivedAt": "2026-10-17T17:25:17.597Z",
+          "leftAt": "2026-10-18T00:38:45.036Z",
+          "ms": 26007439,
+          "open": false
+        },
+        {
+          "tileIndex": 40,
+          "arrivedAt": "2026-10-18T00:38:45.036Z",
+          "leftAt": "2026-10-18T02:28:48.720Z",
+          "ms": 6603684,
+          "open": false
+        },
+        {
+          "tileIndex": 43,
+          "arrivedAt": "2026-10-18T02:28:48.720Z",
+          "leftAt": "2026-10-18T02:43:14.009Z",
+          "ms": 865289,
+          "open": false
+        },
+        {
+          "tileIndex": 45,
+          "arrivedAt": "2026-10-18T02:43:14.009Z",
+          "leftAt": "2026-10-18T14:47:53.399Z",
+          "ms": 43479390,
+          "open": false
+        },
+        {
+          "tileIndex": 46,
+          "arrivedAt": "2026-10-18T14:47:53.399Z",
+          "leftAt": "2026-10-18T21:20:00.000Z",
+          "ms": 23526601,
+          "open": true
+        }
+      ],
+      "tileTimes": [
+        {
+          "tileIndex": 2,
+          "taskName": "Obtain a Black mask",
+          "arrivedAt": "2026-10-16T12:03:00.436Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T12:31:44.658Z",
+          "ms": 1724222,
+          "open": false
+        },
+        {
+          "tileIndex": 6,
+          "taskName": "Recieve a Vorkath Head",
+          "arrivedAt": "2026-10-16T12:31:56.362Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T12:36:16.517Z",
+          "ms": 260155,
+          "open": false
+        },
+        {
+          "tileIndex": 9,
+          "taskName": "Recieve an Armadyl Armour Piece",
+          "arrivedAt": "2026-10-16T12:36:25.663Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T15:30:16.292Z",
+          "ms": 10430629,
+          "open": false
+        },
+        {
+          "tileIndex": 14,
+          "taskName": "Receive an Element Staff Crown from Royal Titans",
+          "arrivedAt": "2026-10-16T15:30:27.316Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T17:17:25.148Z",
+          "ms": 6417832,
+          "open": false
+        },
+        {
+          "tileIndex": 20,
+          "taskName": "Receive the Dragon Pickaxe from a Wilderness Boss",
+          "arrivedAt": "2026-10-16T17:18:39.440Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T19:09:19.529Z",
+          "ms": 6640089,
+          "open": false
+        },
+        {
+          "tileIndex": 36,
+          "taskName": "Receive a Basilisk Jaw",
+          "arrivedAt": "2026-10-16T19:09:41.100Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T17:25:07.835Z",
+          "ms": 80126735,
+          "open": false
+        },
+        {
+          "tileIndex": 38,
+          "taskName": "Any Purple from Cox / Challenge Mode",
+          "arrivedAt": "2026-10-17T17:25:17.597Z",
+          "completed": true,
+          "submittedAt": "2026-10-18T00:38:35.358Z",
+          "ms": 25997761,
+          "open": false
+        },
+        {
+          "tileIndex": 40,
+          "taskName": "Receive Any Hueycoatl Unique",
+          "arrivedAt": "2026-10-18T00:38:45.036Z",
+          "completed": true,
+          "submittedAt": "2026-10-18T02:28:41.832Z",
+          "ms": 6596796,
+          "open": false
+        },
+        {
+          "tileIndex": 43,
+          "taskName": "Recieve a Tormented Synapse or Burning Claw",
+          "arrivedAt": "2026-10-18T02:28:48.720Z",
+          "completed": true,
+          "submittedAt": "2026-10-18T02:42:41.428Z",
+          "ms": 832708,
+          "open": false
+        },
+        {
+          "tileIndex": 45,
+          "taskName": "Obtain a Voidwaker Blade",
+          "arrivedAt": "2026-10-18T02:43:14.009Z",
+          "completed": true,
+          "submittedAt": "2026-10-18T14:47:12.542Z",
+          "ms": 43438533,
+          "open": false
+        },
+        {
+          "tileIndex": 46,
+          "taskName": "Receive 2 Pieces of the Brimstone Ring",
+          "arrivedAt": "2026-10-18T14:47:53.399Z",
+          "completed": false,
+          "submittedAt": null,
+          "ms": 23526601,
+          "open": true
+        }
+      ],
+      "longestTile": {
+        "tileIndex": 36,
+        "taskName": "Receive a Basilisk Jaw",
+        "arrivedAt": "2026-10-16T19:09:41.100Z",
+        "completed": true,
+        "submittedAt": "2026-10-17T17:25:07.835Z",
+        "ms": 80126735,
+        "open": false
+      },
+      "fastestTile": {
+        "tileIndex": 6,
+        "taskName": "Recieve a Vorkath Head",
+        "arrivedAt": "2026-10-16T12:31:56.362Z",
+        "completed": true,
+        "submittedAt": "2026-10-16T12:36:16.517Z",
+        "ms": 260155,
+        "open": false
+      },
+      "path": [
+        {
+          "from": 0,
+          "to": 2,
+          "kind": "roll",
+          "at": "2026-10-16T12:03:00.436Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 2,
+          "to": 6,
+          "kind": "roll",
+          "at": "2026-10-16T12:31:56.362Z",
+          "roll": 4,
+          "pity": false
+        },
+        {
+          "from": 6,
+          "to": 9,
+          "kind": "roll",
+          "at": "2026-10-16T12:36:25.663Z",
+          "roll": 3,
+          "pity": false
+        },
+        {
+          "from": 9,
+          "to": 14,
+          "kind": "roll",
+          "at": "2026-10-16T15:30:27.316Z",
+          "roll": 5,
+          "pity": false
+        },
+        {
+          "from": 14,
+          "to": 20,
+          "kind": "roll",
+          "at": "2026-10-16T17:18:39.440Z",
+          "roll": 6,
+          "pity": false
+        },
+        {
+          "from": 20,
+          "to": 25,
+          "kind": "roll",
+          "at": "2026-10-16T19:09:41.100Z",
+          "roll": 5,
+          "pity": false
+        },
+        {
+          "from": 25,
+          "to": 36,
+          "kind": "ladder",
+          "at": "2026-10-16T19:09:41.100Z"
+        },
+        {
+          "from": 36,
+          "to": 38,
+          "kind": "roll",
+          "at": "2026-10-17T17:25:17.597Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 38,
+          "to": 40,
+          "kind": "roll",
+          "at": "2026-10-18T00:38:45.036Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 40,
+          "to": 43,
+          "kind": "roll",
+          "at": "2026-10-18T02:28:48.720Z",
+          "roll": 3,
+          "pity": false
+        },
+        {
+          "from": 43,
+          "to": 45,
+          "kind": "roll",
+          "at": "2026-10-18T02:43:14.009Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 45,
+          "to": 46,
+          "kind": "roll",
+          "at": "2026-10-18T14:47:53.399Z",
+          "roll": 1,
+          "pity": false
+        }
+      ],
+      "rolls": {
+        "count": 11,
+        "sum": 35,
+        "average": 3.1818181818181817,
+        "expected": 3.5,
+        "histogram": [
+          1,
+          4,
+          2,
+          1,
+          2,
+          1
+        ],
+        "pityCount": 0,
+        "pityHistogram": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "luck": {
+        "tiles": 7.5,
+        "dice": -3.5,
+        "ladders": 11,
+        "snakes": 0
+      },
+      "climb": {
+        "tiles": 11.5,
+        "gained": 34,
+        "field": 22.5,
+        "fromTile": 2,
+        "toTile": 36,
+        "fromRank": 9,
+        "toRank": 1,
+        "from": "2026-10-16T12:31:56.362Z",
+        "to": "2026-10-16T19:09:41.100Z",
+        "ms": 23864738
+      },
+      "rollers": [
+        {
+          "key": "r13",
+          "name": "Vybzkartell",
+          "count": 2,
+          "sum": 8,
+          "average": 4,
+          "expected": 3.5,
+          "histogram": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r16",
+          "name": "baby wah wah/Loldeuses",
+          "count": 2,
+          "sum": 6,
+          "average": 3,
+          "expected": 3.5,
+          "histogram": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r17",
+          "name": "Abyssteus",
+          "count": 5,
+          "sum": 17,
+          "average": 3.4,
+          "expected": 3.5,
+          "histogram": [
+            1,
+            0,
+            2,
+            0,
+            2,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r42",
+          "name": "Jared",
+          "count": 2,
+          "sum": 4,
+          "average": 2,
+          "expected": 3.5,
+          "histogram": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "snakesHit": 0,
+      "laddersHit": 1,
+      "biggestLadder": {
+        "from": 25,
+        "to": 36,
+        "length": 11,
+        "at": "2026-10-16T19:09:41.100Z"
+      },
+      "biggestSnake": null,
+      "score": null
+    },
+    {
+      "key": "t8",
+      "rank": 8,
+      "name": "Employed Gamers",
+      "icon": "icons/t8.png",
+      "finished": false,
+      "finishedAt": null,
+      "position": 39,
+      "timeSpentMs": 206348605,
+      "tilesCompleted": [
+        {
+          "tileIndex": 6,
+          "taskName": "Recieve a Vorkath Head",
+          "completedAt": "2026-10-16T13:18:19.841Z"
+        },
+        {
+          "tileIndex": 10,
+          "taskName": "Obtains Two Moons of Peril Uniques",
+          "completedAt": "2026-10-16T13:30:50.026Z"
+        },
+        {
+          "tileIndex": 4,
+          "taskName": "Obtain a Zamorakian Spear",
+          "completedAt": "2026-10-16T15:55:24.486Z"
+        },
+        {
+          "tileIndex": 7,
+          "taskName": "Recieve 3 Unique DK's Rings",
+          "completedAt": "2026-10-16T19:27:32.448Z"
+        },
+        {
+          "tileIndex": 8,
+          "taskName": "Receive any Bandos Unique",
+          "completedAt": "2026-10-16T22:15:35.709Z"
+        },
+        {
+          "tileIndex": 15,
+          "taskName": "Receive Any Araxxor Unique",
+          "completedAt": "2026-10-16T22:49:30.826Z"
+        },
+        {
+          "tileIndex": 27,
+          "taskName": "Receive any Nex Unique",
+          "completedAt": "2026-10-17T18:04:42.499Z"
+        },
+        {
+          "tileIndex": 33,
+          "taskName": "Receive any 3 vestige rolls from DT2 Bosses",
+          "completedAt": "2026-10-18T19:17:12.400Z"
+        },
+        {
+          "tileIndex": 34,
+          "taskName": "Receive an Occult Necklace from Thermy",
+          "completedAt": "2026-10-18T19:37:40.199Z"
+        }
+      ],
+      "visits": [
+        {
+          "tileIndex": 6,
+          "arrivedAt": "2026-10-16T12:01:27.941Z",
+          "leftAt": "2026-10-16T13:17:02.060Z",
+          "ms": 4534119,
+          "open": false
+        },
+        {
+          "tileIndex": 10,
+          "arrivedAt": "2026-10-16T13:17:02.060Z",
+          "leftAt": "2026-10-16T13:31:01.714Z",
+          "ms": 839654,
+          "open": false
+        },
+        {
+          "tileIndex": 4,
+          "arrivedAt": "2026-10-16T13:31:01.714Z",
+          "leftAt": "2026-10-16T15:55:12.262Z",
+          "ms": 8650548,
+          "open": false
+        },
+        {
+          "tileIndex": 7,
+          "arrivedAt": "2026-10-16T15:55:12.263Z",
+          "leftAt": "2026-10-16T19:29:06.294Z",
+          "ms": 12834031,
+          "open": false
+        },
+        {
+          "tileIndex": 8,
+          "arrivedAt": "2026-10-16T19:29:06.296Z",
+          "leftAt": "2026-10-16T22:16:09.308Z",
+          "ms": 10023012,
+          "open": false
+        },
+        {
+          "tileIndex": 15,
+          "arrivedAt": "2026-10-16T22:16:09.309Z",
+          "leftAt": "2026-10-16T22:48:53.244Z",
+          "ms": 1963935,
+          "open": false
+        },
+        {
+          "tileIndex": 27,
+          "arrivedAt": "2026-10-16T22:48:53.244Z",
+          "leftAt": "2026-10-17T18:04:37.679Z",
+          "ms": 69344435,
+          "open": false
+        },
+        {
+          "tileIndex": 33,
+          "arrivedAt": "2026-10-17T18:04:37.679Z",
+          "leftAt": "2026-10-18T18:18:30.547Z",
+          "ms": 87232868,
+          "open": false
+        },
+        {
+          "tileIndex": 34,
+          "arrivedAt": "2026-10-18T18:18:30.547Z",
+          "leftAt": "2026-10-18T19:32:44.327Z",
+          "ms": 4453780,
+          "open": false
+        },
+        {
+          "tileIndex": 39,
+          "arrivedAt": "2026-10-18T19:32:44.327Z",
+          "leftAt": "2026-10-18T21:20:00.000Z",
+          "ms": 6435673,
+          "open": true
+        }
+      ],
+      "tileTimes": [
+        {
+          "tileIndex": 6,
+          "taskName": "Recieve a Vorkath Head",
+          "arrivedAt": "2026-10-16T12:01:27.941Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T13:16:54.291Z",
+          "ms": 4526350,
+          "open": false
+        },
+        {
+          "tileIndex": 10,
+          "taskName": "Obtains Two Moons of Peril Uniques",
+          "arrivedAt": "2026-10-16T13:17:02.060Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T13:30:40.216Z",
+          "ms": 818156,
+          "open": false
+        },
+        {
+          "tileIndex": 4,
+          "taskName": "Obtain a Zamorakian Spear",
+          "arrivedAt": "2026-10-16T13:31:01.714Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T15:55:03.267Z",
+          "ms": 8641553,
+          "open": false
+        },
+        {
+          "tileIndex": 7,
+          "taskName": "Recieve 3 Unique DK's Rings",
+          "arrivedAt": "2026-10-16T15:55:12.263Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T19:26:59.892Z",
+          "ms": 12707629,
+          "open": false
+        },
+        {
+          "tileIndex": 8,
+          "taskName": "Receive any Bandos Unique",
+          "arrivedAt": "2026-10-16T19:29:06.296Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T22:14:52.816Z",
+          "ms": 9946520,
+          "open": false
+        },
+        {
+          "tileIndex": 15,
+          "taskName": "Receive Any Araxxor Unique",
+          "arrivedAt": "2026-10-16T22:16:09.309Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T22:48:42.632Z",
+          "ms": 1953323,
+          "open": false
+        },
+        {
+          "tileIndex": 27,
+          "taskName": "Receive any Nex Unique",
+          "arrivedAt": "2026-10-16T22:48:53.244Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T18:04:29.233Z",
+          "ms": 69335989,
+          "open": false
+        },
+        {
+          "tileIndex": 33,
+          "taskName": "Receive any 3 vestige rolls from DT2 Bosses",
+          "arrivedAt": "2026-10-17T18:04:37.679Z",
+          "completed": true,
+          "submittedAt": "2026-10-18T18:18:21.657Z",
+          "ms": 87223978,
+          "open": false
+        },
+        {
+          "tileIndex": 34,
+          "taskName": "Receive an Occult Necklace from Thermy",
+          "arrivedAt": "2026-10-18T18:18:30.547Z",
+          "completed": true,
+          "submittedAt": "2026-10-18T19:32:44.306Z",
+          "ms": 4453759,
+          "open": false
+        },
+        {
+          "tileIndex": 39,
+          "taskName": "Two Different Uniques from the Major Wilderness Bosses / Singles Variants",
+          "arrivedAt": "2026-10-18T19:32:44.327Z",
+          "completed": false,
+          "submittedAt": null,
+          "ms": 6435673,
+          "open": true
+        }
+      ],
+      "longestTile": {
+        "tileIndex": 33,
+        "taskName": "Receive any 3 vestige rolls from DT2 Bosses",
+        "arrivedAt": "2026-10-17T18:04:37.679Z",
+        "completed": true,
+        "submittedAt": "2026-10-18T18:18:21.657Z",
+        "ms": 87223978,
+        "open": false
+      },
+      "fastestTile": {
+        "tileIndex": 10,
+        "taskName": "Obtains Two Moons of Peril Uniques",
+        "arrivedAt": "2026-10-16T13:17:02.060Z",
+        "completed": true,
+        "submittedAt": "2026-10-16T13:30:40.216Z",
+        "ms": 818156,
+        "open": false
+      },
+      "path": [
+        {
+          "from": 0,
+          "to": 6,
+          "kind": "roll",
+          "at": "2026-10-16T12:01:27.941Z",
+          "roll": 6,
+          "pity": false
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "kind": "roll",
+          "at": "2026-10-16T13:17:02.060Z",
+          "roll": 4,
+          "pity": false
+        },
+        {
+          "from": 10,
+          "to": 12,
+          "kind": "roll",
+          "at": "2026-10-16T13:31:01.714Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 12,
+          "to": 4,
+          "kind": "snake",
+          "at": "2026-10-16T13:31:01.714Z"
+        },
+        {
+          "from": 4,
+          "to": 6,
+          "kind": "roll",
+          "at": "2026-10-16T15:55:12.262Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "kind": "roll",
+          "at": "2026-10-16T15:55:12.263Z",
+          "roll": 1,
+          "pity": true
+        },
+        {
+          "from": 7,
+          "to": 12,
+          "kind": "roll",
+          "at": "2026-10-16T19:29:06.294Z",
+          "roll": 5,
+          "pity": false
+        },
+        {
+          "from": 12,
+          "to": 4,
+          "kind": "snake",
+          "at": "2026-10-16T19:29:06.294Z"
+        },
+        {
+          "from": 4,
+          "to": 7,
+          "kind": "roll",
+          "at": "2026-10-16T19:29:06.295Z",
+          "roll": 3,
+          "pity": true
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "kind": "roll",
+          "at": "2026-10-16T19:29:06.296Z",
+          "roll": 1,
+          "pity": true
+        },
+        {
+          "from": 8,
+          "to": 10,
+          "kind": "roll",
+          "at": "2026-10-16T22:16:09.308Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 10,
+          "to": 15,
+          "kind": "roll",
+          "at": "2026-10-16T22:16:09.309Z",
+          "roll": 5,
+          "pity": true
+        },
+        {
+          "from": 15,
+          "to": 18,
+          "kind": "roll",
+          "at": "2026-10-16T22:48:53.244Z",
+          "roll": 3,
+          "pity": false
+        },
+        {
+          "from": 18,
+          "to": 27,
+          "kind": "ladder",
+          "at": "2026-10-16T22:48:53.244Z"
+        },
+        {
+          "from": 27,
+          "to": 33,
+          "kind": "roll",
+          "at": "2026-10-17T18:04:37.679Z",
+          "roll": 6,
+          "pity": false
+        },
+        {
+          "from": 33,
+          "to": 34,
+          "kind": "roll",
+          "at": "2026-10-18T18:18:30.547Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 34,
+          "to": 39,
+          "kind": "roll",
+          "at": "2026-10-18T19:32:44.327Z",
+          "roll": 5,
+          "pity": false
+        }
+      ],
+      "rolls": {
+        "count": 14,
+        "sum": 46,
+        "average": 3.2857142857142856,
+        "expected": 3.5,
+        "histogram": [
+          3,
+          3,
+          2,
+          1,
+          3,
+          2
+        ],
+        "pityCount": 4,
+        "pityHistogram": [
+          2,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      "luck": {
+        "tiles": -10,
+        "dice": -3,
+        "ladders": 9,
+        "snakes": 16
+      },
+      "climb": {
+        "tiles": 8.5,
+        "gained": 29,
+        "field": 20.5,
+        "fromTile": 4,
+        "toTile": 33,
+        "fromRank": 11,
+        "toRank": 8,
+        "from": "2026-10-16T19:29:06.295Z",
+        "to": "2026-10-17T18:04:37.679Z",
+        "ms": 81331384
+      },
+      "rollers": [
+        {
+          "key": "r8",
+          "name": "Snizax | Hellzax | Will",
+          "count": 9,
+          "sum": 30,
+          "average": 3.3333333333333335,
+          "expected": 3.5,
+          "histogram": [
+            2,
+            2,
+            1,
+            1,
+            1,
+            2
+          ],
+          "pityCount": 1,
+          "pityHistogram": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r28",
+          "name": "Flotus Weasley",
+          "count": 3,
+          "sum": 9,
+          "average": 3,
+          "expected": 3.5,
+          "histogram": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "pityCount": 2,
+          "pityHistogram": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r34",
+          "name": "Z emnieks",
+          "count": 2,
+          "sum": 7,
+          "average": 3.5,
+          "expected": 3.5,
+          "histogram": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "pityCount": 1,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        }
+      ],
+      "snakesHit": 2,
+      "laddersHit": 1,
+      "biggestLadder": {
+        "from": 18,
+        "to": 27,
+        "length": 9,
+        "at": "2026-10-16T22:48:53.244Z"
+      },
+      "biggestSnake": {
+        "from": 12,
+        "to": 4,
+        "length": 8,
+        "at": "2026-10-16T13:31:01.714Z"
+      },
+      "score": null
+    },
+    {
+      "key": "t9",
+      "rank": 9,
+      "name": "Code 12",
+      "icon": "icons/t9.png",
+      "finished": false,
+      "finishedAt": null,
+      "position": 36,
+      "timeSpentMs": 206348605,
+      "tilesCompleted": [
+        {
+          "tileIndex": 6,
+          "taskName": "Recieve a Vorkath Head",
+          "completedAt": "2026-10-16T13:24:12.888Z"
+        },
+        {
+          "tileIndex": 11,
+          "taskName": "Receive a piece of the Abyssal Bludgeon",
+          "completedAt": "2026-10-16T14:45:33.124Z"
+        },
+        {
+          "tileIndex": 15,
+          "taskName": "Receive Any Araxxor Unique",
+          "completedAt": "2026-10-16T15:11:52.131Z"
+        },
+        {
+          "tileIndex": 14,
+          "taskName": "Receive an Element Staff Crown from Royal Titans",
+          "completedAt": "2026-10-16T15:48:52.300Z"
+        },
+        {
+          "tileIndex": 19,
+          "taskName": "Recieve any GWD Hilt",
+          "completedAt": "2026-10-16T22:57:29.884Z"
+        },
+        {
+          "tileIndex": 24,
+          "taskName": "Receive any Crystal from Cerberus",
+          "completedAt": "2026-10-17T01:09:15.747Z"
+        }
+      ],
+      "visits": [
+        {
+          "tileIndex": 6,
+          "arrivedAt": "2026-10-16T12:01:04.282Z",
+          "leftAt": "2026-10-16T13:22:17.394Z",
+          "ms": 4873112,
+          "open": false
+        },
+        {
+          "tileIndex": 11,
+          "arrivedAt": "2026-10-16T13:22:17.394Z",
+          "leftAt": "2026-10-16T14:39:48.074Z",
+          "ms": 4650680,
+          "open": false
+        },
+        {
+          "tileIndex": 15,
+          "arrivedAt": "2026-10-16T14:39:48.074Z",
+          "leftAt": "2026-10-16T15:11:22.876Z",
+          "ms": 1894802,
+          "open": false
+        },
+        {
+          "tileIndex": 14,
+          "arrivedAt": "2026-10-16T15:11:22.876Z",
+          "leftAt": "2026-10-16T15:47:32.540Z",
+          "ms": 2169664,
+          "open": false
+        },
+        {
+          "tileIndex": 19,
+          "arrivedAt": "2026-10-16T15:47:32.540Z",
+          "leftAt": "2026-10-16T22:57:46.128Z",
+          "ms": 25813588,
+          "open": false
+        },
+        {
+          "tileIndex": 24,
+          "arrivedAt": "2026-10-16T22:57:46.128Z",
+          "leftAt": "2026-10-17T01:07:06.465Z",
+          "ms": 7760337,
+          "open": false
+        },
+        {
+          "tileIndex": 36,
+          "arrivedAt": "2026-10-17T01:07:06.465Z",
+          "leftAt": "2026-10-18T21:20:00.000Z",
+          "ms": 159173535,
+          "open": true
+        }
+      ],
+      "tileTimes": [
+        {
+          "tileIndex": 6,
+          "taskName": "Recieve a Vorkath Head",
+          "arrivedAt": "2026-10-16T12:01:04.282Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T13:21:53.797Z",
+          "ms": 4849515,
+          "open": false
+        },
+        {
+          "tileIndex": 11,
+          "taskName": "Receive a piece of the Abyssal Bludgeon",
+          "arrivedAt": "2026-10-16T13:22:17.394Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T14:39:28.331Z",
+          "ms": 4630937,
+          "open": false
+        },
+        {
+          "tileIndex": 15,
+          "taskName": "Receive Any Araxxor Unique",
+          "arrivedAt": "2026-10-16T14:39:48.074Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T15:10:41.667Z",
+          "ms": 1853593,
+          "open": false
+        },
+        {
+          "tileIndex": 14,
+          "taskName": "Receive an Element Staff Crown from Royal Titans",
+          "arrivedAt": "2026-10-16T15:11:22.876Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T15:47:23.850Z",
+          "ms": 2160974,
+          "open": false
+        },
+        {
+          "tileIndex": 19,
+          "taskName": "Recieve any GWD Hilt",
+          "arrivedAt": "2026-10-16T15:47:32.540Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T22:57:09.382Z",
+          "ms": 25776842,
+          "open": false
+        },
+        {
+          "tileIndex": 24,
+          "taskName": "Receive any Crystal from Cerberus",
+          "arrivedAt": "2026-10-16T22:57:46.128Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T01:06:59.567Z",
+          "ms": 7753439,
+          "open": false
+        },
+        {
+          "tileIndex": 36,
+          "taskName": "Receive a Basilisk Jaw",
+          "arrivedAt": "2026-10-17T01:07:06.465Z",
+          "completed": false,
+          "submittedAt": null,
+          "ms": 159173535,
+          "open": true
+        }
+      ],
+      "longestTile": {
+        "tileIndex": 19,
+        "taskName": "Recieve any GWD Hilt",
+        "arrivedAt": "2026-10-16T15:47:32.540Z",
+        "completed": true,
+        "submittedAt": "2026-10-16T22:57:09.382Z",
+        "ms": 25776842,
+        "open": false
+      },
+      "fastestTile": {
+        "tileIndex": 15,
+        "taskName": "Receive Any Araxxor Unique",
+        "arrivedAt": "2026-10-16T14:39:48.074Z",
+        "completed": true,
+        "submittedAt": "2026-10-16T15:10:41.667Z",
+        "ms": 1853593,
+        "open": false
+      },
+      "path": [
+        {
+          "from": 0,
+          "to": 6,
+          "kind": "roll",
+          "at": "2026-10-16T12:01:04.282Z",
+          "roll": 6,
+          "pity": false
+        },
+        {
+          "from": 6,
+          "to": 11,
+          "kind": "roll",
+          "at": "2026-10-16T13:22:17.394Z",
+          "roll": 5,
+          "pity": false
+        },
+        {
+          "from": 11,
+          "to": 15,
+          "kind": "roll",
+          "at": "2026-10-16T14:39:48.074Z",
+          "roll": 4,
+          "pity": false
+        },
+        {
+          "from": 15,
+          "to": 17,
+          "kind": "roll",
+          "at": "2026-10-16T15:11:22.876Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 17,
+          "to": 14,
+          "kind": "snake",
+          "at": "2026-10-16T15:11:22.876Z"
+        },
+        {
+          "from": 14,
+          "to": 19,
+          "kind": "roll",
+          "at": "2026-10-16T15:47:32.540Z",
+          "roll": 5,
+          "pity": false
+        },
+        {
+          "from": 19,
+          "to": 24,
+          "kind": "roll",
+          "at": "2026-10-16T22:57:46.128Z",
+          "roll": 5,
+          "pity": false
+        },
+        {
+          "from": 24,
+          "to": 25,
+          "kind": "roll",
+          "at": "2026-10-17T01:07:06.465Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 25,
+          "to": 36,
+          "kind": "ladder",
+          "at": "2026-10-17T01:07:06.465Z"
+        }
+      ],
+      "rolls": {
+        "count": 7,
+        "sum": 28,
+        "average": 4,
+        "expected": 3.5,
+        "histogram": [
+          1,
+          1,
+          0,
+          1,
+          3,
+          1
+        ],
+        "pityCount": 0,
+        "pityHistogram": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "luck": {
+        "tiles": 11.5,
+        "dice": 3.5,
+        "ladders": 11,
+        "snakes": 3
+      },
+      "climb": {
+        "tiles": 7.5,
+        "gained": 30,
+        "field": 22.5,
+        "fromTile": 6,
+        "toTile": 36,
+        "fromRank": 6,
+        "toRank": 1,
+        "from": "2026-10-16T13:22:17.394Z",
+        "to": "2026-10-17T01:07:06.465Z",
+        "ms": 42289071
+      },
+      "rollers": [
+        {
+          "key": "r4",
+          "name": "uTzGuTz (Koz)",
+          "count": 2,
+          "sum": 8,
+          "average": 4,
+          "expected": 3.5,
+          "histogram": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r22",
+          "name": "BaldEdan",
+          "count": 5,
+          "sum": 20,
+          "average": 4,
+          "expected": 3.5,
+          "histogram": [
+            1,
+            0,
+            0,
+            1,
+            3,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "snakesHit": 1,
+      "laddersHit": 1,
+      "biggestLadder": {
+        "from": 25,
+        "to": 36,
+        "length": 11,
+        "at": "2026-10-17T01:07:06.465Z"
+      },
+      "biggestSnake": {
+        "from": 17,
+        "to": 14,
+        "length": 3,
+        "at": "2026-10-16T15:11:22.876Z"
+      },
+      "score": null
+    },
+    {
+      "key": "t10",
+      "rank": 10,
+      "name": "BDR",
+      "icon": "icons/t10.png",
+      "finished": false,
+      "finishedAt": null,
+      "position": 27,
+      "timeSpentMs": 206348605,
+      "tilesCompleted": [
+        {
+          "tileIndex": 1,
+          "taskName": "Receive any Barrows Weapon",
+          "completedAt": "2026-10-16T12:31:14.032Z"
+        },
+        {
+          "tileIndex": 6,
+          "taskName": "Recieve a Vorkath Head",
+          "completedAt": "2026-10-16T12:57:22.292Z"
+        },
+        {
+          "tileIndex": 7,
+          "taskName": "Recieve 3 Unique DK's Rings",
+          "completedAt": "2026-10-16T13:24:47.660Z"
+        },
+        {
+          "tileIndex": 10,
+          "taskName": "Obtains Two Moons of Peril Uniques",
+          "completedAt": "2026-10-16T13:44:48.524Z"
+        },
+        {
+          "tileIndex": 13,
+          "taskName": "Receive 2 Awakeners Orbs",
+          "completedAt": "2026-10-16T15:16:22.370Z"
+        },
+        {
+          "tileIndex": 14,
+          "taskName": "Receive an Element Staff Crown from Royal Titans",
+          "completedAt": "2026-10-16T15:31:27.479Z"
+        },
+        {
+          "tileIndex": 15,
+          "taskName": "Receive Any Araxxor Unique",
+          "completedAt": "2026-10-16T16:39:24.078Z"
+        },
+        {
+          "tileIndex": 16,
+          "taskName": "Receive any Unique from Zulrah (No scales / teleports)",
+          "completedAt": "2026-10-16T18:31:03.179Z"
+        },
+        {
+          "tileIndex": 19,
+          "taskName": "Recieve any GWD Hilt",
+          "completedAt": "2026-10-16T21:55:19.216Z"
+        },
+        {
+          "tileIndex": 20,
+          "taskName": "Receive the Dragon Pickaxe from a Wilderness Boss",
+          "completedAt": "2026-10-16T22:14:15.164Z"
+        },
+        {
+          "tileIndex": 24,
+          "taskName": "Receive any Crystal from Cerberus",
+          "completedAt": "2026-10-16T23:53:12.772Z"
+        }
+      ],
+      "visits": [
+        {
+          "tileIndex": 1,
+          "arrivedAt": "2026-10-16T12:00:57.582Z",
+          "leftAt": "2026-10-16T12:31:11.904Z",
+          "ms": 1814322,
+          "open": false
+        },
+        {
+          "tileIndex": 6,
+          "arrivedAt": "2026-10-16T12:31:11.904Z",
+          "leftAt": "2026-10-16T12:54:16.695Z",
+          "ms": 1384791,
+          "open": false
+        },
+        {
+          "tileIndex": 7,
+          "arrivedAt": "2026-10-16T12:54:16.695Z",
+          "leftAt": "2026-10-16T13:24:12.399Z",
+          "ms": 1795704,
+          "open": false
+        },
+        {
+          "tileIndex": 10,
+          "arrivedAt": "2026-10-16T13:24:12.399Z",
+          "leftAt": "2026-10-16T13:45:21.701Z",
+          "ms": 1269302,
+          "open": false
+        },
+        {
+          "tileIndex": 13,
+          "arrivedAt": "2026-10-16T13:45:21.701Z",
+          "leftAt": "2026-10-16T15:16:32.579Z",
+          "ms": 5470878,
+          "open": false
+        },
+        {
+          "tileIndex": 14,
+          "arrivedAt": "2026-10-16T15:16:32.579Z",
+          "leftAt": "2026-10-16T15:31:10.080Z",
+          "ms": 877501,
+          "open": false
+        },
+        {
+          "tileIndex": 15,
+          "arrivedAt": "2026-10-16T15:31:10.080Z",
+          "leftAt": "2026-10-16T16:39:34.759Z",
+          "ms": 4104679,
+          "open": false
+        },
+        {
+          "tileIndex": 16,
+          "arrivedAt": "2026-10-16T16:39:34.759Z",
+          "leftAt": "2026-10-16T18:29:35.194Z",
+          "ms": 6600435,
+          "open": false
+        },
+        {
+          "tileIndex": 19,
+          "arrivedAt": "2026-10-16T18:29:35.194Z",
+          "leftAt": "2026-10-16T21:47:44.944Z",
+          "ms": 11889750,
+          "open": false
+        },
+        {
+          "tileIndex": 20,
+          "arrivedAt": "2026-10-16T21:47:44.944Z",
+          "leftAt": "2026-10-16T22:09:17.761Z",
+          "ms": 1292817,
+          "open": false
+        },
+        {
+          "tileIndex": 24,
+          "arrivedAt": "2026-10-16T22:09:17.761Z",
+          "leftAt": "2026-10-16T23:52:42.844Z",
+          "ms": 6205083,
+          "open": false
+        },
+        {
+          "tileIndex": 27,
+          "arrivedAt": "2026-10-16T23:52:42.844Z",
+          "leftAt": "2026-10-18T21:20:00.000Z",
+          "ms": 163637156,
+          "open": true
+        }
+      ],
+      "tileTimes": [
+        {
+          "tileIndex": 1,
+          "taskName": "Receive any Barrows Weapon",
+          "arrivedAt": "2026-10-16T12:00:57.582Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T12:30:59.116Z",
+          "ms": 1801534,
+          "open": false
+        },
+        {
+          "tileIndex": 6,
+          "taskName": "Recieve a Vorkath Head",
+          "arrivedAt": "2026-10-16T12:31:11.904Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T12:53:28.320Z",
+          "ms": 1336416,
+          "open": false
+        },
+        {
+          "tileIndex": 7,
+          "taskName": "Recieve 3 Unique DK's Rings",
+          "arrivedAt": "2026-10-16T12:54:16.695Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T13:24:04.183Z",
+          "ms": 1787488,
+          "open": false
+        },
+        {
+          "tileIndex": 10,
+          "taskName": "Obtains Two Moons of Peril Uniques",
+          "arrivedAt": "2026-10-16T13:24:12.399Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T13:44:37.644Z",
+          "ms": 1225245,
+          "open": false
+        },
+        {
+          "tileIndex": 13,
+          "taskName": "Receive 2 Awakeners Orbs",
+          "arrivedAt": "2026-10-16T13:45:21.701Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T15:16:18.743Z",
+          "ms": 5457042,
+          "open": false
+        },
+        {
+          "tileIndex": 14,
+          "taskName": "Receive an Element Staff Crown from Royal Titans",
+          "arrivedAt": "2026-10-16T15:16:32.579Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T15:30:55.924Z",
+          "ms": 863345,
+          "open": false
+        },
+        {
+          "tileIndex": 15,
+          "taskName": "Receive Any Araxxor Unique",
+          "arrivedAt": "2026-10-16T15:31:10.080Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T16:39:07.855Z",
+          "ms": 4077775,
+          "open": false
+        },
+        {
+          "tileIndex": 16,
+          "taskName": "Receive any Unique from Zulrah (No scales / teleports)",
+          "arrivedAt": "2026-10-16T16:39:34.759Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T18:29:14.139Z",
+          "ms": 6579380,
+          "open": false
+        },
+        {
+          "tileIndex": 19,
+          "taskName": "Recieve any GWD Hilt",
+          "arrivedAt": "2026-10-16T18:29:35.194Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T21:47:27.784Z",
+          "ms": 11872590,
+          "open": false
+        },
+        {
+          "tileIndex": 20,
+          "taskName": "Receive the Dragon Pickaxe from a Wilderness Boss",
+          "arrivedAt": "2026-10-16T21:47:44.944Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T22:09:06.383Z",
+          "ms": 1281439,
+          "open": false
+        },
+        {
+          "tileIndex": 24,
+          "taskName": "Receive any Crystal from Cerberus",
+          "arrivedAt": "2026-10-16T22:09:17.761Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T23:52:40.248Z",
+          "ms": 6202487,
+          "open": false
+        },
+        {
+          "tileIndex": 27,
+          "taskName": "Receive any Nex Unique",
+          "arrivedAt": "2026-10-16T23:52:42.844Z",
+          "completed": false,
+          "submittedAt": null,
+          "ms": 163637156,
+          "open": true
+        }
+      ],
+      "longestTile": {
+        "tileIndex": 19,
+        "taskName": "Recieve any GWD Hilt",
+        "arrivedAt": "2026-10-16T18:29:35.194Z",
+        "completed": true,
+        "submittedAt": "2026-10-16T21:47:27.784Z",
+        "ms": 11872590,
+        "open": false
+      },
+      "fastestTile": {
+        "tileIndex": 14,
+        "taskName": "Receive an Element Staff Crown from Royal Titans",
+        "arrivedAt": "2026-10-16T15:16:32.579Z",
+        "completed": true,
+        "submittedAt": "2026-10-16T15:30:55.924Z",
+        "ms": 863345,
+        "open": false
+      },
+      "path": [
+        {
+          "from": 0,
+          "to": 1,
+          "kind": "roll",
+          "at": "2026-10-16T12:00:57.582Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 1,
+          "to": 6,
+          "kind": "roll",
+          "at": "2026-10-16T12:31:11.904Z",
+          "roll": 5,
+          "pity": false
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "kind": "roll",
+          "at": "2026-10-16T12:54:16.695Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 7,
+          "to": 10,
+          "kind": "roll",
+          "at": "2026-10-16T13:24:12.399Z",
+          "roll": 3,
+          "pity": false
+        },
+        {
+          "from": 10,
+          "to": 13,
+          "kind": "roll",
+          "at": "2026-10-16T13:45:21.701Z",
+          "roll": 3,
+          "pity": false
+        },
+        {
+          "from": 13,
+          "to": 14,
+          "kind": "roll",
+          "at": "2026-10-16T15:16:32.579Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 14,
+          "to": 15,
+          "kind": "roll",
+          "at": "2026-10-16T15:31:10.080Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 15,
+          "to": 16,
+          "kind": "roll",
+          "at": "2026-10-16T16:39:34.759Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 16,
+          "to": 19,
+          "kind": "roll",
+          "at": "2026-10-16T18:29:35.194Z",
+          "roll": 3,
+          "pity": false
+        },
+        {
+          "from": 19,
+          "to": 20,
+          "kind": "roll",
+          "at": "2026-10-16T21:47:44.944Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 20,
+          "to": 24,
+          "kind": "roll",
+          "at": "2026-10-16T22:09:17.761Z",
+          "roll": 4,
+          "pity": false
+        },
+        {
+          "from": 24,
+          "to": 27,
+          "kind": "roll",
+          "at": "2026-10-16T23:52:42.844Z",
+          "roll": 3,
+          "pity": false
+        }
+      ],
+      "rolls": {
+        "count": 12,
+        "sum": 27,
+        "average": 2.25,
+        "expected": 3.5,
+        "histogram": [
+          6,
+          0,
+          4,
+          1,
+          1,
+          0
+        ],
+        "pityCount": 0,
+        "pityHistogram": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "luck": {
+        "tiles": -15,
+        "dice": -15,
+        "ladders": 0,
+        "snakes": 0
+      },
+      "climb": null,
+      "rollers": [
+        {
+          "key": "r2",
+          "name": "SquintyNinja",
+          "count": 3,
+          "sum": 7,
+          "average": 2.3333333333333335,
+          "expected": 3.5,
+          "histogram": [
+            1,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r15",
+          "name": "Diving",
+          "count": 4,
+          "sum": 11,
+          "average": 2.75,
+          "expected": 3.5,
+          "histogram": [
+            2,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r24",
+          "name": "Flxn",
+          "count": 2,
+          "sum": 4,
+          "average": 2,
+          "expected": 3.5,
+          "histogram": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r26",
+          "name": "TRAVllS",
+          "count": 3,
+          "sum": 5,
+          "average": 1.6666666666666667,
+          "expected": 3.5,
+          "histogram": [
+            2,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "snakesHit": 0,
+      "laddersHit": 0,
+      "biggestLadder": null,
+      "biggestSnake": null,
+      "score": null
+    },
+    {
+      "key": "t11",
+      "rank": 11,
+      "name": "Morning Glory Milking Farm",
+      "icon": "icons/t11.png",
+      "finished": false,
+      "finishedAt": null,
+      "position": 27,
+      "timeSpentMs": 206348605,
+      "tilesCompleted": [
+        {
+          "tileIndex": 2,
+          "taskName": "Obtain a Black mask",
+          "completedAt": "2026-10-16T12:50:43.554Z"
+        },
+        {
+          "tileIndex": 3,
+          "taskName": "Create a Tentacle whip from scratch",
+          "completedAt": "2026-10-16T20:48:23.732Z"
+        },
+        {
+          "tileIndex": 4,
+          "taskName": "Obtain a Zamorakian Spear",
+          "completedAt": "2026-10-17T07:13:33.122Z"
+        },
+        {
+          "tileIndex": 10,
+          "taskName": "Obtains Two Moons of Peril Uniques",
+          "completedAt": "2026-10-17T09:06:39.794Z"
+        },
+        {
+          "tileIndex": 9,
+          "taskName": "Recieve an Armadyl Armour Piece",
+          "completedAt": "2026-10-17T09:49:11.006Z"
+        },
+        {
+          "tileIndex": 13,
+          "taskName": "Receive 2 Awakeners Orbs",
+          "completedAt": "2026-10-17T13:21:42.307Z"
+        }
+      ],
+      "visits": [
+        {
+          "tileIndex": 2,
+          "arrivedAt": "2026-10-16T12:00:57.998Z",
+          "leftAt": "2026-10-16T12:43:32.554Z",
+          "ms": 2554556,
+          "open": false
+        },
+        {
+          "tileIndex": 3,
+          "arrivedAt": "2026-10-16T12:43:32.554Z",
+          "leftAt": "2026-10-16T20:46:23.167Z",
+          "ms": 28970613,
+          "open": false
+        },
+        {
+          "tileIndex": 4,
+          "arrivedAt": "2026-10-16T20:46:23.167Z",
+          "leftAt": "2026-10-17T07:13:23.975Z",
+          "ms": 37620808,
+          "open": false
+        },
+        {
+          "tileIndex": 10,
+          "arrivedAt": "2026-10-17T07:13:23.975Z",
+          "leftAt": "2026-10-17T08:12:44.971Z",
+          "ms": 3560996,
+          "open": false
+        },
+        {
+          "tileIndex": 9,
+          "arrivedAt": "2026-10-17T08:12:44.972Z",
+          "leftAt": "2026-10-17T09:42:48.026Z",
+          "ms": 5403054,
+          "open": false
+        },
+        {
+          "tileIndex": 13,
+          "arrivedAt": "2026-10-17T09:42:48.026Z",
+          "leftAt": "2026-10-17T13:21:18.046Z",
+          "ms": 13110020,
+          "open": false
+        },
+        {
+          "tileIndex": 27,
+          "arrivedAt": "2026-10-17T13:21:18.046Z",
+          "leftAt": "2026-10-18T21:20:00.000Z",
+          "ms": 115121954,
+          "open": true
+        }
+      ],
+      "tileTimes": [
+        {
+          "tileIndex": 2,
+          "taskName": "Obtain a Black mask",
+          "arrivedAt": "2026-10-16T12:00:57.998Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T12:43:16.587Z",
+          "ms": 2538589,
+          "open": false
+        },
+        {
+          "tileIndex": 3,
+          "taskName": "Create a Tentacle whip from scratch",
+          "arrivedAt": "2026-10-16T12:43:32.554Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T20:46:13.073Z",
+          "ms": 28960519,
+          "open": false
+        },
+        {
+          "tileIndex": 4,
+          "taskName": "Obtain a Zamorakian Spear",
+          "arrivedAt": "2026-10-16T20:46:23.167Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T07:13:01.623Z",
+          "ms": 37598456,
+          "open": false
+        },
+        {
+          "tileIndex": 10,
+          "taskName": "Obtains Two Moons of Peril Uniques",
+          "arrivedAt": "2026-10-17T07:13:23.975Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T08:12:30.976Z",
+          "ms": 3547001,
+          "open": false
+        },
+        {
+          "tileIndex": 9,
+          "taskName": "Recieve an Armadyl Armour Piece",
+          "arrivedAt": "2026-10-17T08:12:44.972Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T09:42:31.780Z",
+          "ms": 5386808,
+          "open": false
+        },
+        {
+          "tileIndex": 13,
+          "taskName": "Receive 2 Awakeners Orbs",
+          "arrivedAt": "2026-10-17T09:42:48.026Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T13:21:08.658Z",
+          "ms": 13100632,
+          "open": false
+        },
+        {
+          "tileIndex": 27,
+          "taskName": "Receive any Nex Unique",
+          "arrivedAt": "2026-10-17T13:21:18.046Z",
+          "completed": false,
+          "submittedAt": null,
+          "ms": 115121954,
+          "open": true
+        }
+      ],
+      "longestTile": {
+        "tileIndex": 4,
+        "taskName": "Obtain a Zamorakian Spear",
+        "arrivedAt": "2026-10-16T20:46:23.167Z",
+        "completed": true,
+        "submittedAt": "2026-10-17T07:13:01.623Z",
+        "ms": 37598456,
+        "open": false
+      },
+      "fastestTile": {
+        "tileIndex": 2,
+        "taskName": "Obtain a Black mask",
+        "arrivedAt": "2026-10-16T12:00:57.998Z",
+        "completed": true,
+        "submittedAt": "2026-10-16T12:43:16.587Z",
+        "ms": 2538589,
+        "open": false
+      },
+      "path": [
+        {
+          "from": 0,
+          "to": 2,
+          "kind": "roll",
+          "at": "2026-10-16T12:00:57.998Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "kind": "roll",
+          "at": "2026-10-16T12:43:32.554Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "kind": "roll",
+          "at": "2026-10-16T20:46:23.167Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 4,
+          "to": 10,
+          "kind": "roll",
+          "at": "2026-10-17T07:13:23.975Z",
+          "roll": 6,
+          "pity": false
+        },
+        {
+          "from": 10,
+          "to": 12,
+          "kind": "roll",
+          "at": "2026-10-17T08:12:44.971Z",
+          "roll": 2,
+          "pity": false
+        },
+        {
+          "from": 12,
+          "to": 4,
+          "kind": "snake",
+          "at": "2026-10-17T08:12:44.971Z"
+        },
+        {
+          "from": 4,
+          "to": 9,
+          "kind": "roll",
+          "at": "2026-10-17T08:12:44.972Z",
+          "roll": 5,
+          "pity": true
+        },
+        {
+          "from": 9,
+          "to": 13,
+          "kind": "roll",
+          "at": "2026-10-17T09:42:48.026Z",
+          "roll": 4,
+          "pity": false
+        },
+        {
+          "from": 13,
+          "to": 18,
+          "kind": "roll",
+          "at": "2026-10-17T13:21:18.046Z",
+          "roll": 5,
+          "pity": false
+        },
+        {
+          "from": 18,
+          "to": 27,
+          "kind": "ladder",
+          "at": "2026-10-17T13:21:18.046Z"
+        }
+      ],
+      "rolls": {
+        "count": 8,
+        "sum": 26,
+        "average": 3.25,
+        "expected": 3.5,
+        "histogram": [
+          2,
+          2,
+          0,
+          1,
+          2,
+          1
+        ],
+        "pityCount": 1,
+        "pityHistogram": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "luck": {
+        "tiles": -1,
+        "dice": -2,
+        "ladders": 9,
+        "snakes": 8
+      },
+      "climb": {
+        "tiles": 15.5,
+        "gained": 23,
+        "field": 7.5,
+        "fromTile": 4,
+        "toTile": 27,
+        "fromRank": 13,
+        "toRank": 8,
+        "from": "2026-10-17T08:12:44.972Z",
+        "to": "2026-10-17T13:21:18.046Z",
+        "ms": 18513074
+      },
+      "rollers": [
+        {
+          "key": "r3",
+          "name": "Grindalf",
+          "count": 2,
+          "sum": 8,
+          "average": 4,
+          "expected": 3.5,
+          "histogram": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r18",
+          "name": "Jarn-Jorgen",
+          "count": 3,
+          "sum": 8,
+          "average": 2.6666666666666665,
+          "expected": 3.5,
+          "histogram": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "pityCount": 1,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "key": "r30",
+          "name": "Gim Ragoni",
+          "count": 2,
+          "sum": 6,
+          "average": 3,
+          "expected": 3.5,
+          "histogram": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r39",
+          "name": "MiaoMiau",
+          "count": 1,
+          "sum": 4,
+          "average": 4,
+          "expected": 3.5,
+          "histogram": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "snakesHit": 1,
+      "laddersHit": 1,
+      "biggestLadder": {
+        "from": 18,
+        "to": 27,
+        "length": 9,
+        "at": "2026-10-17T13:21:18.046Z"
+      },
+      "biggestSnake": {
+        "from": 12,
+        "to": 4,
+        "length": 8,
+        "at": "2026-10-17T08:12:44.971Z"
+      },
+      "score": null
+    },
+    {
+      "key": "t12",
+      "rank": 12,
+      "name": "XP Waste Management",
+      "icon": "icons/t12.png",
+      "finished": false,
+      "finishedAt": null,
+      "position": 24,
+      "timeSpentMs": 206348605,
+      "tilesCompleted": [
+        {
+          "tileIndex": 9,
+          "taskName": "Recieve an Armadyl Armour Piece",
+          "completedAt": "2026-10-17T00:13:00.980Z"
+        },
+        {
+          "tileIndex": 13,
+          "taskName": "Receive 2 Awakeners Orbs",
+          "completedAt": "2026-10-17T02:07:27.017Z"
+        },
+        {
+          "tileIndex": 16,
+          "taskName": "Receive any Unique from Zulrah (No scales / teleports)",
+          "completedAt": "2026-10-17T04:01:58.017Z"
+        },
+        {
+          "tileIndex": 19,
+          "taskName": "Recieve any GWD Hilt",
+          "completedAt": "2026-10-18T21:08:42.997Z"
+        }
+      ],
+      "visits": [
+        {
+          "tileIndex": 9,
+          "arrivedAt": "2026-10-16T12:01:53.620Z",
+          "leftAt": "2026-10-17T00:13:16.269Z",
+          "ms": 43882649,
+          "open": false
+        },
+        {
+          "tileIndex": 13,
+          "arrivedAt": "2026-10-17T00:13:16.269Z",
+          "leftAt": "2026-10-17T01:51:09.032Z",
+          "ms": 5872763,
+          "open": false
+        },
+        {
+          "tileIndex": 16,
+          "arrivedAt": "2026-10-17T01:51:09.032Z",
+          "leftAt": "2026-10-17T03:55:43.211Z",
+          "ms": 7474179,
+          "open": false
+        },
+        {
+          "tileIndex": 19,
+          "arrivedAt": "2026-10-17T03:55:43.211Z",
+          "leftAt": "2026-10-17T04:00:31.180Z",
+          "ms": 287969,
+          "open": false
+        },
+        {
+          "tileIndex": 16,
+          "arrivedAt": "2026-10-17T04:00:31.180Z",
+          "leftAt": "2026-10-17T04:01:58.410Z",
+          "ms": 87230,
+          "open": false
+        },
+        {
+          "tileIndex": 19,
+          "arrivedAt": "2026-10-17T04:01:58.410Z",
+          "leftAt": "2026-10-18T21:08:44.485Z",
+          "ms": 148006075,
+          "open": false
+        },
+        {
+          "tileIndex": 24,
+          "arrivedAt": "2026-10-18T21:08:44.485Z",
+          "leftAt": "2026-10-18T21:20:00.000Z",
+          "ms": 675515,
+          "open": true
+        }
+      ],
+      "tileTimes": [
+        {
+          "tileIndex": 9,
+          "taskName": "Recieve an Armadyl Armour Piece",
+          "arrivedAt": "2026-10-16T12:01:53.620Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T00:12:43.827Z",
+          "ms": 43850207,
+          "open": false
+        },
+        {
+          "tileIndex": 13,
+          "taskName": "Receive 2 Awakeners Orbs",
+          "arrivedAt": "2026-10-17T00:13:16.269Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T01:50:35.349Z",
+          "ms": 5839080,
+          "open": false
+        },
+        {
+          "tileIndex": 16,
+          "taskName": "Receive any Unique from Zulrah (No scales / teleports)",
+          "arrivedAt": "2026-10-17T01:51:09.032Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T04:01:49.225Z",
+          "ms": 7840193,
+          "open": false
+        },
+        {
+          "tileIndex": 19,
+          "taskName": "Recieve any GWD Hilt",
+          "arrivedAt": "2026-10-17T03:55:43.211Z",
+          "completed": true,
+          "submittedAt": "2026-10-18T21:08:34.946Z",
+          "ms": 148371735,
+          "open": false
+        },
+        {
+          "tileIndex": 24,
+          "taskName": "Receive any Crystal from Cerberus",
+          "arrivedAt": "2026-10-18T21:08:44.485Z",
+          "completed": false,
+          "submittedAt": null,
+          "ms": 675515,
+          "open": true
+        }
+      ],
+      "longestTile": {
+        "tileIndex": 19,
+        "taskName": "Recieve any GWD Hilt",
+        "arrivedAt": "2026-10-17T03:55:43.211Z",
+        "completed": true,
+        "submittedAt": "2026-10-18T21:08:34.946Z",
+        "ms": 148371735,
+        "open": false
+      },
+      "fastestTile": {
+        "tileIndex": 13,
+        "taskName": "Receive 2 Awakeners Orbs",
+        "arrivedAt": "2026-10-17T00:13:16.269Z",
+        "completed": true,
+        "submittedAt": "2026-10-17T01:50:35.349Z",
+        "ms": 5839080,
+        "open": false
+      },
+      "path": [
+        {
+          "from": 0,
+          "to": 5,
+          "kind": "roll",
+          "at": "2026-10-16T12:01:53.620Z",
+          "roll": 5,
+          "pity": false
+        },
+        {
+          "from": 5,
+          "to": 9,
+          "kind": "ladder",
+          "at": "2026-10-16T12:01:53.620Z"
+        },
+        {
+          "from": 9,
+          "to": 13,
+          "kind": "roll",
+          "at": "2026-10-17T00:13:16.269Z",
+          "roll": 4,
+          "pity": false
+        },
+        {
+          "from": 13,
+          "to": 16,
+          "kind": "roll",
+          "at": "2026-10-17T01:51:09.032Z",
+          "roll": 3,
+          "pity": false
+        },
+        {
+          "from": 16,
+          "to": 19,
+          "kind": "roll",
+          "at": "2026-10-17T03:55:43.211Z",
+          "roll": 3,
+          "pity": false
+        },
+        {
+          "from": 19,
+          "to": 16,
+          "kind": "setback",
+          "at": "2026-10-17T04:00:31.180Z"
+        },
+        {
+          "from": 16,
+          "to": 19,
+          "kind": "return",
+          "at": "2026-10-17T04:01:58.410Z"
+        },
+        {
+          "from": 19,
+          "to": 24,
+          "kind": "roll",
+          "at": "2026-10-18T21:08:44.485Z",
+          "roll": 5,
+          "pity": false
+        }
+      ],
+      "rolls": {
+        "count": 5,
+        "sum": 20,
+        "average": 4,
+        "expected": 3.5,
+        "histogram": [
+          0,
+          0,
+          2,
+          1,
+          2,
+          0
+        ],
+        "pityCount": 0,
+        "pityHistogram": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "luck": {
+        "tiles": 6.5,
+        "dice": 2.5,
+        "ladders": 4,
+        "snakes": 0
+      },
+      "climb": {
+        "tiles": 5,
+        "gained": 5,
+        "field": 0,
+        "fromTile": 19,
+        "toTile": 24,
+        "fromRank": 12,
+        "toRank": 12,
+        "from": "2026-10-18T21:08:44.485Z",
+        "to": "2026-10-18T21:08:44.485Z",
+        "ms": 0
+      },
+      "rollers": [
+        {
+          "key": "r11",
+          "name": "Dog Eat Dawg",
+          "count": 3,
+          "sum": 12,
+          "average": 4,
+          "expected": 3.5,
+          "histogram": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r36",
+          "name": "X Xemnas",
+          "count": 2,
+          "sum": 8,
+          "average": 4,
+          "expected": 3.5,
+          "histogram": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "snakesHit": 0,
+      "laddersHit": 1,
+      "biggestLadder": {
+        "from": 5,
+        "to": 9,
+        "length": 4,
+        "at": "2026-10-16T12:01:53.620Z"
+      },
+      "biggestSnake": null,
+      "score": null
+    },
+    {
+      "key": "t13",
+      "rank": 13,
+      "name": "Vardoofus's",
+      "icon": "icons/t13.png",
+      "finished": false,
+      "finishedAt": null,
+      "position": 19,
+      "timeSpentMs": 206348605,
+      "tilesCompleted": [
+        {
+          "tileIndex": 1,
+          "taskName": "Receive any Barrows Weapon",
+          "completedAt": "2026-10-16T12:26:04.860Z"
+        },
+        {
+          "tileIndex": 2,
+          "taskName": "Obtain a Black mask",
+          "completedAt": "2026-10-16T13:28:03.642Z"
+        },
+        {
+          "tileIndex": 9,
+          "taskName": "Recieve an Armadyl Armour Piece",
+          "completedAt": "2026-10-17T02:07:35.531Z"
+        },
+        {
+          "tileIndex": 15,
+          "taskName": "Receive Any Araxxor Unique",
+          "completedAt": "2026-10-17T05:47:22.461Z"
+        }
+      ],
+      "visits": [
+        {
+          "tileIndex": 1,
+          "arrivedAt": "2026-10-16T12:01:53.360Z",
+          "leftAt": "2026-10-16T12:26:13.841Z",
+          "ms": 1460481,
+          "open": false
+        },
+        {
+          "tileIndex": 2,
+          "arrivedAt": "2026-10-16T12:26:13.841Z",
+          "leftAt": "2026-10-16T13:28:12.491Z",
+          "ms": 3718650,
+          "open": false
+        },
+        {
+          "tileIndex": 9,
+          "arrivedAt": "2026-10-16T13:28:12.491Z",
+          "leftAt": "2026-10-17T01:57:18.639Z",
+          "ms": 44946148,
+          "open": false
+        },
+        {
+          "tileIndex": 15,
+          "arrivedAt": "2026-10-17T01:57:18.639Z",
+          "leftAt": "2026-10-17T05:47:21.672Z",
+          "ms": 13803033,
+          "open": false
+        },
+        {
+          "tileIndex": 19,
+          "arrivedAt": "2026-10-17T05:47:21.672Z",
+          "leftAt": "2026-10-18T21:20:00.000Z",
+          "ms": 142358328,
+          "open": true
+        }
+      ],
+      "tileTimes": [
+        {
+          "tileIndex": 1,
+          "taskName": "Receive any Barrows Weapon",
+          "arrivedAt": "2026-10-16T12:01:53.360Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T12:24:03.549Z",
+          "ms": 1330189,
+          "open": false
+        },
+        {
+          "tileIndex": 2,
+          "taskName": "Obtain a Black mask",
+          "arrivedAt": "2026-10-16T12:26:13.841Z",
+          "completed": true,
+          "submittedAt": "2026-10-16T13:27:48.047Z",
+          "ms": 3694206,
+          "open": false
+        },
+        {
+          "tileIndex": 9,
+          "taskName": "Recieve an Armadyl Armour Piece",
+          "arrivedAt": "2026-10-16T13:28:12.491Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T01:57:03.726Z",
+          "ms": 44931235,
+          "open": false
+        },
+        {
+          "tileIndex": 15,
+          "taskName": "Receive Any Araxxor Unique",
+          "arrivedAt": "2026-10-17T01:57:18.639Z",
+          "completed": true,
+          "submittedAt": "2026-10-17T05:47:06.900Z",
+          "ms": 13788261,
+          "open": false
+        },
+        {
+          "tileIndex": 19,
+          "taskName": "Recieve any GWD Hilt",
+          "arrivedAt": "2026-10-17T05:47:21.672Z",
+          "completed": false,
+          "submittedAt": null,
+          "ms": 142358328,
+          "open": true
+        }
+      ],
+      "longestTile": {
+        "tileIndex": 9,
+        "taskName": "Recieve an Armadyl Armour Piece",
+        "arrivedAt": "2026-10-16T13:28:12.491Z",
+        "completed": true,
+        "submittedAt": "2026-10-17T01:57:03.726Z",
+        "ms": 44931235,
+        "open": false
+      },
+      "fastestTile": {
+        "tileIndex": 1,
+        "taskName": "Receive any Barrows Weapon",
+        "arrivedAt": "2026-10-16T12:01:53.360Z",
+        "completed": true,
+        "submittedAt": "2026-10-16T12:24:03.549Z",
+        "ms": 1330189,
+        "open": false
+      },
+      "path": [
+        {
+          "from": 0,
+          "to": 1,
+          "kind": "roll",
+          "at": "2026-10-16T12:01:53.360Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "kind": "roll",
+          "at": "2026-10-16T12:26:13.841Z",
+          "roll": 1,
+          "pity": false
+        },
+        {
+          "from": 2,
+          "to": 5,
+          "kind": "roll",
+          "at": "2026-10-16T13:28:12.491Z",
+          "roll": 3,
+          "pity": false
+        },
+        {
+          "from": 5,
+          "to": 9,
+          "kind": "ladder",
+          "at": "2026-10-16T13:28:12.491Z"
+        },
+        {
+          "from": 9,
+          "to": 15,
+          "kind": "roll",
+          "at": "2026-10-17T01:57:18.639Z",
+          "roll": 6,
+          "pity": false
+        },
+        {
+          "from": 15,
+          "to": 19,
+          "kind": "roll",
+          "at": "2026-10-17T05:47:21.672Z",
+          "roll": 4,
+          "pity": false
+        }
+      ],
+      "rolls": {
+        "count": 5,
+        "sum": 15,
+        "average": 3,
+        "expected": 3.5,
+        "histogram": [
+          2,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "pityCount": 0,
+        "pityHistogram": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "luck": {
+        "tiles": 1.5,
+        "dice": -2.5,
+        "ladders": 4,
+        "snakes": 0
+      },
+      "climb": null,
+      "rollers": [
+        {
+          "key": "r10",
+          "name": "Golden Time",
+          "count": 2,
+          "sum": 2,
+          "average": 1,
+          "expected": 3.5,
+          "histogram": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r23",
+          "name": "thanadal",
+          "count": 2,
+          "sum": 9,
+          "average": 4.5,
+          "expected": 3.5,
+          "histogram": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "key": "r38",
+          "name": "Jfk gone afk",
+          "count": 1,
+          "sum": 4,
+          "average": 4,
+          "expected": 3.5,
+          "histogram": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "pityCount": 0,
+          "pityHistogram": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "snakesHit": 0,
+      "laddersHit": 1,
+      "biggestLadder": {
+        "from": 5,
+        "to": 9,
+        "length": 4,
+        "at": "2026-10-16T13:28:12.491Z"
+      },
+      "biggestSnake": null,
+      "score": null
+    }
+  ],
+  "totals": {
+    "teams": 13,
+    "tilesCompleted": 131,
+    "rolls": 148,
+    "pityRolls": 6,
+    "snakesHit": 7,
+    "laddersHit": 17
+  },
+  "callouts": {
+    "luckiestTeam": {
+      "team": "t3",
+      "tiles": 16.5,
+      "dice": -0.5,
+      "ladders": 17,
+      "snakes": 0,
+      "count": 13,
+      "tied": []
+    },
+    "unluckiestTeam": {
+      "team": "t10",
+      "tiles": -15,
+      "dice": -15,
+      "ladders": 0,
+      "snakes": 0,
+      "count": 12,
+      "tied": []
+    },
+    "luckiestPlayer": {
+      "team": "t9",
+      "roller": "r22",
+      "average": 4,
+      "delta": 0.5,
+      "count": 5,
+      "tied": []
+    },
+    "unluckiestPlayer": {
+      "team": "t1",
+      "roller": "r1",
+      "average": 2.2,
+      "delta": -1.2999999999999998,
+      "count": 5,
+      "tied": []
+    },
+    "mostLadderTiles": {
+      "team": "t4",
+      "tiles": 21,
+      "count": 3,
+      "tied": []
+    },
+    "mostSnakeTiles": {
+      "team": "t8",
+      "tiles": 16,
+      "count": 2,
+      "tied": []
+    },
+    "longestTile": {
+      "team": "t12",
+      "tileIndex": 19,
+      "taskName": "Recieve any GWD Hilt",
+      "arrivedAt": "2026-10-17T03:55:43.211Z",
+      "completed": true,
+      "submittedAt": "2026-10-18T21:08:34.946Z",
+      "ms": 148371735,
+      "open": false,
+      "tied": []
+    },
+    "fastestTile": {
+      "team": "t7",
+      "tileIndex": 6,
+      "taskName": "Recieve a Vorkath Head",
+      "arrivedAt": "2026-10-16T12:31:56.362Z",
+      "completed": true,
+      "submittedAt": "2026-10-16T12:36:16.517Z",
+      "ms": 260155,
+      "open": false,
+      "tied": []
+    },
+    "longestStuck": {
+      "team": "t10",
+      "tileIndex": 27,
+      "taskName": "Receive any Nex Unique",
+      "arrivedAt": "2026-10-16T23:52:42.844Z",
+      "completed": false,
+      "submittedAt": null,
+      "ms": 163637156,
+      "open": true,
+      "tied": []
+    },
+    "biggestClimb": {
+      "team": "t4",
+      "tiles": 45,
+      "gained": 48,
+      "field": 3,
+      "fromTile": 9,
+      "toTile": 57,
+      "fromRank": 13,
+      "toRank": 3,
+      "from": "2026-10-17T17:44:19.436Z",
+      "to": "2026-10-18T09:46:28.295Z",
+      "ms": 57728859,
+      "tied": []
+    }
+  }
+}
