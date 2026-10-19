@@ -692,6 +692,12 @@
       "key": "t1",
       "rank": 1,
       "name": "Raven Haven",
+      "members": [
+        "PSO Pokie",
+        "Had Enough",
+        "MarshalRS",
+        "Nice Brain"
+      ],
       "icon": "icons/t1.png",
       "finished": true,
       "finishedAt": "2026-10-18T03:21:45.138Z",
@@ -1386,6 +1392,12 @@
       "key": "t2",
       "rank": 2,
       "name": "Astro’s G Spot",
+      "members": [
+        "PapaShlump",
+        "Astro",
+        "Giddy Yup",
+        "AngryQ"
+      ],
       "icon": "icons/t2.png",
       "finished": true,
       "finishedAt": "2026-10-18T21:08:33.475Z",
@@ -2172,6 +2184,12 @@
       "key": "t3",
       "rank": 3,
       "name": "Ladderally Aware",
+      "members": [
+        "Mercenary",
+        "Some Solace | Brief Solace",
+        "PopInSmoke",
+        "Vyvan se"
+      ],
       "icon": "icons/t3.png",
       "finished": false,
       "finishedAt": null,
@@ -2726,6 +2744,12 @@
       "key": "t4",
       "rank": 4,
       "name": "Nex Offenders",
+      "members": [
+        "Birt",
+        "Neiyoh",
+        "Weurst",
+        "Raj Barrage"
+      ],
       "icon": "icons/t4.png",
       "finished": false,
       "finishedAt": null,
@@ -3251,6 +3275,12 @@
       "key": "t5",
       "rank": 5,
       "name": "Zurich Fried BBQ Chicken",
+      "members": [
+        "stevex196x",
+        "McChicken77",
+        "P074705474D - EtR Flicker",
+        "Raging Sea"
+      ],
       "icon": "icons/t5.png",
       "finished": false,
       "finishedAt": null,
@@ -3784,6 +3814,12 @@
       "key": "t6",
       "rank": 6,
       "name": "Four Horsemen",
+      "members": [
+        "Scyptile",
+        "Jarl Rune",
+        "Pitsea",
+        "S aitaama"
+      ],
       "icon": "icons/t6.png",
       "finished": false,
       "finishedAt": null,
@@ -4304,6 +4340,12 @@
       "key": "t7",
       "rank": 7,
       "name": "Trialists Reborn",
+      "members": [
+        "baby wah wah/Loldeuses",
+        "Jared",
+        "Abyssteus",
+        "Vybzkartell"
+      ],
       "icon": "icons/t7.png",
       "finished": false,
       "finishedAt": null,
@@ -4813,6 +4855,12 @@
       "key": "t8",
       "rank": 8,
       "name": "Employed Gamers",
+      "members": [
+        "Snizax | Hellzax | Will",
+        "Flotus Weasley",
+        "Tharendel",
+        "Z emnieks"
+      ],
       "icon": "icons/t8.png",
       "finished": false,
       "finishedAt": null,
@@ -5317,6 +5365,12 @@
       "key": "t9",
       "rank": 9,
       "name": "Code 12",
+      "members": [
+        "BaldEdan",
+        "uTzGuTz (Koz)",
+        "Bugged",
+        "Du rk"
+      ],
       "icon": "icons/t9.png",
       "finished": false,
       "finishedAt": null,
@@ -5671,6 +5725,12 @@
       "key": "t10",
       "rank": 10,
       "name": "BDR",
+      "members": [
+        "TRAVllS",
+        "Diving",
+        "SquintyNinja",
+        "Flxn"
+      ],
       "icon": "icons/t10.png",
       "finished": false,
       "finishedAt": null,
@@ -6187,6 +6247,12 @@
       "key": "t11",
       "rank": 11,
       "name": "Morning Glory Milking Farm",
+      "members": [
+        "MiaoMiau",
+        "Gim Ragoni",
+        "Jarn-Jorgen",
+        "Grindalf"
+      ],
       "icon": "icons/t11.png",
       "finished": false,
       "finishedAt": null,
@@ -6599,6 +6665,12 @@
       "key": "t12",
       "rank": 12,
       "name": "XP Waste Management",
+      "members": [
+        "Dog Eat Dawg",
+        "X Xemnas",
+        "P S Rocks",
+        "Erreth Akbe"
+      ],
       "icon": "icons/t12.png",
       "finished": false,
       "finishedAt": null,
@@ -6910,6 +6982,12 @@
       "key": "t13",
       "rank": 13,
       "name": "Vardoofus's",
+      "members": [
+        "Jfk gone afk",
+        "Golden Time",
+        "UsaMarine",
+        "thanadal"
+      ],
       "icon": "icons/t13.png",
       "finished": false,
       "finishedAt": null,
