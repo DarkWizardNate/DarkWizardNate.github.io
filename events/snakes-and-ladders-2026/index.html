@@ -237,6 +237,31 @@
   .switch button[aria-pressed="true"] { background: var(--accent); color: var(--on-accent); }
   .switch button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .heat rect.cell { stroke: none; }
+  .replay-team { filter: drop-shadow(0 0 3px var(--halo)); }
+  .replay-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-top: 10px; }
+  .replay-controls input[type="range"] { flex: 1 1 160px; min-width: 0; accent-color: var(--accent); }
+  .replay-play {
+    display: inline-grid; place-items: center; width: 36px; height: 36px; flex: none; cursor: pointer;
+    border-radius: 50%; border: 0; background: var(--accent); color: var(--on-accent); font: 700 13px/1 system-ui, sans-serif;
+  }
+  .replay-play:focus-visible, .ticker button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .replay-time { font-weight: 650; font-variant-numeric: tabular-nums; min-width: 6.5em; text-align: right; }
+  /* A chat log: oldest at the top, new lines at the bottom. column-reverse anchors the scroll (and a
+     short log) to the bottom without script; the list itself stays in time order for keyboard and reader. */
+  .ticker-scroll { display: flex; flex-direction: column-reverse; height: min(560px, 75vh); overflow-y: auto; }
+  .ticker { list-style: none; margin: 0; padding: 4px 0; }
+  .ticker li[hidden], .ticker-empty[hidden] { display: none; }
+  .ticker-empty { margin: 0; padding: 10px 12px; color: var(--fg-dim); }
+  .ticker li { border-left: 3px solid transparent; }
+  .ticker li.current { background: var(--accent-bg); border-left-color: var(--accent); }
+  .ticker button {
+    display: flex; align-items: center; gap: 8px; width: 100%; text-align: left; cursor: pointer;
+    font: inherit; color: var(--fg); background: none; border: 0; padding: 5px 12px;
+  }
+  .ticker button:hover { background: var(--surface2); }
+  .ticker li.current button:hover { background: transparent; }
+  .ticker button > span:first-child { flex: none; font-variant-numeric: tabular-nums; font-size: 12px; }
+  .ticker button > span:last-child { min-width: 0; overflow-wrap: anywhere; }
   table.acc tr.acc-row { cursor: pointer; }
   .acc-btn { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; font-variant-numeric: tabular-nums; }
   .acc-btn .caret { display: inline-block; width: 12px; color: var(--fg-dim); font-size: 15px; line-height: 1; transition: transform .15s; }
@@ -452,6 +477,180 @@ function windowNote(member, shared, when) {
   if (Date.parse(w.from) !== Date.parse(shared.from)) parts.push(`joined ${when(w.from)}`);
   if (Date.parse(w.to) !== Date.parse(shared.to)) parts.push(`left ${when(w.to)}`);
   return parts.length ? parts.join(" · ") : null;
+}
+
+// Same icon sizing as util/render.js.
+const MAX_ICON = 64;
+const MIN_ICON = 12;
+const TILE_PADDING = 0.1;
+const ICON_GAP = 4;
+
+function iconLayout(count, bounds) {
+  /** `count` icons in a centred grid inside a tile's bounds, as util/render.js lays them out: { size, positions }. */
+  const cols = count <= 2 ? count : Math.ceil(Math.sqrt(count));
+  const rows = Math.ceil(count / cols);
+  const availW = bounds.w * (1 - 2 * TILE_PADDING);
+  const availH = bounds.h * (1 - 2 * TILE_PADDING);
+  const size = Math.max(MIN_ICON, Math.min(MAX_ICON, Math.floor((availW - (cols - 1) * ICON_GAP) / cols), Math.floor((availH - (rows - 1) * ICON_GAP) / rows)));
+  const gridH = rows * size + (rows - 1) * ICON_GAP;
+  const top = bounds.y + (bounds.h - gridH) / 2;
+  const positions = [];
+  for (let row = 0; row < rows; row++) {
+    const inRow = Math.min(cols, count - row * cols);
+    const rowW = inRow * size + (inRow - 1) * ICON_GAP;
+    const left = bounds.x + (bounds.w - rowW) / 2;
+    for (let col = 0; col < inRow; col++) positions.push({ x: Math.round(left + col * (size + ICON_GAP)), y: Math.round(top + row * (size + ICON_GAP)) });
+  }
+  return { size, positions };
+}
+
+function startZoneLayout(count, imageWidth) {
+  /** Teams at position 0 in one row after the START label, as util/render.js; `y` is relative to the strip. */
+  const availW = imageWidth - START_LABEL_W - 12;
+  const size = Math.max(MIN_ICON, Math.min(MAX_ICON, Math.floor(availW / Math.max(count, 1)) - ICON_GAP));
+  const y = Math.round((START_H - size) / 2);
+  const positions = [];
+  for (let i = 0; i < count; i++) positions.push({ x: START_LABEL_W + i * (size + ICON_GAP), y });
+  return { size, positions };
+}
+
+function replayLabel(tz, at) {
+  /** "SAT 17:30" in the export's zone, 24-hour. */
+  const parts = new Intl.DateTimeFormat("en-US", { timeZone: tz, weekday: "short", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).formatToParts(at);
+  const part = (type) => parts.find((p) => p.type === type)?.value ?? "";
+  const hour = part("hour") === "24" ? "00" : part("hour");
+  return `${part("weekday").toUpperCase()} ${hour}:${part("minute")}`;
+}
+
+function replayTimeline(data) {
+  /**
+   * The race as replay events, built from teams[].path. Detours (setback … return) are left out,
+   * with the team kept on the tile it left; a deferred snake-mode return becomes one advance.
+   * Each event gets a display window [startAt, endAt] in replay time, so a chain stamped
+   * milliseconds apart plays hop by hop. Times are epoch ms.
+   */
+  const snake = data.game.mode === "snake";
+  const end = Date.parse(data.snapshot.at);
+  const teams = [...data.teams].sort((a, b) => a.rank - b.rank);
+  const firstAt = Math.min(...teams.flatMap((t) => (t.path || []).map((seg) => Date.parse(seg.at))));
+  let start = Date.parse(data.game.startAt);
+  if (!Number.isFinite(start)) start = Number.isFinite(firstAt) ? firstAt : end;
+  const hopMs = Math.max(1, (end - start) / 150);
+  const chains = (seg) => seg.kind === "snake" || seg.kind === "ladder" || seg.pity === true;
+
+  function kept(path) {
+    const out = [];
+    for (let i = 0; i < path.length; i++) {
+      const seg = path[i];
+      if (seg.kind !== "setback") {
+        if (seg.kind !== "return") out.push(seg);
+        continue;
+      }
+      const from = seg.from;
+      while (i < path.length && path[i].kind === "setback") i++;
+      const next = path[i];
+      if (!next) break;
+      if (next.to === from) continue;
+      if (next.kind === "return") out.push({ from, to: next.to, kind: snake ? "advance" : "jump", at: next.at });
+      else out.push({ ...next, from });
+    }
+    return out;
+  }
+
+  const byTeam = new Map();
+  const events = [];
+  for (const team of teams) {
+    const path = team.path || [];
+    const initial = path.length ? path[0].from : snake ? 1 : 0;
+    const segs = kept(path);
+    const list = [];
+    let prevEnd = -Infinity;
+    let sortAt = -Infinity;
+    segs.forEach((seg, i) => {
+      const at = Date.parse(seg.at);
+      const walk = seg.kind === "roll" || seg.kind === "advance";
+      const tiles = Math.abs(seg.to - seg.from);
+      const startAt = Math.max(at, prevEnd);
+      const endAt = startAt + (walk ? (hopMs * Math.min(tiles, 6)) / 3 : hopMs);
+      const step = seg.to >= seg.from ? 1 : -1;
+      const points = walk ? Array.from({ length: tiles + 1 }, (_, k) => seg.from + k * step) : [seg.from, seg.to];
+      const next = segs[i + 1];
+      const event = { at, team, kind: seg.kind, from: seg.from, to: seg.to, stop: !(next && chains(next)), startAt, endAt, points };
+      if (seg.kind === "roll") {
+        event.roll = seg.roll;
+        event.pity = seg.pity === true;
+      }
+      sortAt = Math.max(sortAt, at);
+      event.sortAt = sortAt;
+      list.push(event);
+      prevEnd = endAt;
+    });
+    const finishedAt = Date.parse(team.finishedAt);
+    if (team.finished && Number.isFinite(finishedAt) && finishedAt <= end) {
+      const tile = list.length ? list[list.length - 1].to : initial;
+      const startAt = Math.max(finishedAt, prevEnd);
+      list.push({ at: finishedAt, team, kind: "finish", from: tile, to: tile, stop: true, startAt, endAt: startAt, points: [tile], sortAt: Math.max(sortAt, finishedAt) });
+    }
+    list.forEach((e, i) => { e.seq = i; });
+    byTeam.set(team, { initial, list });
+    events.push(...list);
+  }
+  events.sort((a, b) => a.sortAt - b.sortAt || a.team.rank - b.team.rank || a.seq - b.seq);
+
+  function positionsAt(t) {
+    return teams.map((team) => {
+      const { initial, list } = byTeam.get(team);
+      if (t < start || !list.length) return { team, tile: initial, moving: null };
+      if (t >= end) return { team, tile: list[list.length - 1].to, moving: null };
+      let lo = 0;
+      let hi = list.length - 1;
+      let found = -1;
+      while (lo <= hi) {
+        const mid = (lo + hi) >> 1;
+        if (list[mid].startAt <= t) {
+          found = mid;
+          lo = mid + 1;
+        } else hi = mid - 1;
+      }
+      if (found < 0) return { team, tile: initial, moving: null };
+      const e = list[found];
+      if (t >= e.endAt) return { team, tile: e.to, moving: null };
+      return { team, tile: e.from, moving: { points: e.points, f: (t - e.startAt) / (e.endAt - e.startAt) } };
+    });
+  }
+
+  function settleAt(event) {
+    const { list } = byTeam.get(event.team);
+    let i = event.seq;
+    while (!list[i].stop && i + 1 < list.length) i++;
+    return list[i].endAt;
+  }
+
+  return { start, end, hopMs, events, positionsAt, settleAt };
+}
+
+function tickerText(event, ctx) {
+  /** A replay line after its time and icon; the task is named only where the team stopped. ctx: { name, task(tile) }. */
+  const name = ctx.name;
+  const tile = event.to === 0 ? "the start" : `tile ${event.to}`;
+  const task = event.stop && event.kind !== "finish" ? ctx.task(event.to) : null;
+  const suffix = task ? ` (${task})` : "";
+  switch (event.kind) {
+    case "roll":
+      return event.pity ? `♻️ ${name} pity re-rolled a ${event.roll} → ${tile}${suffix}` : `${name} rolled a ${event.roll} → ${tile}${suffix}`;
+    case "ladder":
+      return `🪜 ${name} climbed a ladder ${event.from} → ${event.to}${suffix}`;
+    case "snake":
+      return `🐍 ${name} slid down a snake ${event.from} → ${event.to}${suffix}`;
+    case "advance":
+      return `${name} advanced to ${tile}${suffix}`;
+    case "jump":
+      return `${name} moved to ${tile} by an admin${suffix}`;
+    case "finish":
+      return `🏁 ${name} finished`;
+    default:
+      return `${name} moved to ${tile}${suffix}`;
+  }
 }
 // >>> ANALYTICS-PAGE-LIB-END
 
@@ -946,11 +1145,190 @@ function view(data) {
     return counts;
   }
 
+  function replayView() {
+    /**
+     * The race on the board over time: every team's icon where it was at replay time `t`, play /
+     * pause and a slider under the board, and a play-by-play beside it. Built once per render;
+     * redraw() only moves the icons and flips ticker attributes.
+     */
+    const r = replayTimeline(data);
+    const W = data.board.width;
+    const H = data.board.height;
+    const span = Math.max(1, r.end - r.start);
+    const STEP = 60000;
+    // Play covers the whole event in a minute; reduced motion steps from stop to stop instead.
+    const PLAY_MS = 60000;
+    const STEP_MS = 400;
+    const reduced = typeof matchMedia === "function" && !!matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const animate = typeof requestAnimationFrame === "function";
+    const settles = [...new Set(r.events.map((e) => r.settleAt(e)))].sort((a, b) => a - b);
+    let t = r.end;
+    let playing = false;
+    let lastTs = null;
+    let waited = 0;
+    const shown = [];
+    let current = -1;
+    let picked = null;
+
+    const layer = s("g", null);
+    const nodes = new Map(data.teams.map((team) => {
+      const img = s("image", { href: team.icon, preserveAspectRatio: "xMidYMid slice" });
+      const g = s("g", { class: "replay-team" }, s("title", null, team.name), img);
+      return [team, { g, img }];
+    }));
+    for (const team of [...data.teams].sort((a, b) => b.rank - a.rank)) layer.appendChild(nodes.get(team).g);
+    const board = boardSvg(() => layer, { start: standard });
+
+    const loneSize = (tile) => {
+      if (tile === 0) return startZoneLayout(1, W).size;
+      const b = (tileByIndex.get(tile) || {}).bounds;
+      return b ? iconLayout(1, b).size : MIN_ICON;
+    };
+    function place(team, x, y, size) {
+      const { img } = nodes.get(team);
+      if (x == null) return img.setAttribute("visibility", "hidden");
+      setAttrs(img, { x: Math.round(x), y: Math.round(y), width: size, height: size, visibility: "visible" });
+    }
+    function drawBoard() {
+      const groups = new Map();
+      for (const p of r.positionsAt(t)) {
+        const moving = reduced ? null : p.moving;
+        if (!moving) {
+          if (!groups.has(p.tile)) groups.set(p.tile, []);
+          groups.get(p.tile).push(p.team);
+          continue;
+        }
+        // Along the walked tiles, sized as a lone team on the tile it's heading for, drawn on top.
+        const pts = moving.points.map((i) => pointFor(data.board, i));
+        const pos = Math.min(1, Math.max(0, moving.f)) * (pts.length - 1);
+        const k = Math.min(pts.length - 2, Math.floor(pos));
+        const a = pts[k];
+        const b = pts[k + 1] || a;
+        const size = loneSize(moving.points[moving.points.length - 1]);
+        if (!a || !b) place(p.team, null);
+        else place(p.team, a.x + (b.x - a.x) * (pos - k) - size / 2, a.y + (b.y - a.y) * (pos - k) - size / 2, size);
+        const g = nodes.get(p.team).g;
+        if (layer.lastElementChild !== g) layer.appendChild(g);
+      }
+      for (const [tile, teams] of groups) {
+        const b = (tileByIndex.get(tile) || {}).bounds;
+        const layout = tile === 0 ? startZoneLayout(teams.length, W) : b ? iconLayout(teams.length, b) : null;
+        teams.forEach((team, i) => {
+          if (layout) return place(team, layout.positions[i].x, layout.positions[i].y + (tile === 0 ? H : 0), layout.size);
+          const p = pointFor(data.board, tile);
+          return p ? place(team, p.x - MIN_ICON / 2, p.y - MIN_ICON / 2, MIN_ICON) : place(team, null);
+        });
+      }
+    }
+
+    const playBtn = h("button", { type: "button", class: "replay-play" });
+    const slider = h("input", { type: "range", min: 0, max: Math.ceil(span / STEP), step: 1, "aria-label": "Replay time" });
+    const readout = h("output", { class: "replay-time" });
+    const controls = h("div", { class: "replay-controls" }, playBtn, slider, readout);
+
+    // Oldest first, like a chat log; items[i] is events[i]'s line.
+    const items = r.events.map((e, i) => {
+      const ctx = { name: e.team.name, task: (tile) => (tileByIndex.get(tile) || {}).taskName || null };
+      const btn = h("button", { type: "button" },
+        h("span", { class: "dim" }, `[${replayLabel(tz, e.at)}]`), icon(e.team, "s"), h("span", null, tickerText(e, ctx)));
+      btn.addEventListener("click", () => {
+        setPlaying(false);
+        picked = i;
+        t = r.settleAt(e);
+        redraw();
+      });
+      return h("li", null, btn);
+    });
+    const list = h("ol", { class: "ticker" }, items);
+    const empty = h("p", { class: "ticker-empty" }, "No moves yet.");
+    // column-reverse: the first child sits at the bottom, and scrollTop 0 is the bottom.
+    const scroller = h("div", { class: "ticker-scroll" }, empty, list);
+
+    function drawTicker() {
+      // A line shows once its move starts on the board; the newest shown is current unless a line was clicked.
+      let newest = -1;
+      r.events.forEach((e, i) => {
+        const show = e.startAt <= t;
+        if (show) newest = i;
+        if (shown[i] !== show) {
+          items[i].hidden = !show;
+          shown[i] = show;
+        }
+      });
+      empty.hidden = newest >= 0;
+      const next = picked != null && shown[picked] ? picked : newest;
+      if (next === current) return;
+      if (items[current]) {
+        items[current].removeAttribute("class");
+        items[current].removeAttribute("aria-current");
+      }
+      if (items[next]) setAttrs(items[next], { class: "current", "aria-current": "true" });
+      current = next;
+      if (playing && typeof scroller.scrollTop === "number") scroller.scrollTop = 0;
+    }
+    function redraw() {
+      drawBoard();
+      drawTicker();
+      slider.value = String(Math.round((t - r.start) / STEP));
+      readout.textContent = replayLabel(tz, new Date(t));
+    }
+
+    function frame(ts) {
+      if (!playing) return;
+      if (board.isConnected === false) return setPlaying(false);
+      const dt = lastTs == null ? 0 : ts - lastTs;
+      lastTs = ts;
+      if (reduced) {
+        waited += dt;
+        if (waited >= STEP_MS) {
+          waited = 0;
+          t = settles.find((x) => x > t) ?? r.end;
+        }
+      } else t = Math.min(r.end, t + (dt * span) / PLAY_MS);
+      picked = null;
+      redraw();
+      if (t >= r.end) setPlaying(false);
+      else requestAnimationFrame(frame);
+    }
+    function setPlaying(on) {
+      if (on && t >= r.end) t = r.start;
+      playing = on;
+      lastTs = null;
+      waited = 0;
+      playBtn.setAttribute("aria-label", on ? "Pause replay" : "Play replay");
+      playBtn.textContent = on ? "❚❚" : "▶";
+      if (on) {
+        picked = null;
+        redraw();
+        if (animate) requestAnimationFrame(frame);
+      }
+    }
+    playBtn.addEventListener("click", () => setPlaying(!playing));
+    slider.addEventListener("input", () => {
+      t = Math.min(r.end, r.start + Number(slider.value) * STEP);
+      picked = null;
+      redraw();
+    });
+    setPlaying(false);
+    redraw();
+
+    return {
+      nodes: [
+        h("div", { class: "card" }, board, controls),
+        h("div", null,
+          h("div", { class: "card flush" }, scroller),
+          h("p", { class: "note" }, "Every roll, slide and admin move up to the time on the slider. Detours back to redo a denied tile aren't shown. Click a line to jump to it.")),
+      ],
+      pause: () => { if (playing) setPlaying(false); },
+    };
+  }
+
   function heatmapSection() {
-    // Race modes switch between stops and total time spent; bingo shows completions only.
+    // Race modes open on the replay and switch to stops or total time spent; bingo shows completions only.
     const counts = tally();
     if (![...counts.values()].some((c) => c.n)) return [];
     const MODES = {
+      replay: { label: "Replay", title: "How the race played out" },
       stops: {
         label: "Teams",
         title: "Where teams stopped",
@@ -975,11 +1353,12 @@ function view(data) {
         note: "How many teams completed each tile by the cutoff.",
       },
     };
-    let mode = race ? "stops" : "teams";
+    let mode = race ? "replay" : "teams";
+    let replay = null;
     const heading = h("h2", null);
     const body = h("div", { class: "split" });
     const buttons = race
-      ? ["stops", "time"].map((key) => {
+      ? ["replay", "stops", "time"].map((key) => {
           const b = h("button", { type: "button", "aria-pressed": "false" }, MODES[key].label);
           b.addEventListener("click", () => { mode = key; draw(); });
           return [key, b];
@@ -990,6 +1369,12 @@ function view(data) {
       const m = MODES[mode];
       heading.textContent = m.title;
       for (const [key, b] of buttons) b.setAttribute("aria-pressed", String(key === mode));
+      if (mode === "replay") {
+        replay ||= replayView();
+        body.replaceChildren(...replay.nodes);
+        return;
+      }
+      if (replay) replay.pause();
       const max = Math.max(0, ...[...counts.values()].map(m.value));
       const board = boardSvg((u) => data.board.tiles.filter((t) => t.bounds && counts.has(t.index) && m.value(counts.get(t.index)) > 0).map((t) => {
         const c = counts.get(t.index);
