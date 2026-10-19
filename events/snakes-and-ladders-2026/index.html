@@ -276,6 +276,12 @@
   }
   .boss-pick:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .player-search { cursor: text; width: 11em; }
+  .wom-caveat { position: relative; margin: 0 0 10px; font-size: 13px; color: var(--fg-dim); }
+  .why-link { font: inherit; font-weight: 600; color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+  .why-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+  .wom-caveat .tip { top: calc(100% + 6px); left: 0; width: min(480px, calc(100vw - 48px)); }
+  .wom-caveat .tip p { margin: 0 0 6px; }
+  .wom-caveat .tip p:last-child { margin-bottom: 0; }
   .player-search::placeholder { color: var(--fg-dim); }
   .tag.approx { background: var(--warn-bg); color: var(--warn); }
   .tag.first { margin-left: 0; }
@@ -740,6 +746,33 @@ function view(data) {
     ];
   }
 
+  function womCaveat() {
+    /**
+     * Above the leaderboard and members tables, where players look themselves up: the numbers are
+     * only as good as WOM's snapshots. A link opens
+     * the explanation in the same popover as the "?" notes (one open at a time).
+     */
+    const tip = h("div", { class: "tip", role: "tooltip" },
+      h("p", null, "Wise Old Man only records your stats when your profile is updated: by you on the site, by the RuneLite plugin, or by a group update. Your gains here are the difference between your first and last snapshot inside the event window (",
+        when(wom.window.from), " to ", when(wom.window.to), ")."),
+      h("p", null, "Everyone was updated after the event ended, so the end is covered. The start isn't: if Wise Old Man had no snapshot of you at or near the start, whatever you did before your first snapshot in the window can't be separated from what you did before the event, so it isn't counted. With no change between snapshots at all, you show as “No WOM data”."),
+      h("p", null, `“approx.” means your first or last snapshot is more than ${plural(wom.gapHours, "hour")} inside the window.`),
+      h("p", null, "Next event: update your profile on Wise Old Man, or turn on the RuneLite plugin, right before it starts."));
+    tip.hidden = true;
+    const link = h("button", { type: "button", class: "why-link", "aria-expanded": "false" }, "Why is some of my KC/XP missing?");
+    link.addEventListener("click", (e) => {
+      if (e && e.stopPropagation) e.stopPropagation();
+      const open = tip.hidden;
+      closeTips();
+      tip.hidden = !open;
+      link.setAttribute("aria-expanded", String(open));
+      if (open) openTip = { tip, button: link };
+    });
+    tip.addEventListener("click", (e) => { if (e && e.stopPropagation) e.stopPropagation(); });
+    return h("div", { class: "wom-caveat" },
+      "These numbers come from Wise Old Man snapshots, so they can be incomplete. ", link, tip);
+  }
+
   function womHighlights() {
     // Leaders and everyone tied with them; a card only when someone gained anything.
     const leaders = (list, value) => rankRows(list, value).filter((r) => r.rank === 1 && r.value > 0).map((r) => r.row);
@@ -826,6 +859,7 @@ function view(data) {
         h("div", { class: "controls" },
           h("div", { class: "switch", role: "group", "aria-label": "Leaderboard ranks by" }, buttons.map(([, b]) => b)),
           picker, search)),
+      womCaveat(),
       body,
     ];
   }
@@ -872,6 +906,7 @@ function view(data) {
         total("slayerXp", "Slayer XP by the team's tracked players, ranked against the other teams."),
       ]),
       h("div", { style: "height:12px" }),
+      womCaveat(),
       accTable(["Name", "KC", "Combat XP", "Slayer XP", "Top bosses"], members.map((m) => {
         const note = windowNote(m, wom.window, when);
         return {
