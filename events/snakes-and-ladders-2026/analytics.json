@@ -7308,5 +7308,2914 @@
       "ms": 57728859,
       "tied": []
     }
+  },
+  "wom": {
+    "window": {
+      "from": "2026-10-16T11:00:00.000Z",
+      "to": "2026-10-19T01:16:00.000Z"
+    },
+    "gapHours": 3,
+    "teams": [
+      {
+        "team": "t1",
+        "totals": {
+          "totalKc": 1907,
+          "combatXp": 8166042,
+          "slayerXp": 1194840,
+          "tracked": 3,
+          "approximate": true
+        },
+        "ranks": {
+          "totalKc": 4,
+          "combatXp": 5,
+          "slayerXp": 2
+        },
+        "members": [
+          {
+            "name": "PSO Pokie",
+            "status": "approximate",
+            "totalKc": 691,
+            "combatXp": 540645,
+            "slayerXp": 420358,
+            "bosses": [
+              {
+                "metric": "cerberus",
+                "name": "Cerberus",
+                "kc": 156
+              },
+              {
+                "metric": "kraken",
+                "name": "Kraken",
+                "kc": 154
+              },
+              {
+                "metric": "crazy_archaeologist",
+                "name": "Crazy Archaeologist",
+                "kc": 88
+              },
+              {
+                "metric": "araxxor",
+                "name": "Araxxor",
+                "kc": 87
+              },
+              {
+                "metric": "kreearra",
+                "name": "Kree'Arra",
+                "kc": 67
+              },
+              {
+                "metric": "general_graardor",
+                "name": "General Graardor",
+                "kc": 32
+              },
+              {
+                "metric": "shellbane_gryphon",
+                "name": "Shellbane Gryphon",
+                "kc": 31
+              },
+              {
+                "metric": "chambers_of_xeric_challenge_mode",
+                "name": "Chambers Of Xeric (CM)",
+                "kc": 24
+              },
+              {
+                "metric": "lunar_chests",
+                "name": "Lunar Chests",
+                "kc": 20
+              },
+              {
+                "metric": "scorpia",
+                "name": "Scorpia",
+                "kc": 10
+              },
+              {
+                "metric": "the_whisperer",
+                "name": "The Whisperer",
+                "kc": 6
+              },
+              {
+                "metric": "chaos_fanatic",
+                "name": "Chaos Fanatic",
+                "kc": 5
+              },
+              {
+                "metric": "mad_angel",
+                "name": "Mad Angel",
+                "kc": 5
+              },
+              {
+                "metric": "grotesque_guardians",
+                "name": "Grotesque Guardians",
+                "kc": 4
+              },
+              {
+                "metric": "tombs_of_amascut_expert",
+                "name": "Tombs of Amascut (Expert Mode)",
+                "kc": 2
+              }
+            ]
+          },
+          {
+            "name": "Had Enough",
+            "status": "ok",
+            "totalKc": 760,
+            "combatXp": 4790748,
+            "slayerXp": 503173,
+            "bosses": [
+              {
+                "metric": "grotesque_guardians",
+                "name": "Grotesque Guardians",
+                "kc": 111
+              },
+              {
+                "metric": "kraken",
+                "name": "Kraken",
+                "kc": 92
+              },
+              {
+                "metric": "araxxor",
+                "name": "Araxxor",
+                "kc": 91
+              },
+              {
+                "metric": "kreearra",
+                "name": "Kree'Arra",
+                "kc": 81
+              },
+              {
+                "metric": "thermonuclear_smoke_devil",
+                "name": "Thermonuclear Smoke Devil",
+                "kc": 77
+              },
+              {
+                "metric": "crazy_archaeologist",
+                "name": "Crazy Archaeologist",
+                "kc": 61
+              },
+              {
+                "metric": "general_graardor",
+                "name": "General Graardor",
+                "kc": 57
+              },
+              {
+                "metric": "kalphite_queen",
+                "name": "Kalphite Queen",
+                "kc": 40
+              },
+              {
+                "metric": "cerberus",
+                "name": "Cerberus",
+                "kc": 35
+              },
+              {
+                "metric": "mad_angel",
+                "name": "Mad Angel",
+                "kc": 31
+              },
+              {
+                "metric": "lunar_chests",
+                "name": "Lunar Chests",
+                "kc": 22
+              },
+              {
+                "metric": "chambers_of_xeric_challenge_mode",
+                "name": "Chambers Of Xeric (CM)",
+                "kc": 19
+              },
+              {
+                "metric": "scorpia",
+                "name": "Scorpia",
+                "kc": 18
+              },
+              {
+                "metric": "phantom_muspah",
+                "name": "Phantom Muspah",
+                "kc": 13
+              },
+              {
+                "metric": "the_whisperer",
+                "name": "The Whisperer",
+                "kc": 6
+              },
+              {
+                "metric": "chaos_fanatic",
+                "name": "Chaos Fanatic",
+                "kc": 4
+              },
+              {
+                "metric": "tombs_of_amascut_expert",
+                "name": "Tombs of Amascut (Expert Mode)",
+                "kc": 2
+              }
+            ]
+          },
+          {
+            "name": "MarshalRS",
+            "status": "approximate",
+            "totalKc": 456,
+            "combatXp": 2834649,
+            "slayerXp": 271309,
+            "bosses": [
+              {
+                "metric": "kraken",
+                "name": "Kraken",
+                "kc": 156
+              },
+              {
+                "metric": "thermonuclear_smoke_devil",
+                "name": "Thermonuclear Smoke Devil",
+                "kc": 88
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 43
+              },
+              {
+                "metric": "kalphite_queen",
+                "name": "Kalphite Queen",
+                "kc": 39
+              },
+              {
+                "metric": "araxxor",
+                "name": "Araxxor",
+                "kc": 25
+              },
+              {
+                "metric": "chaos_fanatic",
+                "name": "Chaos Fanatic",
+                "kc": 24
+              },
+              {
+                "metric": "cerberus",
+                "name": "Cerberus",
+                "kc": 20
+              },
+              {
+                "metric": "grotesque_guardians",
+                "name": "Grotesque Guardians",
+                "kc": 19
+              },
+              {
+                "metric": "chambers_of_xeric_challenge_mode",
+                "name": "Chambers Of Xeric (CM)",
+                "kc": 17
+              },
+              {
+                "metric": "phantom_muspah",
+                "name": "Phantom Muspah",
+                "kc": 11
+              },
+              {
+                "metric": "the_whisperer",
+                "name": "The Whisperer",
+                "kc": 5
+              },
+              {
+                "metric": "lunar_chests",
+                "name": "Lunar Chests",
+                "kc": 4
+              },
+              {
+                "metric": "artio",
+                "name": "Artio",
+                "kc": 3
+              },
+              {
+                "metric": "chambers_of_xeric",
+                "name": "Chambers Of Xeric",
+                "kc": 2
+              }
+            ]
+          },
+          {
+            "name": "Nice Brain",
+            "status": "no-data",
+            "totalKc": null,
+            "combatXp": null,
+            "slayerXp": null,
+            "bosses": []
+          }
+        ]
+      },
+      {
+        "team": "t2",
+        "totals": {
+          "totalKc": 4794,
+          "combatXp": 21339571,
+          "slayerXp": 726139,
+          "tracked": 4,
+          "approximate": true
+        },
+        "ranks": {
+          "totalKc": 1,
+          "combatXp": 1,
+          "slayerXp": 5
+        },
+        "members": [
+          {
+            "name": "PapaShlump",
+            "status": "approximate",
+            "totalKc": 813,
+            "combatXp": 5630018,
+            "slayerXp": 68456,
+            "bosses": [
+              {
+                "metric": "mad_angel",
+                "name": "Mad Angel",
+                "kc": 363
+              },
+              {
+                "metric": "the_leviathan",
+                "name": "The Leviathan",
+                "kc": 110
+              },
+              {
+                "metric": "duke_sucellus",
+                "name": "Duke Sucellus",
+                "kc": 100
+              },
+              {
+                "metric": "artio",
+                "name": "Artio",
+                "kc": 62
+              },
+              {
+                "metric": "yama",
+                "name": "Yama",
+                "kc": 47
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 43
+              },
+              {
+                "metric": "abyssal_sire",
+                "name": "Abyssal Sire",
+                "kc": 35
+              },
+              {
+                "metric": "the_royal_titans",
+                "name": "The Royal Titans",
+                "kc": 19
+              },
+              {
+                "metric": "kreearra",
+                "name": "Kree'Arra",
+                "kc": 8
+              },
+              {
+                "metric": "theatre_of_blood",
+                "name": "Theatre Of Blood",
+                "kc": 8
+              },
+              {
+                "metric": "vorkath",
+                "name": "Vorkath",
+                "kc": 6
+              },
+              {
+                "metric": "maggot_king",
+                "name": "Maggot King",
+                "kc": 5
+              },
+              {
+                "metric": "lunar_chests",
+                "name": "Lunar Chests",
+                "kc": 4
+              },
+              {
+                "metric": "nex",
+                "name": "Nex",
+                "kc": 3
+              }
+            ]
+          },
+          {
+            "name": "Astro",
+            "status": "ok",
+            "totalKc": 1046,
+            "combatXp": 6554794,
+            "slayerXp": 119235,
+            "bosses": [
+              {
+                "metric": "mad_angel",
+                "name": "Mad Angel",
+                "kc": 500
+              },
+              {
+                "metric": "duke_sucellus",
+                "name": "Duke Sucellus",
+                "kc": 246
+              },
+              {
+                "metric": "abyssal_sire",
+                "name": "Abyssal Sire",
+                "kc": 52
+              },
+              {
+                "metric": "calvarion",
+                "name": "Calvar'ion",
+                "kc": 52
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 52
+              },
+              {
+                "metric": "the_royal_titans",
+                "name": "The Royal Titans",
+                "kc": 52
+              },
+              {
+                "metric": "yama",
+                "name": "Yama",
+                "kc": 48
+              },
+              {
+                "metric": "kreearra",
+                "name": "Kree'Arra",
+                "kc": 10
+              },
+              {
+                "metric": "theatre_of_blood",
+                "name": "Theatre Of Blood",
+                "kc": 8
+              },
+              {
+                "metric": "nex",
+                "name": "Nex",
+                "kc": 6
+              },
+              {
+                "metric": "the_whisperer",
+                "name": "The Whisperer",
+                "kc": 6
+              },
+              {
+                "metric": "maggot_king",
+                "name": "Maggot King",
+                "kc": 5
+              },
+              {
+                "metric": "lunar_chests",
+                "name": "Lunar Chests",
+                "kc": 4
+              },
+              {
+                "metric": "tombs_of_amascut_expert",
+                "name": "Tombs of Amascut (Expert Mode)",
+                "kc": 3
+              },
+              {
+                "metric": "grotesque_guardians",
+                "name": "Grotesque Guardians",
+                "kc": 2
+              }
+            ]
+          },
+          {
+            "name": "Giddy Yup",
+            "status": "ok",
+            "totalKc": 1498,
+            "combatXp": 1828515,
+            "slayerXp": 338298,
+            "bosses": [
+              {
+                "metric": "kraken",
+                "name": "Kraken",
+                "kc": 794
+              },
+              {
+                "metric": "duke_sucellus",
+                "name": "Duke Sucellus",
+                "kc": 275
+              },
+              {
+                "metric": "mad_angel",
+                "name": "Mad Angel",
+                "kc": 132
+              },
+              {
+                "metric": "calvarion",
+                "name": "Calvar'ion",
+                "kc": 74
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 58
+              },
+              {
+                "metric": "abyssal_sire",
+                "name": "Abyssal Sire",
+                "kc": 56
+              },
+              {
+                "metric": "yama",
+                "name": "Yama",
+                "kc": 54
+              },
+              {
+                "metric": "sarachnis",
+                "name": "Sarachnis",
+                "kc": 13
+              },
+              {
+                "metric": "kreearra",
+                "name": "Kree'Arra",
+                "kc": 8
+              },
+              {
+                "metric": "theatre_of_blood",
+                "name": "Theatre Of Blood",
+                "kc": 8
+              },
+              {
+                "metric": "maggot_king",
+                "name": "Maggot King",
+                "kc": 7
+              },
+              {
+                "metric": "nex",
+                "name": "Nex",
+                "kc": 6
+              },
+              {
+                "metric": "grotesque_guardians",
+                "name": "Grotesque Guardians",
+                "kc": 5
+              },
+              {
+                "metric": "lunar_chests",
+                "name": "Lunar Chests",
+                "kc": 4
+              },
+              {
+                "metric": "tombs_of_amascut_expert",
+                "name": "Tombs of Amascut (Expert Mode)",
+                "kc": 4
+              }
+            ]
+          },
+          {
+            "name": "AngryQ",
+            "status": "approximate",
+            "totalKc": 1437,
+            "combatXp": 7326244,
+            "slayerXp": 200150,
+            "bosses": [
+              {
+                "metric": "mad_angel",
+                "name": "Mad Angel",
+                "kc": 458
+              },
+              {
+                "metric": "duke_sucellus",
+                "name": "Duke Sucellus",
+                "kc": 381
+              },
+              {
+                "metric": "kraken",
+                "name": "Kraken",
+                "kc": 256
+              },
+              {
+                "metric": "abyssal_sire",
+                "name": "Abyssal Sire",
+                "kc": 57
+              },
+              {
+                "metric": "the_royal_titans",
+                "name": "The Royal Titans",
+                "kc": 51
+              },
+              {
+                "metric": "yama",
+                "name": "Yama",
+                "kc": 51
+              },
+              {
+                "metric": "calvarion",
+                "name": "Calvar'ion",
+                "kc": 49
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 46
+              },
+              {
+                "metric": "kreearra",
+                "name": "Kree'Arra",
+                "kc": 19
+              },
+              {
+                "metric": "spindel",
+                "name": "Spindel",
+                "kc": 16
+              },
+              {
+                "metric": "vorkath",
+                "name": "Vorkath",
+                "kc": 10
+              },
+              {
+                "metric": "maggot_king",
+                "name": "Maggot King",
+                "kc": 8
+              },
+              {
+                "metric": "grotesque_guardians",
+                "name": "Grotesque Guardians",
+                "kc": 7
+              },
+              {
+                "metric": "lunar_chests",
+                "name": "Lunar Chests",
+                "kc": 6
+              },
+              {
+                "metric": "nex",
+                "name": "Nex",
+                "kc": 6
+              },
+              {
+                "metric": "the_whisperer",
+                "name": "The Whisperer",
+                "kc": 6
+              },
+              {
+                "metric": "theatre_of_blood",
+                "name": "Theatre Of Blood",
+                "kc": 6
+              },
+              {
+                "metric": "tombs_of_amascut_expert",
+                "name": "Tombs of Amascut (Expert Mode)",
+                "kc": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": "t3",
+        "totals": {
+          "totalKc": 618,
+          "combatXp": 9632234,
+          "slayerXp": 198394,
+          "tracked": 4,
+          "approximate": true
+        },
+        "ranks": {
+          "totalKc": 13,
+          "combatXp": 3,
+          "slayerXp": 11
+        },
+        "members": [
+          {
+            "name": "Mercenary",
+            "status": "ok",
+            "totalKc": 408,
+            "combatXp": 4194942,
+            "slayerXp": 121195,
+            "bosses": [
+              {
+                "metric": "thermonuclear_smoke_devil",
+                "name": "Thermonuclear Smoke Devil",
+                "kc": 136
+              },
+              {
+                "metric": "vardorvis",
+                "name": "Vardorvis",
+                "kc": 84
+              },
+              {
+                "metric": "general_graardor",
+                "name": "General Graardor",
+                "kc": 64
+              },
+              {
+                "metric": "araxxor",
+                "name": "Araxxor",
+                "kc": 44
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 32
+              },
+              {
+                "metric": "tombs_of_amascut_expert",
+                "name": "Tombs of Amascut (Expert Mode)",
+                "kc": 21
+              },
+              {
+                "metric": "kreearra",
+                "name": "Kree'Arra",
+                "kc": 15
+              },
+              {
+                "metric": "chambers_of_xeric_challenge_mode",
+                "name": "Chambers Of Xeric (CM)",
+                "kc": 7
+              },
+              {
+                "metric": "theatre_of_blood",
+                "name": "Theatre Of Blood",
+                "kc": 3
+              },
+              {
+                "metric": "nex",
+                "name": "Nex",
+                "kc": 2
+              }
+            ]
+          },
+          {
+            "name": "Some Solace | Brief Solace",
+            "status": "approximate",
+            "totalKc": 37,
+            "combatXp": 1608663,
+            "slayerXp": 0,
+            "bosses": [
+              {
+                "metric": "vardorvis",
+                "name": "Vardorvis",
+                "kc": 22
+              },
+              {
+                "metric": "tombs_of_amascut_expert",
+                "name": "Tombs of Amascut (Expert Mode)",
+                "kc": 9
+              },
+              {
+                "metric": "chambers_of_xeric_challenge_mode",
+                "name": "Chambers Of Xeric (CM)",
+                "kc": 5
+              },
+              {
+                "metric": "chambers_of_xeric",
+                "name": "Chambers Of Xeric",
+                "kc": 1
+              }
+            ]
+          },
+          {
+            "name": "PopInSmoke",
+            "status": "approximate",
+            "totalKc": 11,
+            "combatXp": 704927,
+            "slayerXp": 0,
+            "bosses": [
+              {
+                "metric": "tombs_of_amascut_expert",
+                "name": "Tombs of Amascut (Expert Mode)",
+                "kc": 9
+              },
+              {
+                "metric": "chambers_of_xeric_challenge_mode",
+                "name": "Chambers Of Xeric (CM)",
+                "kc": 2
+              }
+            ]
+          },
+          {
+            "name": "Vyvan se",
+            "status": "approximate",
+            "totalKc": 162,
+            "combatXp": 3123702,
+            "slayerXp": 77199,
+            "bosses": [
+              {
+                "metric": "vardorvis",
+                "name": "Vardorvis",
+                "kc": 83
+              },
+              {
+                "metric": "araxxor",
+                "name": "Araxxor",
+                "kc": 44
+              },
+              {
+                "metric": "tombs_of_amascut_expert",
+                "name": "Tombs of Amascut (Expert Mode)",
+                "kc": 18
+              },
+              {
+                "metric": "chambers_of_xeric",
+                "name": "Chambers Of Xeric",
+                "kc": 7
+              },
+              {
+                "metric": "chambers_of_xeric_challenge_mode",
+                "name": "Chambers Of Xeric (CM)",
+                "kc": 5
+              },
+              {
+                "metric": "theatre_of_blood",
+                "name": "Theatre Of Blood",
+                "kc": 3
+              },
+              {
+                "metric": "nex",
+                "name": "Nex",
+                "kc": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": "t4",
+        "totals": {
+          "totalKc": 1216,
+          "combatXp": 7824207,
+          "slayerXp": 306028,
+          "tracked": 4,
+          "approximate": true
+        },
+        "ranks": {
+          "totalKc": 6,
+          "combatXp": 6,
+          "slayerXp": 9
+        },
+        "members": [
+          {
+            "name": "Birt",
+            "status": "approximate",
+            "totalKc": 332,
+            "combatXp": 1812279,
+            "slayerXp": 110344,
+            "bosses": [
+              {
+                "metric": "kraken",
+                "name": "Kraken",
+                "kc": 104
+              },
+              {
+                "metric": "dagannoth_prime",
+                "name": "Dagannoth Prime",
+                "kc": 44
+              },
+              {
+                "metric": "dagannoth_rex",
+                "name": "Dagannoth Rex",
+                "kc": 44
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 41
+              },
+              {
+                "metric": "vorkath",
+                "name": "Vorkath",
+                "kc": 37
+              },
+              {
+                "metric": "dagannoth_supreme",
+                "name": "Dagannoth Supreme",
+                "kc": 30
+              },
+              {
+                "metric": "kreearra",
+                "name": "Kree'Arra",
+                "kc": 26
+              },
+              {
+                "metric": "chambers_of_xeric",
+                "name": "Chambers Of Xeric",
+                "kc": 3
+              },
+              {
+                "metric": "tombs_of_amascut_expert",
+                "name": "Tombs of Amascut (Expert Mode)",
+                "kc": 2
+              },
+              {
+                "metric": "chambers_of_xeric_challenge_mode",
+                "name": "Chambers Of Xeric (CM)",
+                "kc": 1
+              }
+            ]
+          },
+          {
+            "name": "Neiyoh",
+            "status": "approximate",
+            "totalKc": 333,
+            "combatXp": 3151715,
+            "slayerXp": 23300,
+            "bosses": [
+              {
+                "metric": "vorkath",
+                "name": "Vorkath",
+                "kc": 188
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 94
+              },
+              {
+                "metric": "tombs_of_amascut_expert",
+                "name": "Tombs of Amascut (Expert Mode)",
+                "kc": 14
+              },
+              {
+                "metric": "dagannoth_prime",
+                "name": "Dagannoth Prime",
+                "kc": 10
+              },
+              {
+                "metric": "dagannoth_rex",
+                "name": "Dagannoth Rex",
+                "kc": 10
+              },
+              {
+                "metric": "nex",
+                "name": "Nex",
+                "kc": 6
+              },
+              {
+                "metric": "dagannoth_supreme",
+                "name": "Dagannoth Supreme",
+                "kc": 5
+              },
+              {
+                "metric": "araxxor",
+                "name": "Araxxor",
+                "kc": 3
+              },
+              {
+                "metric": "chambers_of_xeric_challenge_mode",
+                "name": "Chambers Of Xeric (CM)",
+                "kc": 1
+              },
+              {
+                "metric": "general_graardor",
+                "name": "General Graardor",
+                "kc": 1
+              },
+              {
+                "metric": "kreearra",
+                "name": "Kree'Arra",
+                "kc": 1
+              }
+            ]
+          },
+          {
+            "name": "Weurst",
+            "status": "ok",
+            "totalKc": 541,
+            "combatXp": 2461247,
+            "slayerXp": 172384,
+            "bosses": [
+              {
+                "metric": "kraken",
+                "name": "Kraken",
+                "kc": 144
+              },
+              {
+                "metric": "dagannoth_prime",
+                "name": "Dagannoth Prime",
+                "kc": 105
+              },
+              {
+                "metric": "dagannoth_rex",
+                "name": "Dagannoth Rex",
+                "kc": 102
+              },
+              {
+                "metric": "dagannoth_supreme",
+                "name": "Dagannoth Supreme",
+                "kc": 70
+              },
+              {
+                "metric": "araxxor",
+                "name": "Araxxor",
+                "kc": 22
+              },
+              {
+                "metric": "nex",
+                "name": "Nex",
+                "kc": 22
+              },
+              {
+                "metric": "vorkath",
+                "name": "Vorkath",
+                "kc": 22
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 15
+              },
+              {
+                "metric": "kreearra",
+                "name": "Kree'Arra",
+                "kc": 9
+              },
+              {
+                "metric": "tombs_of_amascut_expert",
+                "name": "Tombs of Amascut (Expert Mode)",
+                "kc": 8
+              },
+              {
+                "metric": "wintertodt",
+                "name": "Wintertodt",
+                "kc": 8
+              },
+              {
+                "metric": "chambers_of_xeric_challenge_mode",
+                "name": "Chambers Of Xeric (CM)",
+                "kc": 7
+              },
+              {
+                "metric": "chambers_of_xeric",
+                "name": "Chambers Of Xeric",
+                "kc": 3
+              },
+              {
+                "metric": "tombs_of_amascut",
+                "name": "Tombs of Amascut",
+                "kc": 3
+              },
+              {
+                "metric": "hespori",
+                "name": "Hespori",
+                "kc": 1
+              }
+            ]
+          },
+          {
+            "name": "Raj Barrage",
+            "status": "approximate",
+            "totalKc": 10,
+            "combatXp": 398966,
+            "slayerXp": 0,
+            "bosses": [
+              {
+                "metric": "chambers_of_xeric_challenge_mode",
+                "name": "Chambers Of Xeric (CM)",
+                "kc": 6
+              },
+              {
+                "metric": "chambers_of_xeric",
+                "name": "Chambers Of Xeric",
+                "kc": 3
+              },
+              {
+                "metric": "theatre_of_blood",
+                "name": "Theatre Of Blood",
+                "kc": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": "t5",
+        "totals": {
+          "totalKc": 632,
+          "combatXp": 4963437,
+          "slayerXp": 408330,
+          "tracked": 4,
+          "approximate": true
+        },
+        "ranks": {
+          "totalKc": 12,
+          "combatXp": 9,
+          "slayerXp": 7
+        },
+        "members": [
+          {
+            "name": "stevex196x",
+            "status": "approximate",
+            "totalKc": 2,
+            "combatXp": 162131,
+            "slayerXp": 930,
+            "bosses": [
+              {
+                "metric": "maggot_king",
+                "name": "Maggot King",
+                "kc": 2
+              }
+            ]
+          },
+          {
+            "name": "McChicken77",
+            "status": "approximate",
+            "totalKc": 61,
+            "combatXp": 139920,
+            "slayerXp": 0,
+            "bosses": [
+              {
+                "metric": "vetion",
+                "name": "Vet'ion",
+                "kc": 37
+              },
+              {
+                "metric": "calvarion",
+                "name": "Calvar'ion",
+                "kc": 24
+              }
+            ]
+          },
+          {
+            "name": "P074705474D - EtR Flicker",
+            "status": "approximate",
+            "totalKc": 526,
+            "combatXp": 4430987,
+            "slayerXp": 407400,
+            "bosses": [
+              {
+                "metric": "abyssal_sire",
+                "name": "Abyssal Sire",
+                "kc": 127
+              },
+              {
+                "metric": "duke_sucellus",
+                "name": "Duke Sucellus",
+                "kc": 95
+              },
+              {
+                "metric": "calvarion",
+                "name": "Calvar'ion",
+                "kc": 86
+              },
+              {
+                "metric": "araxxor",
+                "name": "Araxxor",
+                "kc": 69
+              },
+              {
+                "metric": "maggot_king",
+                "name": "Maggot King",
+                "kc": 52
+              },
+              {
+                "metric": "vetion",
+                "name": "Vet'ion",
+                "kc": 37
+              },
+              {
+                "metric": "nex",
+                "name": "Nex",
+                "kc": 28
+              },
+              {
+                "metric": "kraken",
+                "name": "Kraken",
+                "kc": 10
+              },
+              {
+                "metric": "the_hueycoatl",
+                "name": "The Hueycoatl",
+                "kc": 7
+              },
+              {
+                "metric": "callisto",
+                "name": "Callisto",
+                "kc": 6
+              },
+              {
+                "metric": "lunar_chests",
+                "name": "Lunar Chests",
+                "kc": 5
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 4
+              }
+            ]
+          },
+          {
+            "name": "Raging Sea",
+            "status": "approximate",
+            "totalKc": 43,
+            "combatXp": 230399,
+            "slayerXp": 0,
+            "bosses": [
+              {
+                "metric": "vetion",
+                "name": "Vet'ion",
+                "kc": 43
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": "t6",
+        "totals": {
+          "totalKc": 855,
+          "combatXp": 11969850,
+          "slayerXp": 1438429,
+          "tracked": 4,
+          "approximate": true
+        },
+        "ranks": {
+          "totalKc": 9,
+          "combatXp": 2,
+          "slayerXp": 1
+        },
+        "members": [
+          {
+            "name": "Scyptile",
+            "status": "ok",
+            "totalKc": 229,
+            "combatXp": 2954674,
+            "slayerXp": 389940,
+            "bosses": [
+              {
+                "metric": "abyssal_sire",
+                "name": "Abyssal Sire",
+                "kc": 127
+              },
+              {
+                "metric": "calvarion",
+                "name": "Calvar'ion",
+                "kc": 70
+              },
+              {
+                "metric": "lunar_chests",
+                "name": "Lunar Chests",
+                "kc": 25
+              },
+              {
+                "metric": "chambers_of_xeric",
+                "name": "Chambers Of Xeric",
+                "kc": 6
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 1
+              }
+            ]
+          },
+          {
+            "name": "Jarl Rune",
+            "status": "approximate",
+            "totalKc": 151,
+            "combatXp": 4182354,
+            "slayerXp": 658667,
+            "bosses": [
+              {
+                "metric": "abyssal_sire",
+                "name": "Abyssal Sire",
+                "kc": 63
+              },
+              {
+                "metric": "the_royal_titans",
+                "name": "The Royal Titans",
+                "kc": 37
+              },
+              {
+                "metric": "general_graardor",
+                "name": "General Graardor",
+                "kc": 34
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 7
+              },
+              {
+                "metric": "theatre_of_blood_hard_mode",
+                "name": "Theatre Of Blood (HM)",
+                "kc": 7
+              },
+              {
+                "metric": "chambers_of_xeric",
+                "name": "Chambers Of Xeric",
+                "kc": 3
+              }
+            ]
+          },
+          {
+            "name": "Pitsea",
+            "status": "approximate",
+            "totalKc": 152,
+            "combatXp": 2018194,
+            "slayerXp": 203664,
+            "bosses": [
+              {
+                "metric": "general_graardor",
+                "name": "General Graardor",
+                "kc": 56
+              },
+              {
+                "metric": "calvarion",
+                "name": "Calvar'ion",
+                "kc": 28
+              },
+              {
+                "metric": "brutus",
+                "name": "Brutus",
+                "kc": 21
+              },
+              {
+                "metric": "the_royal_titans",
+                "name": "The Royal Titans",
+                "kc": 13
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 10
+              },
+              {
+                "metric": "chambers_of_xeric",
+                "name": "Chambers Of Xeric",
+                "kc": 9
+              },
+              {
+                "metric": "commander_zilyana",
+                "name": "Commander Zilyana",
+                "kc": 6
+              },
+              {
+                "metric": "king_black_dragon",
+                "name": "King Black Dragon",
+                "kc": 3
+              },
+              {
+                "metric": "kraken",
+                "name": "Kraken",
+                "kc": 3
+              },
+              {
+                "metric": "zulrah",
+                "name": "Zulrah",
+                "kc": 3
+              }
+            ]
+          },
+          {
+            "name": "S aitaama",
+            "status": "ok",
+            "totalKc": 323,
+            "combatXp": 2814628,
+            "slayerXp": 186158,
+            "bosses": [
+              {
+                "metric": "abyssal_sire",
+                "name": "Abyssal Sire",
+                "kc": 193
+              },
+              {
+                "metric": "calvarion",
+                "name": "Calvar'ion",
+                "kc": 69
+              },
+              {
+                "metric": "the_royal_titans",
+                "name": "The Royal Titans",
+                "kc": 31
+              },
+              {
+                "metric": "lunar_chests",
+                "name": "Lunar Chests",
+                "kc": 23
+              },
+              {
+                "metric": "chambers_of_xeric",
+                "name": "Chambers Of Xeric",
+                "kc": 5
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": "t7",
+        "totals": {
+          "totalKc": 636,
+          "combatXp": 7375153,
+          "slayerXp": 863341,
+          "tracked": 4,
+          "approximate": true
+        },
+        "ranks": {
+          "totalKc": 11,
+          "combatXp": 8,
+          "slayerXp": 4
+        },
+        "members": [
+          {
+            "name": "baby wah wah/Loldeuses",
+            "status": "approximate",
+            "totalKc": 296,
+            "combatXp": 2216560,
+            "slayerXp": 234914,
+            "bosses": [
+              {
+                "metric": "chaos_elemental",
+                "name": "Chaos Elemental",
+                "kc": 75
+              },
+              {
+                "metric": "vetion",
+                "name": "Vet'ion",
+                "kc": 68
+              },
+              {
+                "metric": "alchemical_hydra",
+                "name": "Alchemical Hydra",
+                "kc": 62
+              },
+              {
+                "metric": "the_royal_titans",
+                "name": "The Royal Titans",
+                "kc": 50
+              },
+              {
+                "metric": "the_hueycoatl",
+                "name": "The Hueycoatl",
+                "kc": 33
+              },
+              {
+                "metric": "chambers_of_xeric_challenge_mode",
+                "name": "Chambers Of Xeric (CM)",
+                "kc": 6
+              },
+              {
+                "metric": "chambers_of_xeric",
+                "name": "Chambers Of Xeric",
+                "kc": 1
+              },
+              {
+                "metric": "hespori",
+                "name": "Hespori",
+                "kc": 1
+              }
+            ]
+          },
+          {
+            "name": "Jared",
+            "status": "approximate",
+            "totalKc": 154,
+            "combatXp": 2038176,
+            "slayerXp": 243033,
+            "bosses": [
+              {
+                "metric": "alchemical_hydra",
+                "name": "Alchemical Hydra",
+                "kc": 62
+              },
+              {
+                "metric": "calvarion",
+                "name": "Calvar'ion",
+                "kc": 47
+              },
+              {
+                "metric": "the_hueycoatl",
+                "name": "The Hueycoatl",
+                "kc": 30
+              },
+              {
+                "metric": "chambers_of_xeric_challenge_mode",
+                "name": "Chambers Of Xeric (CM)",
+                "kc": 6
+              },
+              {
+                "metric": "vetion",
+                "name": "Vet'ion",
+                "kc": 6
+              },
+              {
+                "metric": "theatre_of_blood",
+                "name": "Theatre Of Blood",
+                "kc": 3
+              }
+            ]
+          },
+          {
+            "name": "Abyssteus",
+            "status": "approximate",
+            "totalKc": 88,
+            "combatXp": 948464,
+            "slayerXp": 31577,
+            "bosses": [
+              {
+                "metric": "vetion",
+                "name": "Vet'ion",
+                "kc": 47
+              },
+              {
+                "metric": "the_hueycoatl",
+                "name": "The Hueycoatl",
+                "kc": 34
+              },
+              {
+                "metric": "chambers_of_xeric_challenge_mode",
+                "name": "Chambers Of Xeric (CM)",
+                "kc": 6
+              },
+              {
+                "metric": "chambers_of_xeric",
+                "name": "Chambers Of Xeric",
+                "kc": 1
+              }
+            ]
+          },
+          {
+            "name": "Vybzkartell",
+            "status": "ok",
+            "totalKc": 98,
+            "combatXp": 2171953,
+            "slayerXp": 353817,
+            "bosses": [
+              {
+                "metric": "vetion",
+                "name": "Vet'ion",
+                "kc": 42
+              },
+              {
+                "metric": "the_hueycoatl",
+                "name": "The Hueycoatl",
+                "kc": 31
+              },
+              {
+                "metric": "zulrah",
+                "name": "Zulrah",
+                "kc": 14
+              },
+              {
+                "metric": "the_royal_titans",
+                "name": "The Royal Titans",
+                "kc": 8
+              },
+              {
+                "metric": "kreearra",
+                "name": "Kree'Arra",
+                "kc": 2
+              },
+              {
+                "metric": "tztok_jad",
+                "name": "TzTok-Jad",
+                "kc": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": "t8",
+        "totals": {
+          "totalKc": 1953,
+          "combatXp": 7389491,
+          "slayerXp": 137311,
+          "tracked": 4,
+          "approximate": true
+        },
+        "ranks": {
+          "totalKc": 3,
+          "combatXp": 7,
+          "slayerXp": 12
+        },
+        "members": [
+          {
+            "name": "Snizax | Hellzax | Will",
+            "status": "ok",
+            "totalKc": 849,
+            "combatXp": 3052690,
+            "slayerXp": 62293,
+            "bosses": [
+              {
+                "metric": "duke_sucellus",
+                "name": "Duke Sucellus",
+                "kc": 302
+              },
+              {
+                "metric": "artio",
+                "name": "Artio",
+                "kc": 113
+              },
+              {
+                "metric": "thermonuclear_smoke_devil",
+                "name": "Thermonuclear Smoke Devil",
+                "kc": 106
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 56
+              },
+              {
+                "metric": "vardorvis",
+                "name": "Vardorvis",
+                "kc": 52
+              },
+              {
+                "metric": "nex",
+                "name": "Nex",
+                "kc": 48
+              },
+              {
+                "metric": "dagannoth_supreme",
+                "name": "Dagannoth Supreme",
+                "kc": 43
+              },
+              {
+                "metric": "dagannoth_prime",
+                "name": "Dagannoth Prime",
+                "kc": 41
+              },
+              {
+                "metric": "dagannoth_rex",
+                "name": "Dagannoth Rex",
+                "kc": 41
+              },
+              {
+                "metric": "vorkath",
+                "name": "Vorkath",
+                "kc": 22
+              },
+              {
+                "metric": "araxxor",
+                "name": "Araxxor",
+                "kc": 18
+              },
+              {
+                "metric": "general_graardor",
+                "name": "General Graardor",
+                "kc": 4
+              },
+              {
+                "metric": "lunar_chests",
+                "name": "Lunar Chests",
+                "kc": 2
+              },
+              {
+                "metric": "hespori",
+                "name": "Hespori",
+                "kc": 1
+              }
+            ]
+          },
+          {
+            "name": "Flotus Weasley",
+            "status": "approximate",
+            "totalKc": 246,
+            "combatXp": 892004,
+            "slayerXp": 17940,
+            "bosses": [
+              {
+                "metric": "duke_sucellus",
+                "name": "Duke Sucellus",
+                "kc": 140
+              },
+              {
+                "metric": "artio",
+                "name": "Artio",
+                "kc": 106
+              }
+            ]
+          },
+          {
+            "name": "Tharendel",
+            "status": "approximate",
+            "totalKc": 150,
+            "combatXp": 687891,
+            "slayerXp": 0,
+            "bosses": [
+              {
+                "metric": "duke_sucellus",
+                "name": "Duke Sucellus",
+                "kc": 122
+              },
+              {
+                "metric": "vardorvis",
+                "name": "Vardorvis",
+                "kc": 26
+              },
+              {
+                "metric": "nex",
+                "name": "Nex",
+                "kc": 2
+              }
+            ]
+          },
+          {
+            "name": "Z emnieks",
+            "status": "approximate",
+            "totalKc": 708,
+            "combatXp": 2756906,
+            "slayerXp": 57078,
+            "bosses": [
+              {
+                "metric": "duke_sucellus",
+                "name": "Duke Sucellus",
+                "kc": 285
+              },
+              {
+                "metric": "thermonuclear_smoke_devil",
+                "name": "Thermonuclear Smoke Devil",
+                "kc": 95
+              },
+              {
+                "metric": "calvarion",
+                "name": "Calvar'ion",
+                "kc": 84
+              },
+              {
+                "metric": "general_graardor",
+                "name": "General Graardor",
+                "kc": 70
+              },
+              {
+                "metric": "nex",
+                "name": "Nex",
+                "kc": 45
+              },
+              {
+                "metric": "dagannoth_prime",
+                "name": "Dagannoth Prime",
+                "kc": 25
+              },
+              {
+                "metric": "dagannoth_rex",
+                "name": "Dagannoth Rex",
+                "kc": 25
+              },
+              {
+                "metric": "dagannoth_supreme",
+                "name": "Dagannoth Supreme",
+                "kc": 24
+              },
+              {
+                "metric": "vardorvis",
+                "name": "Vardorvis",
+                "kc": 24
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 16
+              },
+              {
+                "metric": "araxxor",
+                "name": "Araxxor",
+                "kc": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": "t9",
+        "totals": {
+          "totalKc": 1105,
+          "combatXp": 4915422,
+          "slayerXp": 917388,
+          "tracked": 4,
+          "approximate": true
+        },
+        "ranks": {
+          "totalKc": 7,
+          "combatXp": 10,
+          "slayerXp": 3
+        },
+        "members": [
+          {
+            "name": "BaldEdan",
+            "status": "approximate",
+            "totalKc": 47,
+            "combatXp": 1047256,
+            "slayerXp": 51680,
+            "bosses": [
+              {
+                "metric": "maggot_king",
+                "name": "Maggot King",
+                "kc": 32
+              },
+              {
+                "metric": "yama",
+                "name": "Yama",
+                "kc": 15
+              }
+            ]
+          },
+          {
+            "name": "uTzGuTz (Koz)",
+            "status": "approximate",
+            "totalKc": 212,
+            "combatXp": 1410064,
+            "slayerXp": 114476,
+            "bosses": [
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 122
+              },
+              {
+                "metric": "cerberus",
+                "name": "Cerberus",
+                "kc": 80
+              },
+              {
+                "metric": "phantom_muspah",
+                "name": "Phantom Muspah",
+                "kc": 5
+              },
+              {
+                "metric": "yama",
+                "name": "Yama",
+                "kc": 4
+              },
+              {
+                "metric": "hespori",
+                "name": "Hespori",
+                "kc": 1
+              }
+            ]
+          },
+          {
+            "name": "Bugged",
+            "status": "ok",
+            "totalKc": 235,
+            "combatXp": 604246,
+            "slayerXp": 247265,
+            "bosses": [
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 132
+              },
+              {
+                "metric": "cerberus",
+                "name": "Cerberus",
+                "kc": 35
+              },
+              {
+                "metric": "abyssal_sire",
+                "name": "Abyssal Sire",
+                "kc": 34
+              },
+              {
+                "metric": "the_royal_titans",
+                "name": "The Royal Titans",
+                "kc": 14
+              },
+              {
+                "metric": "chambers_of_xeric_challenge_mode",
+                "name": "Chambers Of Xeric (CM)",
+                "kc": 13
+              },
+              {
+                "metric": "araxxor",
+                "name": "Araxxor",
+                "kc": 7
+              }
+            ]
+          },
+          {
+            "name": "Du rk",
+            "status": "approximate",
+            "totalKc": 611,
+            "combatXp": 1853856,
+            "slayerXp": 503967,
+            "bosses": [
+              {
+                "metric": "shellbane_gryphon",
+                "name": "Shellbane Gryphon",
+                "kc": 441
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 79
+              },
+              {
+                "metric": "cerberus",
+                "name": "Cerberus",
+                "kc": 78
+              },
+              {
+                "metric": "general_graardor",
+                "name": "General Graardor",
+                "kc": 6
+              },
+              {
+                "metric": "yama",
+                "name": "Yama",
+                "kc": 4
+              },
+              {
+                "metric": "the_whisperer",
+                "name": "The Whisperer",
+                "kc": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": "t10",
+        "totals": {
+          "totalKc": 706,
+          "combatXp": 3957564,
+          "slayerXp": 208881,
+          "tracked": 4,
+          "approximate": true
+        },
+        "ranks": {
+          "totalKc": 10,
+          "combatXp": 12,
+          "slayerXp": 10
+        },
+        "members": [
+          {
+            "name": "TRAVllS",
+            "status": "approximate",
+            "totalKc": 327,
+            "combatXp": 1638404,
+            "slayerXp": 77058,
+            "bosses": [
+              {
+                "metric": "general_graardor",
+                "name": "General Graardor",
+                "kc": 81
+              },
+              {
+                "metric": "zulrah",
+                "name": "Zulrah",
+                "kc": 57
+              },
+              {
+                "metric": "cerberus",
+                "name": "Cerberus",
+                "kc": 34
+              },
+              {
+                "metric": "duke_sucellus",
+                "name": "Duke Sucellus",
+                "kc": 33
+              },
+              {
+                "metric": "araxxor",
+                "name": "Araxxor",
+                "kc": 31
+              },
+              {
+                "metric": "nex",
+                "name": "Nex",
+                "kc": 29
+              },
+              {
+                "metric": "chaos_elemental",
+                "name": "Chaos Elemental",
+                "kc": 13
+              },
+              {
+                "metric": "dagannoth_rex",
+                "name": "Dagannoth Rex",
+                "kc": 9
+              },
+              {
+                "metric": "barrows_chests",
+                "name": "Barrows Chests",
+                "kc": 8
+              },
+              {
+                "metric": "dagannoth_prime",
+                "name": "Dagannoth Prime",
+                "kc": 8
+              },
+              {
+                "metric": "dagannoth_supreme",
+                "name": "Dagannoth Supreme",
+                "kc": 8
+              },
+              {
+                "metric": "vorkath",
+                "name": "Vorkath",
+                "kc": 7
+              },
+              {
+                "metric": "the_royal_titans",
+                "name": "The Royal Titans",
+                "kc": 6
+              },
+              {
+                "metric": "lunar_chests",
+                "name": "Lunar Chests",
+                "kc": 3
+              }
+            ]
+          },
+          {
+            "name": "Diving",
+            "status": "approximate",
+            "totalKc": 41,
+            "combatXp": 340021,
+            "slayerXp": 0,
+            "bosses": [
+              {
+                "metric": "phosanis_nightmare",
+                "name": "Phosani's Nightmare",
+                "kc": 21
+              },
+              {
+                "metric": "the_royal_titans",
+                "name": "The Royal Titans",
+                "kc": 20
+              }
+            ]
+          },
+          {
+            "name": "SquintyNinja",
+            "status": "approximate",
+            "totalKc": 272,
+            "combatXp": 1458686,
+            "slayerXp": 106629,
+            "bosses": [
+              {
+                "metric": "cerberus",
+                "name": "Cerberus",
+                "kc": 58
+              },
+              {
+                "metric": "general_graardor",
+                "name": "General Graardor",
+                "kc": 58
+              },
+              {
+                "metric": "zulrah",
+                "name": "Zulrah",
+                "kc": 55
+              },
+              {
+                "metric": "araxxor",
+                "name": "Araxxor",
+                "kc": 33
+              },
+              {
+                "metric": "duke_sucellus",
+                "name": "Duke Sucellus",
+                "kc": 31
+              },
+              {
+                "metric": "nex",
+                "name": "Nex",
+                "kc": 21
+              },
+              {
+                "metric": "chaos_elemental",
+                "name": "Chaos Elemental",
+                "kc": 16
+              }
+            ]
+          },
+          {
+            "name": "Flxn",
+            "status": "approximate",
+            "totalKc": 66,
+            "combatXp": 520453,
+            "slayerXp": 25194,
+            "bosses": [
+              {
+                "metric": "general_graardor",
+                "name": "General Graardor",
+                "kc": 38
+              },
+              {
+                "metric": "araxxor",
+                "name": "Araxxor",
+                "kc": 14
+              },
+              {
+                "metric": "nex",
+                "name": "Nex",
+                "kc": 14
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": "t11",
+        "totals": {
+          "totalKc": 1444,
+          "combatXp": 4675363,
+          "slayerXp": 315702,
+          "tracked": 4,
+          "approximate": true
+        },
+        "ranks": {
+          "totalKc": 5,
+          "combatXp": 11,
+          "slayerXp": 8
+        },
+        "members": [
+          {
+            "name": "MiaoMiau",
+            "status": "approximate",
+            "totalKc": 123,
+            "combatXp": 407878,
+            "slayerXp": 0,
+            "bosses": [
+              {
+                "metric": "nex",
+                "name": "Nex",
+                "kc": 78
+              },
+              {
+                "metric": "duke_sucellus",
+                "name": "Duke Sucellus",
+                "kc": 22
+              },
+              {
+                "metric": "kreearra",
+                "name": "Kree'Arra",
+                "kc": 12
+              },
+              {
+                "metric": "lunar_chests",
+                "name": "Lunar Chests",
+                "kc": 7
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 4
+              }
+            ]
+          },
+          {
+            "name": "Gim Ragoni",
+            "status": "approximate",
+            "totalKc": 327,
+            "combatXp": 1059585,
+            "slayerXp": 40800,
+            "bosses": [
+              {
+                "metric": "kraken",
+                "name": "Kraken",
+                "kc": 160
+              },
+              {
+                "metric": "duke_sucellus",
+                "name": "Duke Sucellus",
+                "kc": 66
+              },
+              {
+                "metric": "nex",
+                "name": "Nex",
+                "kc": 50
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 24
+              },
+              {
+                "metric": "kreearra",
+                "name": "Kree'Arra",
+                "kc": 18
+              },
+              {
+                "metric": "lunar_chests",
+                "name": "Lunar Chests",
+                "kc": 9
+              }
+            ]
+          },
+          {
+            "name": "Jarn-Jorgen",
+            "status": "ok",
+            "totalKc": 494,
+            "combatXp": 1372240,
+            "slayerXp": 154549,
+            "bosses": [
+              {
+                "metric": "kraken",
+                "name": "Kraken",
+                "kc": 379
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 44
+              },
+              {
+                "metric": "vardorvis",
+                "name": "Vardorvis",
+                "kc": 30
+              },
+              {
+                "metric": "lunar_chests",
+                "name": "Lunar Chests",
+                "kc": 21
+              },
+              {
+                "metric": "nex",
+                "name": "Nex",
+                "kc": 12
+              },
+              {
+                "metric": "kreearra",
+                "name": "Kree'Arra",
+                "kc": 8
+              }
+            ]
+          },
+          {
+            "name": "Grindalf",
+            "status": "ok",
+            "totalKc": 500,
+            "combatXp": 1835660,
+            "slayerXp": 120353,
+            "bosses": [
+              {
+                "metric": "kraken",
+                "name": "Kraken",
+                "kc": 386
+              },
+              {
+                "metric": "nex",
+                "name": "Nex",
+                "kc": 79
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 19
+              },
+              {
+                "metric": "phosanis_nightmare",
+                "name": "Phosani's Nightmare",
+                "kc": 11
+              },
+              {
+                "metric": "lunar_chests",
+                "name": "Lunar Chests",
+                "kc": 4
+              },
+              {
+                "metric": "general_graardor",
+                "name": "General Graardor",
+                "kc": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": "t12",
+        "totals": {
+          "totalKc": 977,
+          "combatXp": 3644403,
+          "slayerXp": 106004,
+          "tracked": 4,
+          "approximate": true
+        },
+        "ranks": {
+          "totalKc": 8,
+          "combatXp": 13,
+          "slayerXp": 13
+        },
+        "members": [
+          {
+            "name": "Dog Eat Dawg",
+            "status": "approximate",
+            "totalKc": 228,
+            "combatXp": 916746,
+            "slayerXp": 71782,
+            "bosses": [
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 150
+              },
+              {
+                "metric": "zulrah",
+                "name": "Zulrah",
+                "kc": 35
+              },
+              {
+                "metric": "duke_sucellus",
+                "name": "Duke Sucellus",
+                "kc": 32
+              },
+              {
+                "metric": "kreearra",
+                "name": "Kree'Arra",
+                "kc": 11
+              }
+            ]
+          },
+          {
+            "name": "X Xemnas",
+            "status": "approximate",
+            "totalKc": 441,
+            "combatXp": 1499149,
+            "slayerXp": 34222,
+            "bosses": [
+              {
+                "metric": "commander_zilyana",
+                "name": "Commander Zilyana",
+                "kc": 281
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 52
+              },
+              {
+                "metric": "zulrah",
+                "name": "Zulrah",
+                "kc": 30
+              },
+              {
+                "metric": "dagannoth_prime",
+                "name": "Dagannoth Prime",
+                "kc": 26
+              },
+              {
+                "metric": "dagannoth_rex",
+                "name": "Dagannoth Rex",
+                "kc": 26
+              },
+              {
+                "metric": "dagannoth_supreme",
+                "name": "Dagannoth Supreme",
+                "kc": 26
+              }
+            ]
+          },
+          {
+            "name": "P S Rocks",
+            "status": "approximate",
+            "totalKc": 110,
+            "combatXp": 417396,
+            "slayerXp": 0,
+            "bosses": [
+              {
+                "metric": "general_graardor",
+                "name": "General Graardor",
+                "kc": 70
+              },
+              {
+                "metric": "zulrah",
+                "name": "Zulrah",
+                "kc": 36
+              },
+              {
+                "metric": "vardorvis",
+                "name": "Vardorvis",
+                "kc": 4
+              }
+            ]
+          },
+          {
+            "name": "Erreth Akbe",
+            "status": "ok",
+            "totalKc": 198,
+            "combatXp": 811112,
+            "slayerXp": 0,
+            "bosses": [
+              {
+                "metric": "kreearra",
+                "name": "Kree'Arra",
+                "kc": 99
+              },
+              {
+                "metric": "commander_zilyana",
+                "name": "Commander Zilyana",
+                "kc": 31
+              },
+              {
+                "metric": "zulrah",
+                "name": "Zulrah",
+                "kc": 29
+              },
+              {
+                "metric": "duke_sucellus",
+                "name": "Duke Sucellus",
+                "kc": 20
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 17
+              },
+              {
+                "metric": "the_whisperer",
+                "name": "The Whisperer",
+                "kc": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "team": "t13",
+        "totals": {
+          "totalKc": 1997,
+          "combatXp": 9052524,
+          "slayerXp": 465503,
+          "tracked": 4,
+          "approximate": true
+        },
+        "ranks": {
+          "totalKc": 2,
+          "combatXp": 4,
+          "slayerXp": 6
+        },
+        "members": [
+          {
+            "name": "Jfk gone afk",
+            "status": "approximate",
+            "totalKc": 241,
+            "combatXp": 1219936,
+            "slayerXp": 59806,
+            "bosses": [
+              {
+                "metric": "general_graardor",
+                "name": "General Graardor",
+                "kc": 170
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 44
+              },
+              {
+                "metric": "araxxor",
+                "name": "Araxxor",
+                "kc": 21
+              },
+              {
+                "metric": "phosanis_nightmare",
+                "name": "Phosani's Nightmare",
+                "kc": 3
+              },
+              {
+                "metric": "theatre_of_blood_hard_mode",
+                "name": "Theatre Of Blood (HM)",
+                "kc": 3
+              }
+            ]
+          },
+          {
+            "name": "Golden Time",
+            "status": "approximate",
+            "totalKc": 312,
+            "combatXp": 1684811,
+            "slayerXp": 42072,
+            "bosses": [
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 199
+              },
+              {
+                "metric": "kreearra",
+                "name": "Kree'Arra",
+                "kc": 44
+              },
+              {
+                "metric": "commander_zilyana",
+                "name": "Commander Zilyana",
+                "kc": 29
+              },
+              {
+                "metric": "araxxor",
+                "name": "Araxxor",
+                "kc": 20
+              },
+              {
+                "metric": "general_graardor",
+                "name": "General Graardor",
+                "kc": 11
+              },
+              {
+                "metric": "calvarion",
+                "name": "Calvar'ion",
+                "kc": 7
+              },
+              {
+                "metric": "vetion",
+                "name": "Vet'ion",
+                "kc": 2
+              }
+            ]
+          },
+          {
+            "name": "UsaMarine",
+            "status": "approximate",
+            "totalKc": 717,
+            "combatXp": 2906280,
+            "slayerXp": 222192,
+            "bosses": [
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 362
+              },
+              {
+                "metric": "general_graardor",
+                "name": "General Graardor",
+                "kc": 128
+              },
+              {
+                "metric": "araxxor",
+                "name": "Araxxor",
+                "kc": 125
+              },
+              {
+                "metric": "commander_zilyana",
+                "name": "Commander Zilyana",
+                "kc": 88
+              },
+              {
+                "metric": "kreearra",
+                "name": "Kree'Arra",
+                "kc": 14
+              }
+            ]
+          },
+          {
+            "name": "thanadal",
+            "status": "ok",
+            "totalKc": 727,
+            "combatXp": 3241497,
+            "slayerXp": 141433,
+            "bosses": [
+              {
+                "metric": "commander_zilyana",
+                "name": "Commander Zilyana",
+                "kc": 238
+              },
+              {
+                "metric": "kreearra",
+                "name": "Kree'Arra",
+                "kc": 235
+              },
+              {
+                "metric": "kril_tsutsaroth",
+                "name": "K'ril Tsutsaroth",
+                "kc": 96
+              },
+              {
+                "metric": "araxxor",
+                "name": "Araxxor",
+                "kc": 78
+              },
+              {
+                "metric": "general_graardor",
+                "name": "General Graardor",
+                "kc": 75
+              },
+              {
+                "metric": "phosanis_nightmare",
+                "name": "Phosani's Nightmare",
+                "kc": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "bosses": [
+      {
+        "metric": "kraken",
+        "name": "Kraken",
+        "kc": 2638,
+        "players": 12
+      },
+      {
+        "metric": "duke_sucellus",
+        "name": "Duke Sucellus",
+        "kc": 2150,
+        "players": 15
+      },
+      {
+        "metric": "kril_tsutsaroth",
+        "name": "K'ril Tsutsaroth",
+        "kc": 1864,
+        "players": 30
+      },
+      {
+        "metric": "mad_angel",
+        "name": "Mad Angel",
+        "kc": 1489,
+        "players": 6
+      },
+      {
+        "metric": "general_graardor",
+        "name": "General Graardor",
+        "kc": 956,
+        "players": 18
+      },
+      {
+        "metric": "araxxor",
+        "name": "Araxxor",
+        "kc": 747,
+        "players": 18
+      },
+      {
+        "metric": "abyssal_sire",
+        "name": "Abyssal Sire",
+        "kc": 744,
+        "players": 9
+      },
+      {
+        "metric": "kreearra",
+        "name": "Kree'Arra",
+        "kc": 687,
+        "players": 19
+      },
+      {
+        "metric": "commander_zilyana",
+        "name": "Commander Zilyana",
+        "kc": 673,
+        "players": 6
+      },
+      {
+        "metric": "calvarion",
+        "name": "Calvar'ion",
+        "kc": 590,
+        "players": 11
+      },
+      {
+        "metric": "thermonuclear_smoke_devil",
+        "name": "Thermonuclear Smoke Devil",
+        "kc": 502,
+        "players": 5
+      },
+      {
+        "metric": "cerberus",
+        "name": "Cerberus",
+        "kc": 496,
+        "players": 8
+      },
+      {
+        "metric": "shellbane_gryphon",
+        "name": "Shellbane Gryphon",
+        "kc": 472,
+        "players": 2
+      },
+      {
+        "metric": "nex",
+        "name": "Nex",
+        "kc": 459,
+        "players": 19
+      },
+      {
+        "metric": "vardorvis",
+        "name": "Vardorvis",
+        "kc": 325,
+        "players": 8
+      },
+      {
+        "metric": "the_royal_titans",
+        "name": "The Royal Titans",
+        "kc": 301,
+        "players": 11
+      },
+      {
+        "metric": "vorkath",
+        "name": "Vorkath",
+        "kc": 292,
+        "players": 7
+      },
+      {
+        "metric": "artio",
+        "name": "Artio",
+        "kc": 284,
+        "players": 4
+      },
+      {
+        "metric": "vetion",
+        "name": "Vet'ion",
+        "kc": 282,
+        "players": 8
+      },
+      {
+        "metric": "dagannoth_prime",
+        "name": "Dagannoth Prime",
+        "kc": 259,
+        "players": 7
+      },
+      {
+        "metric": "zulrah",
+        "name": "Zulrah",
+        "kc": 259,
+        "players": 8
+      },
+      {
+        "metric": "dagannoth_rex",
+        "name": "Dagannoth Rex",
+        "kc": 257,
+        "players": 7
+      },
+      {
+        "metric": "yama",
+        "name": "Yama",
+        "kc": 223,
+        "players": 7
+      },
+      {
+        "metric": "dagannoth_supreme",
+        "name": "Dagannoth Supreme",
+        "kc": 206,
+        "players": 7
+      },
+      {
+        "metric": "lunar_chests",
+        "name": "Lunar Chests",
+        "kc": 163,
+        "players": 16
+      },
+      {
+        "metric": "crazy_archaeologist",
+        "name": "Crazy Archaeologist",
+        "kc": 149,
+        "players": 2
+      },
+      {
+        "metric": "grotesque_guardians",
+        "name": "Grotesque Guardians",
+        "kc": 148,
+        "players": 6
+      },
+      {
+        "metric": "the_hueycoatl",
+        "name": "The Hueycoatl",
+        "kc": 135,
+        "players": 5
+      },
+      {
+        "metric": "chambers_of_xeric_challenge_mode",
+        "name": "Chambers Of Xeric (CM)",
+        "kc": 125,
+        "players": 15
+      },
+      {
+        "metric": "alchemical_hydra",
+        "name": "Alchemical Hydra",
+        "kc": 124,
+        "players": 2
+      },
+      {
+        "metric": "maggot_king",
+        "name": "Maggot King",
+        "kc": 111,
+        "players": 7
+      },
+      {
+        "metric": "the_leviathan",
+        "name": "The Leviathan",
+        "kc": 110,
+        "players": 1
+      },
+      {
+        "metric": "chaos_elemental",
+        "name": "Chaos Elemental",
+        "kc": 104,
+        "players": 3
+      },
+      {
+        "metric": "tombs_of_amascut_expert",
+        "name": "Tombs of Amascut (Expert Mode)",
+        "kc": 96,
+        "players": 12
+      },
+      {
+        "metric": "kalphite_queen",
+        "name": "Kalphite Queen",
+        "kc": 79,
+        "players": 2
+      },
+      {
+        "metric": "chambers_of_xeric",
+        "name": "Chambers Of Xeric",
+        "kc": 44,
+        "players": 12
+      },
+      {
+        "metric": "phosanis_nightmare",
+        "name": "Phosani's Nightmare",
+        "kc": 40,
+        "players": 4
+      },
+      {
+        "metric": "theatre_of_blood",
+        "name": "Theatre Of Blood",
+        "kc": 40,
+        "players": 8
+      },
+      {
+        "metric": "the_whisperer",
+        "name": "The Whisperer",
+        "kc": 34,
+        "players": 7
+      },
+      {
+        "metric": "chaos_fanatic",
+        "name": "Chaos Fanatic",
+        "kc": 33,
+        "players": 3
+      },
+      {
+        "metric": "phantom_muspah",
+        "name": "Phantom Muspah",
+        "kc": 29,
+        "players": 3
+      },
+      {
+        "metric": "scorpia",
+        "name": "Scorpia",
+        "kc": 28,
+        "players": 2
+      },
+      {
+        "metric": "brutus",
+        "name": "Brutus",
+        "kc": 21,
+        "players": 1
+      },
+      {
+        "metric": "spindel",
+        "name": "Spindel",
+        "kc": 16,
+        "players": 1
+      },
+      {
+        "metric": "sarachnis",
+        "name": "Sarachnis",
+        "kc": 13,
+        "players": 1
+      },
+      {
+        "metric": "theatre_of_blood_hard_mode",
+        "name": "Theatre Of Blood (HM)",
+        "kc": 10,
+        "players": 2
+      },
+      {
+        "metric": "barrows_chests",
+        "name": "Barrows Chests",
+        "kc": 8,
+        "players": 1
+      },
+      {
+        "metric": "wintertodt",
+        "name": "Wintertodt",
+        "kc": 8,
+        "players": 1
+      },
+      {
+        "metric": "callisto",
+        "name": "Callisto",
+        "kc": 6,
+        "players": 1
+      },
+      {
+        "metric": "hespori",
+        "name": "Hespori",
+        "kc": 4,
+        "players": 4
+      },
+      {
+        "metric": "king_black_dragon",
+        "name": "King Black Dragon",
+        "kc": 3,
+        "players": 1
+      },
+      {
+        "metric": "tombs_of_amascut",
+        "name": "Tombs of Amascut",
+        "kc": 3,
+        "players": 1
+      },
+      {
+        "metric": "tztok_jad",
+        "name": "TzTok-Jad",
+        "kc": 1,
+        "players": 1
+      }
+    ],
+    "notTracked": [
+      {
+        "team": "t1",
+        "name": "Nice Brain",
+        "reason": "no-data"
+      }
+    ]
   }
 }
